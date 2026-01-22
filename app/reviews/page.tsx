@@ -18,7 +18,7 @@ const testimonials: Testimonial[] = [
   {
     id: 1,
     name: 'James Mitchell',
-    location: 'Cherry Creek, Denver',
+    location: 'Verified Customer',
     rating: 5,
     text: 'Florence Home Buyers made selling my house incredibly easy! I got a fair offer within 24 hours, and we closed in just one week. No repairs, no hassles, no fees. Highly recommended!',
     date: '2024-12-15',
