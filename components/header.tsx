@@ -63,10 +63,10 @@ export function Header() {
           <div className='flex items-center gap-2 md:gap-4'>
             <a
               href={`tel:${PHONE_NUMBER.replace(/\s/g, '')}`}
-              className='hidden sm:flex items-center gap-2 px-3 py-2 rounded-lg bg-blue-50 hover:bg-blue-100 transition-colors text-sm'
+              className='hidden sm:flex items-center gap-2 px-3 py-2 rounded-lg bg-red-50 hover:bg-red-100 transition-colors text-sm'
             >
-              <Phone className='w-4 h-4 text-blue-600 animate-pulse' />
-              <span className='font-bold text-blue-600'>{PHONE_NUMBER}</span>
+              <Phone className='w-4 h-4 text-red-600 animate-pulse' />
+              <span className='font-bold text-red-600'>{PHONE_NUMBER}</span>
             </a>
 
             {/* CTA Button */}
