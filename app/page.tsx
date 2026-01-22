@@ -36,7 +36,10 @@ function CTABannerSection() {
           <p className='text-red-100 mb-8'>
             Send us some basic details about your home and we'll get back to you quickly with a fair cash offer.
           </p>
-          <button className='px-8 py-3 bg-white text-red-700 font-bold rounded-lg hover:bg-red-50 transition-all shadow-lg'>
+          <button
+            onClick={() => document.getElementById('form-section')?.scrollIntoView({ behavior: 'smooth' })}
+            className='px-8 py-3 bg-white text-red-700 font-bold rounded-lg hover:bg-red-50 active:scale-95 transition-all shadow-lg hover:shadow-xl'
+          >
             Get Started
           </button>
         </div>
