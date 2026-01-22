@@ -8,7 +8,7 @@ import { Award, Users, Handshake, Heart } from 'lucide-react'
 
 export const metadata = {
   title: 'About Us - Florence Home Buyers',
-  description: 'Learn about Florence Home Buyers, a trusted local cash home buyer in Denver, Colorado with years of experience helping homeowners sell their properties quickly and fairly.',
+  description: 'Learn about Florence Home Buyers, a trusted local cash home buyer in Huntsville, Alabama with years of experience helping homeowners sell their properties quickly and fairly.',
 }
 
 export default function About() {
@@ -23,7 +23,7 @@ export default function About() {
             About Florence Home Buyers
           </h1>
           <p className='text-xl text-gray-700 max-w-2xl mx-auto'>
-            We are Denver's premier house-buying company, dedicated to helping homeowners in all situations sell their properties quickly, fairly, and with complete peace of mind.
+            We are Huntsville's premier house-buying company, dedicated to helping homeowners in all situations sell their properties quickly, fairly, and with complete peace of mind.
           </p>
         </div>
       </section>
@@ -35,7 +35,7 @@ export default function About() {
             <div>
               <h2 className='text-3xl md:text-4xl font-bold text-gray-900 mb-6'>Our Story</h2>
               <p className='text-gray-700 mb-4 leading-relaxed'>
-                Florence Home Buyers was founded with a simple mission: to provide homeowners in Denver, Colorado with a fair, honest, and fast alternative to selling through traditional real estate channels.
+                Florence Home Buyers was founded with a simple mission: to provide homeowners in Huntsville, Alabama with a fair, honest, and fast alternative to selling through traditional real estate channels.
               </p>
               <p className='text-gray-700 mb-4 leading-relaxed'>
                 We understood the pain points homeowners face — the stress of open houses, the uncertainty of market timing, the burden of expensive repairs, and the frustration of agent commissions eating into their proceeds.
@@ -44,7 +44,7 @@ export default function About() {
                 That's why we created a different approach. We buy houses directly from homeowners, we pay in cash, and we close on your timeline. No fluff, no games, just straightforward business.
               </p>
               <p className='text-gray-700 leading-relaxed'>
-                For over a decade, we've been helping homeowners in Denver and surrounding areas sell their homes quickly, fairly, and without the hassles of traditional real estate.
+                For over a decade, we've been helping homeowners in Huntsville and surrounding areas sell their homes quickly, fairly, and without the hassles of traditional real estate.
               </p>
             </div>
             <div className='bg-gradient-to-br from-emerald-100 to-blue-100 rounded-lg h-96 flex items-center justify-center'>
@@ -162,7 +162,7 @@ export default function About() {
             Community Involvement
           </h2>
           <p className='text-center text-gray-700 max-w-2xl mx-auto mb-12'>
-            We believe in giving back to the community we serve. Florence Home Buyers is actively involved in local initiatives and charitable organizations throughout Karachi.
+            We believe in giving back to the community we serve. Florence Home Buyers is actively involved in local initiatives and charitable organizations throughout Huntsville and Madison County.
           </p>
 
           <div className='grid md:grid-cols-3 gap-8'>
@@ -172,7 +172,7 @@ export default function About() {
             </div>
             <div className='bg-white p-6 rounded-lg border border-gray-200 text-center'>
               <h4 className='text-xl font-bold text-gray-900 mb-2'>Charitable Giving</h4>
-              <p className='text-gray-600'>A portion of our business goes to supporting causes in Karachi</p>
+              <p className='text-gray-600'>A portion of our business goes to supporting causes in Huntsville</p>
             </div>
             <div className='bg-white p-6 rounded-lg border border-gray-200 text-center'>
               <h4 className='text-xl font-bold text-gray-900 mb-2'>Community Events</h4>
