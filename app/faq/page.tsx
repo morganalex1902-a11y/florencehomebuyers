@@ -27,7 +27,7 @@ const faqItems: FAQItem[] = [
     id: 3,
     question: 'Where do you buy property?',
     answer:
-      'We buy properties in Karachi and the surrounding areas. If you\'re not sure whether your property falls within our buying area, please call us or fill out our form and we\'ll let you know quickly. Even if you\'re outside our typical area, it doesn\'t hurt to ask — we may still be able to help.',
+      'We buy properties in Denver, Colorado and the surrounding metropolitan areas. If you\'re not sure whether your property falls within our buying area, please call us or fill out our form and we\'ll let you know quickly. Even if you\'re outside our typical area, it doesn\'t hurt to ask — we may still be able to help.',
   },
   {
     id: 4,
