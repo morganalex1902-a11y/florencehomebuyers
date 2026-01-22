@@ -130,7 +130,7 @@ export default function HowItWorks() {
           </div>
 
           <div className='text-center mt-12'>
-            <button className='px-8 py-3 bg-emerald-600 text-white font-bold rounded-lg hover:bg-emerald-700 transition-colors text-lg'>
+            <button className='px-8 py-3 bg-red-600 text-white font-bold rounded-lg hover:bg-red-700 active:scale-95 transition-all text-lg shadow-lg hover:shadow-xl'>
               Get My Fair Offer Today!
             </button>
           </div>
