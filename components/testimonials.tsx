@@ -57,7 +57,7 @@ export function TestimonialsSection() {
             Our Customers Love Us & So Will You!
           </h2>
           <p className='text-xl text-gray-700'>
-            Hundreds of satisfied Karachi homeowners have trusted us with their most important asset.
+            Hundreds of satisfied Huntsville homeowners have trusted us with their most important asset.
           </p>
         </div>
 
