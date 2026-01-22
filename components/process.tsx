@@ -60,7 +60,7 @@ export function ProcessSection() {
             Sell To A Cash Buyer Today!
           </p>
           <p className='text-gray-600 mt-4 leading-relaxed'>
-            Karachi's fast-moving real estate market doesn't wait. Neither should you.
+            Don't let opportunity pass you by. Get your fair cash offer today.
           </p>
         </div>
 
