@@ -58,7 +58,7 @@ export function BenefitsSection() {
           {/* Comparison Cards */}
           <div className='grid md:grid-cols-2 gap-8 mb-12'>
             {/* Our Program */}
-            <div className='rounded-xl border-2 border-emerald-200 shadow-lg hover:shadow-xl transition-shadow overflow-hidden'>
+            <div className='rounded-xl border-2 border-red-200 shadow-lg hover:shadow-xl transition-shadow overflow-hidden'>
               {/* Image */}
               <div className='relative h-56 w-full'>
                 <Image
@@ -68,17 +68,17 @@ export function BenefitsSection() {
                   className='object-cover'
                 />
               </div>
-              
+
               {/* Content */}
-              <div className='bg-gradient-to-br from-emerald-50 to-green-50 p-8'>
-                <h3 className='text-2xl font-bold text-emerald-700 mb-6 flex items-center gap-2'>
+              <div className='bg-gradient-to-br from-red-50 to-red-100 p-8'>
+                <h3 className='text-2xl font-bold text-red-700 mb-6 flex items-center gap-2'>
                   <Check className='w-7 h-7' />
                   Our Cash Offer Program
                 </h3>
                 <ul className='space-y-3'>
                   {ourBenefits.map((benefit, index) => (
                     <li key={index} className='flex items-start gap-3'>
-                      <Check className='w-5 h-5 text-emerald-600 mt-1 flex-shrink-0' />
+                      <Check className='w-5 h-5 text-red-600 mt-1 flex-shrink-0' />
                       <span className='text-gray-800 font-medium text-sm'>{benefit}</span>
                     </li>
                   ))}
