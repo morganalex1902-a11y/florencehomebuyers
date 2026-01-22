@@ -30,18 +30,21 @@ export function TrustedSection() {
       title: 'Trusted Partner',
       description:
         'Years of experience helping families solve their home-selling challenges with integrity and professionalism.',
+      image: 'https://images.pexels.com/photos/5257005/pexels-photo-5257005.jpeg',
     },
     {
       icon: TrendingUp,
       title: 'Fair Offers',
       description:
         'We provide competitive cash offers based on your property\'s true market value, no surprises or hidden fees.',
+      image: 'https://images.pexels.com/photos/4968396/pexels-photo-4968396.jpeg',
     },
     {
       icon: Zap,
       title: 'Lightning Fast',
       description:
         'Get your offer within 24 hours and close in as little as 7 days. No waiting months like traditional sales.',
+      image: 'https://images.pexels.com/photos/11412596/pexels-photo-11412596.jpeg',
     },
   ]
 
