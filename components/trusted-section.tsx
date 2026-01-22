@@ -2,6 +2,7 @@
 
 import { Shield, TrendingUp, Zap } from 'lucide-react'
 import { useEffect, useRef } from 'react'
+import Image from 'next/image'
 
 export function TrustedSection() {
   const sectionRef = useRef<HTMLElement>(null)
@@ -28,19 +29,22 @@ export function TrustedSection() {
       icon: Shield,
       title: 'Trusted Partner',
       description:
-        'Years of experience helping Karachi families solve their home-selling challenges with integrity and professionalism.',
+        'Years of experience helping Huntsville families solve their home-selling challenges with integrity and professionalism.',
+      image: 'https://images.pexels.com/photos/30004360/pexels-photo-30004360.jpeg'
     },
     {
       icon: TrendingUp,
       title: 'Fair Offers',
       description:
         'We provide competitive cash offers based on your property\'s true market value, no surprises or hidden fees.',
+      image: 'https://images.pexels.com/photos/6170758/pexels-photo-6170758.jpeg'
     },
     {
       icon: Zap,
       title: 'Lightning Fast',
       description:
         'Get your offer within 24 hours and close in as little as 7 days. No waiting months like traditional sales.',
+      image: 'https://images.pexels.com/photos/8962688/pexels-photo-8962688.jpeg'
     },
   ]
 
@@ -65,13 +69,26 @@ export function TrustedSection() {
               return (
                 <div
                   key={index}
-                  className='p-8 bg-gray-50 rounded-xl border border-gray-200 hover:shadow-lg hover:border-emerald-200 transition-all hover:-translate-y-1'
+                  className='rounded-xl border border-gray-200 hover:shadow-lg hover:border-emerald-200 transition-all hover:-translate-y-1 overflow-hidden bg-white'
                 >
-                  <Icon className='w-10 h-10 text-emerald-600 mb-4' />
-                  <h3 className='text-xl font-bold text-gray-900 mb-3'>
-                    {feature.title}
-                  </h3>
-                  <p className='text-gray-700 leading-relaxed'>{feature.description}</p>
+                  {/* Feature Image */}
+                  <div className='relative h-48 w-full'>
+                    <Image
+                      src={feature.image}
+                      alt={feature.title}
+                      fill
+                      className='object-cover'
+                    />
+                  </div>
+                  
+                  {/* Feature Content */}
+                  <div className='p-6'>
+                    <Icon className='w-10 h-10 text-emerald-600 mb-3' />
+                    <h3 className='text-xl font-bold text-gray-900 mb-2'>
+                      {feature.title}
+                    </h3>
+                    <p className='text-gray-700 leading-relaxed text-sm'>{feature.description}</p>
+                  </div>
                 </div>
               )
             })}
