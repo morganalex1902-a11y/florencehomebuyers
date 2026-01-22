@@ -215,8 +215,10 @@ export function FormSection() {
                 </form>
               ) : (
                 <form onSubmit={handleStep2Submit} className='space-y-6'>
-                  <div className='text-sm text-gray-600'>
-                    Step 2 of 2 | Help Us Learn More About Your Property
+                  <div className='pb-6 border-b border-gray-200'>
+                    <div className='inline-block bg-emerald-50 px-3 py-1 rounded-full mb-2'>
+                      <p className='text-xs font-semibold text-emerald-700'>Step 2 of 2</p>
+                    </div>
                   </div>
 
                   {/* Address Information */}
