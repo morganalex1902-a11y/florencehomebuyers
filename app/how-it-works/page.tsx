@@ -39,13 +39,13 @@ export default function HowItWorks() {
 
           <div className='grid md:grid-cols-3 gap-8'>
             {/* Step 1 */}
-            <div className='bg-gradient-to-b from-blue-50 to-transparent p-8 rounded-lg border border-blue-100'>
+            <div className='bg-gradient-to-b from-red-50 to-transparent p-8 rounded-lg border border-red-200'>
               <div className='flex items-center justify-center mb-6'>
-                <div className='w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center text-3xl font-bold'>
+                <div className='w-16 h-16 bg-red-600 text-white rounded-full flex items-center justify-center text-3xl font-bold'>
                   1
                 </div>
               </div>
-              <Clock className='w-12 h-12 text-blue-600 mx-auto mb-4' />
+              <Clock className='w-12 h-12 text-red-600 mx-auto mb-4' />
               <h3 className='text-xl font-bold text-gray-900 text-center mb-4'>
                 Get a Fair Offer Within 24 Hours
               </h3>
