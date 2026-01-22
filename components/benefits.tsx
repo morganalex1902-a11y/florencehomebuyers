@@ -2,6 +2,7 @@
 
 import { Check, X } from 'lucide-react'
 import { useEffect, useRef } from 'react'
+import { QuickCaptureForm } from './quick-capture-form'
 
 export function BenefitsSection() {
   const sectionRef = useRef<HTMLElement>(null)
