@@ -6,7 +6,7 @@ import { Phone, Mail, MapPin, Clock, Facebook, Linkedin } from 'lucide-react'
 
 export const metadata = {
   title: 'Contact Us - Florence Home Buyers',
-  description: 'Get in touch with Florence Home Buyers in Karachi. Call, email, or fill out our form to start selling your house today.',
+  description: 'Get in touch with Florence Home Buyers in Denver, Colorado. Call, email, or fill out our form to start selling your house today.',
 }
 
 export default function Contact() {
