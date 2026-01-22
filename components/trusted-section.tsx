@@ -2,6 +2,7 @@
 
 import { Shield, TrendingUp, Zap } from 'lucide-react'
 import { useEffect, useRef } from 'react'
+import Image from 'next/image'
 
 export function TrustedSection() {
   const sectionRef = useRef<HTMLElement>(null)
