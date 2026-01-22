@@ -110,7 +110,7 @@ export function FormSection() {
                       onChange={handleChange}
                       required
                       className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent'
-                      placeholder='+92 XXX XXXXXXX'
+                      placeholder='(XXX) XXX-XXXX'
                     />
                   </div>
 
