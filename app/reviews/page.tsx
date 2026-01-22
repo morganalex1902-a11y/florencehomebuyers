@@ -142,7 +142,7 @@ function StarRating({ rating }: { rating: number }) {
 
 export const metadata = {
   title: 'Customer Reviews - Florence Home Buyers',
-  description: 'Read real customer reviews and testimonials from homeowners who sold their properties to Florence Home Buyers in Denver, Colorado.',
+  description: 'Read real customer reviews and testimonials from homeowners who sold their properties to Florence Home Buyers.',
 }
 
 export default function Reviews() {
