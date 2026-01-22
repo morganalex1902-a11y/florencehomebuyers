@@ -78,30 +78,30 @@ export default function PropertyTypesPage() {
         </div>
       </section>
 
-      {/* Neighborhoods We Serve */}
+      {/* Property Types We Buy */}
       <section className='py-16 bg-gray-50'>
         <div className='container mx-auto px-4'>
           <h2 className='text-3xl font-bold text-gray-900 mb-4 flex items-center gap-2'>
             <MapPin className='w-8 h-8 text-emerald-600' />
-            We Buy Houses in These Denver Neighborhoods
+            Property Types We Buy
           </h2>
           <p className='text-gray-700 mb-8 max-w-2xl'>
-            We serve all of Denver and the surrounding metropolitan areas. If you don't see your neighborhood listed below, don't worry — we likely still serve your area. Contact us to confirm.
+            We buy all types of properties in any condition. Whether it's a single family home, vacant land, or commercial property, we can help.
           </p>
 
           <div className='grid md:grid-cols-3 gap-4'>
-            {DENVER_NEIGHBORHOODS.map((neighborhood) => (
+            {SERVICE_AREAS.map((area) => (
               <div
-                key={neighborhood}
+                key={area}
                 className='bg-white border border-gray-200 rounded-lg p-4 text-center hover:shadow-md transition-shadow'
               >
-                <p className='font-semibold text-gray-900'>{neighborhood}</p>
+                <p className='font-semibold text-gray-900'>{area}</p>
               </div>
             ))}
           </div>
 
           <p className='text-center text-gray-600 mt-8'>
-            ...and many more areas in and around Karachi. If your neighborhood isn't listed, please contact us!
+            If your property type isn't listed, don't worry — we likely can help. Contact us to discuss your situation!
           </p>
         </div>
       </section>
