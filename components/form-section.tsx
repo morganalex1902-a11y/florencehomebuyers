@@ -141,7 +141,7 @@ export function FormSection() {
                         value={formData.firstName}
                         onChange={handleChange}
                         required
-                        className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent'
+                        className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
                         placeholder='First name'
                       />
                     </div>
@@ -155,7 +155,7 @@ export function FormSection() {
                         value={formData.lastName}
                         onChange={handleChange}
                         required
-                        className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent'
+                        className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
                         placeholder='Last name'
                       />
                     </div>
@@ -171,7 +171,7 @@ export function FormSection() {
                       value={formData.email}
                       onChange={handleChange}
                       required
-                      className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent'
+                      className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
                       placeholder='your@email.com'
                     />
                   </div>
@@ -186,7 +186,7 @@ export function FormSection() {
                       value={formData.phone}
                       onChange={handleChange}
                       required
-                      className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent'
+                      className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
                       placeholder='(256) XXX-XXXX'
                     />
                   </div>
@@ -201,7 +201,7 @@ export function FormSection() {
                       value={formData.streetAddress}
                       onChange={handleChange}
                       required
-                      className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent'
+                      className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
                       placeholder='Street Address'
                     />
                   </div>
@@ -234,7 +234,7 @@ export function FormSection() {
                           name='streetAddress'
                           value={formData.streetAddress}
                           onChange={handleChange}
-                          className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent'
+                          className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
                         />
                       </div>
 
@@ -248,7 +248,7 @@ export function FormSection() {
                             name='city'
                             value={formData.city}
                             onChange={handleChange}
-                            className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent'
+                            className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
                             placeholder='City'
                           />
                         </div>
@@ -261,7 +261,7 @@ export function FormSection() {
                             name='state'
                             value={formData.state}
                             onChange={handleChange}
-                            className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent'
+                            className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
                             placeholder='State'
                           />
                         </div>
@@ -276,7 +276,7 @@ export function FormSection() {
                           name='zipCode'
                           value={formData.zipCode}
                           onChange={handleChange}
-                          className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent'
+                          className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
                           placeholder='Zip Code'
                         />
                       </div>
@@ -297,7 +297,7 @@ export function FormSection() {
                             name='firstName'
                             value={formData.firstName}
                             onChange={handleChange}
-                            className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent'
+                            className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
                           />
                         </div>
                         <div>
@@ -309,7 +309,7 @@ export function FormSection() {
                             name='lastName'
                             value={formData.lastName}
                             onChange={handleChange}
-                            className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent'
+                            className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
                           />
                         </div>
                       </div>
@@ -323,7 +323,7 @@ export function FormSection() {
                           name='email'
                           value={formData.email}
                           onChange={handleChange}
-                          className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent'
+                          className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
                         />
                       </div>
 
@@ -336,7 +336,7 @@ export function FormSection() {
                           name='phone'
                           value={formData.phone}
                           onChange={handleChange}
-                          className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent'
+                          className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
                         />
                       </div>
                     </div>
@@ -357,7 +357,7 @@ export function FormSection() {
                           name='ownershipDuration'
                           value={formData.ownershipDuration}
                           onChange={handleChange}
-                          className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent'
+                          className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
                         >
                           <option value=''>Select duration</option>
                           <option value='less-than-1'>Less than 1 year</option>
@@ -376,7 +376,7 @@ export function FormSection() {
                           name='repairNeeds'
                           value={formData.repairNeeds}
                           onChange={handleChange}
-                          className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent'
+                          className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
                         >
                           <option value=''>Select repairs needed</option>
                           <option value='excellent'>Excellent</option>
@@ -400,7 +400,7 @@ export function FormSection() {
                           name='ownerOccupied'
                           value={formData.ownerOccupied}
                           onChange={handleChange}
-                          className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent'
+                          className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
                         >
                           <option value=''>Select option</option>
                           <option value='yes'>Yes - Owner Occupied</option>
@@ -416,7 +416,7 @@ export function FormSection() {
                           name='timeline'
                           value={formData.timeline}
                           onChange={handleChange}
-                          className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent'
+                          className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
                         >
                           <option value=''>Select timeline</option>
                           <option value='asap'>ASAP</option>
@@ -435,7 +435,7 @@ export function FormSection() {
                           value={formData.ultimateGoal}
                           onChange={handleChange}
                           rows={4}
-                          className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent resize-none'
+                          className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent resize-none'
                           placeholder='Tell us about your goals...'
                         />
                       </div>
