@@ -48,17 +48,17 @@ export function BenefitsSection() {
           <div className='text-center mb-12'>
             <h2 className='text-4xl sm:text-5xl font-bold text-gray-900 mb-4'>
               Benefits of Selling Your Huntsville House to{' '}
-              <span className='text-emerald-600'>Florence Home Buyers</span>
+              <span className='text-red-600'>Florence Home Buyers</span>
             </h2>
             <p className='text-xl text-gray-700 font-medium'>
-              <span className='text-emerald-600 font-bold'>No fees, no commissions, quick hassle-free closing.</span>
+              <span className='text-red-600 font-bold'>No fees, no commissions, quick hassle-free closing.</span>
             </p>
           </div>
 
           {/* Comparison Cards */}
           <div className='grid md:grid-cols-2 gap-8 mb-12'>
             {/* Our Program */}
-            <div className='rounded-xl border-2 border-emerald-200 shadow-lg hover:shadow-xl transition-shadow overflow-hidden'>
+            <div className='rounded-xl border-2 border-red-200 shadow-lg hover:shadow-xl transition-shadow overflow-hidden'>
               {/* Image */}
               <div className='relative h-56 w-full'>
                 <Image
@@ -68,17 +68,17 @@ export function BenefitsSection() {
                   className='object-cover'
                 />
               </div>
-              
+
               {/* Content */}
-              <div className='bg-gradient-to-br from-emerald-50 to-green-50 p-8'>
-                <h3 className='text-2xl font-bold text-emerald-700 mb-6 flex items-center gap-2'>
+              <div className='bg-gradient-to-br from-red-50 to-red-100 p-8'>
+                <h3 className='text-2xl font-bold text-red-700 mb-6 flex items-center gap-2'>
                   <Check className='w-7 h-7' />
                   Our Cash Offer Program
                 </h3>
                 <ul className='space-y-3'>
                   {ourBenefits.map((benefit, index) => (
                     <li key={index} className='flex items-start gap-3'>
-                      <Check className='w-5 h-5 text-emerald-600 mt-1 flex-shrink-0' />
+                      <Check className='w-5 h-5 text-red-600 mt-1 flex-shrink-0' />
                       <span className='text-gray-800 font-medium text-sm'>{benefit}</span>
                     </li>
                   ))}
@@ -118,7 +118,7 @@ export function BenefitsSection() {
 
           {/* CTA */}
           <div className='text-center'>
-            <button className='px-8 py-4 bg-emerald-600 text-white font-bold rounded-lg hover:bg-emerald-700 hover:scale-105 transition-all shadow-lg text-lg'>
+            <button className='px-8 py-4 bg-red-600 text-white font-bold rounded-lg hover:bg-red-700 active:scale-95 transition-all shadow-lg hover:shadow-xl text-lg'>
               Yes! I Want My Fair Cash Offer!
             </button>
           </div>

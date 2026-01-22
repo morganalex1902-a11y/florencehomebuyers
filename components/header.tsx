@@ -70,7 +70,10 @@ export function Header() {
             </a>
 
             {/* CTA Button */}
-            <button className='hidden sm:block px-4 py-2 bg-emerald-600 text-white font-bold rounded-lg hover:bg-emerald-700 transition-all text-sm whitespace-nowrap'>
+            <button
+              onClick={() => document.getElementById('form-section')?.scrollIntoView({ behavior: 'smooth' })}
+              className='hidden sm:block px-4 py-2 bg-emerald-600 text-white font-bold rounded-lg hover:bg-emerald-700 active:scale-95 transition-all text-sm whitespace-nowrap shadow-md hover:shadow-lg'
+            >
               Get Free Offer
             </button>
 
@@ -110,7 +113,13 @@ export function Header() {
                 <Phone className='w-5 h-5 text-blue-600' />
                 <span className='font-bold text-blue-600'>{PHONE_NUMBER}</span>
               </a>
-              <button className='w-full px-4 py-2 bg-emerald-600 text-white font-bold rounded-lg hover:bg-emerald-700 transition-all'>
+              <button
+                onClick={() => {
+                  document.getElementById('form-section')?.scrollIntoView({ behavior: 'smooth' })
+                  setIsMobileMenuOpen(false)
+                }}
+                className='w-full px-4 py-2 bg-emerald-600 text-white font-bold rounded-lg hover:bg-emerald-700 active:scale-95 transition-all shadow-md hover:shadow-lg'
+              >
                 Get Free Offer
               </button>
             </div>
