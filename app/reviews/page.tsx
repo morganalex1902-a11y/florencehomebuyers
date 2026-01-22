@@ -174,22 +174,31 @@ export default function Reviews() {
             {testimonials.map((testimonial) => (
               <div
                 key={testimonial.id}
-                className='bg-gradient-to-b from-gray-50 to-transparent border border-gray-200 rounded-lg p-8 hover:shadow-lg transition-shadow'
+                className='bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition-shadow'
               >
-                <StarRating rating={testimonial.rating} />
-                <p className='text-gray-700 mt-4 mb-6 leading-relaxed italic'>
-                  "{testimonial.text}"
-                </p>
-                <div className='border-t border-gray-200 pt-4'>
-                  <p className='font-bold text-gray-900'>{testimonial.name}</p>
-                  <p className='text-sm text-gray-600'>{testimonial.location}</p>
-                  <p className='text-xs text-gray-500 mt-2'>
-                    {new Date(testimonial.date).toLocaleDateString('en-US', {
-                      year: 'numeric',
-                      month: 'long',
-                      day: 'numeric',
-                    })}
+                {/* Profile Image */}
+                <img
+                  src={testimonial.image}
+                  alt={testimonial.name}
+                  className='w-full h-48 object-cover'
+                />
+
+                <div className='p-6'>
+                  <StarRating rating={testimonial.rating} />
+                  <p className='text-gray-700 mt-4 mb-6 leading-relaxed italic text-sm'>
+                    "{testimonial.text}"
                   </p>
+                  <div className='border-t border-gray-200 pt-4'>
+                    <p className='font-bold text-gray-900'>{testimonial.name}</p>
+                    <p className='text-sm text-gray-600'>{testimonial.location}</p>
+                    <p className='text-xs text-gray-500 mt-2'>
+                      {new Date(testimonial.date).toLocaleDateString('en-US', {
+                        year: 'numeric',
+                        month: 'long',
+                        day: 'numeric',
+                      })}
+                    </p>
+                  </div>
                 </div>
               </div>
             ))}
