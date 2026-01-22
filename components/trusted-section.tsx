@@ -53,9 +53,9 @@ export function TrustedSection() {
           </h2>
 
           <p className='text-xl text-gray-700 text-center mb-12 leading-relaxed max-w-3xl mx-auto'>
-            We understand that every homeowner's situation is unique. Whether you're facing family inheritance
-            disputes, urgent relocation abroad, bad tenants, properties needing repairs, or just want to avoid
-            lengthy legal processes — we're here to solve your problem quickly and honestly.
+            We understand that every homeowner's situation is unique. Whether you're facing foreclosure, job loss,
+            property repairs, inheritance issues, or simply need to sell quickly — we're here to solve your problem
+            with integrity and provide fair cash offers for your Huntsville home.
           </p>
 
           {/* Features Grid */}
