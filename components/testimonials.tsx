@@ -2,6 +2,7 @@
 
 import { Star } from 'lucide-react'
 import { useEffect, useRef } from 'react'
+import Image from 'next/image'
 
 export function TestimonialsSection() {
   const sectionRef = useRef<HTMLElement>(null)
@@ -34,18 +35,21 @@ export function TestimonialsSection() {
       location: 'Madison, AL',
       rating: 5,
       text: 'Florence Home Buyers made the process so easy! Got a fair offer within 24 hours and closed within a week. Highly recommended!',
+      avatar: 'https://images.pexels.com/photos/11701102/pexels-photo-11701102.jpeg'
     },
     {
       name: 'Robert Thompson',
       location: 'Huntsville, AL',
       rating: 5,
       text: 'I was stressed about selling my inherited property. They handled everything professionally and paid all costs. Worth every penny!',
+      avatar: 'https://images.pexels.com/photos/9271180/pexels-photo-9271180.jpeg'
     },
     {
       name: 'Sarah Williams',
       location: 'Madison County, AL',
       rating: 5,
       text: 'Needed to sell quickly for a job transfer. These guys delivered! Fast, transparent, and trustworthy.',
+      avatar: 'https://images.pexels.com/photos/8867475/pexels-photo-8867475.jpeg'
     },
   ]
 
@@ -66,27 +70,40 @@ export function TestimonialsSection() {
             <div
               key={index}
               data-testimonial
-              className='opacity-0 bg-white p-8 rounded-xl border border-gray-200 shadow-md hover:shadow-lg hover:border-emerald-200 transition-all'
+              className='opacity-0 bg-white rounded-xl border border-gray-200 shadow-md hover:shadow-lg hover:border-emerald-200 transition-all overflow-hidden'
             >
-              {/* Stars */}
-              <div className='flex gap-1 mb-4'>
-                {Array.from({ length: testimonial.rating }).map((_, i) => (
-                  <Star
-                    key={i}
-                    className='w-5 h-5 fill-amber-400 text-amber-400'
-                  />
-                ))}
+              {/* Avatar */}
+              <div className='relative h-48 w-full'>
+                <Image
+                  src={testimonial.avatar}
+                  alt={testimonial.name}
+                  fill
+                  className='object-cover'
+                />
               </div>
 
-              {/* Quote */}
-              <p className='text-gray-700 mb-6 leading-relaxed italic'>
-                "{testimonial.text}"
-              </p>
+              {/* Content */}
+              <div className='p-6'>
+                {/* Stars */}
+                <div className='flex gap-1 mb-4'>
+                  {Array.from({ length: testimonial.rating }).map((_, i) => (
+                    <Star
+                      key={i}
+                      className='w-5 h-5 fill-amber-400 text-amber-400'
+                    />
+                  ))}
+                </div>
 
-              {/* Author */}
-              <div>
-                <p className='font-bold text-gray-900'>{testimonial.name}</p>
-                <p className='text-sm text-gray-600'>{testimonial.location}</p>
+                {/* Quote */}
+                <p className='text-gray-700 mb-6 leading-relaxed italic text-sm'>
+                  "{testimonial.text}"
+                </p>
+
+                {/* Author */}
+                <div>
+                  <p className='font-bold text-gray-900'>{testimonial.name}</p>
+                  <p className='text-sm text-gray-600'>{testimonial.location}</p>
+                </div>
               </div>
             </div>
           ))}
