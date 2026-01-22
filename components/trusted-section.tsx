@@ -69,13 +69,20 @@ export function TrustedSection() {
               return (
                 <div
                   key={index}
-                  className='p-8 bg-gray-50 rounded-xl border border-gray-200 hover:shadow-lg hover:border-emerald-200 transition-all hover:-translate-y-1'
+                  className='overflow-hidden bg-white rounded-xl border border-gray-200 hover:shadow-lg hover:border-emerald-200 transition-all hover:-translate-y-1'
                 >
-                  <Icon className='w-10 h-10 text-emerald-600 mb-4' />
-                  <h3 className='text-xl font-bold text-gray-900 mb-3'>
-                    {feature.title}
-                  </h3>
-                  <p className='text-gray-700 leading-relaxed'>{feature.description}</p>
+                  <img
+                    src={feature.image}
+                    alt={feature.title}
+                    className='w-full h-48 object-cover'
+                  />
+                  <div className='p-6'>
+                    <Icon className='w-10 h-10 text-emerald-600 mb-3' />
+                    <h3 className='text-xl font-bold text-gray-900 mb-3'>
+                      {feature.title}
+                    </h3>
+                    <p className='text-gray-700 leading-relaxed text-sm'>{feature.description}</p>
+                  </div>
                 </div>
               )
             })}
