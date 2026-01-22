@@ -4,6 +4,7 @@ import React from "react"
 
 import { Phone } from 'lucide-react'
 import { useState, useEffect, useRef } from 'react'
+import Image from 'next/image'
 
 const PHONE_NUMBER = '(720) 456-7890'
 
@@ -170,6 +171,16 @@ export function FormSection() {
 
             {/* Contact Info */}
             <div className='flex flex-col justify-center space-y-8'>
+              {/* Contact Image */}
+              <div className='relative h-64 rounded-xl overflow-hidden shadow-lg'>
+                <Image
+                  src='https://images.pexels.com/photos/30004360/pexels-photo-30004360.jpeg'
+                  alt='Professional real estate team'
+                  fill
+                  className='object-cover'
+                />
+              </div>
+
               <div className='bg-white p-8 rounded-xl border border-gray-200 shadow-lg'>
                 <h3 className='text-2xl font-bold text-gray-900 mb-6'>
                   Quick Contact
