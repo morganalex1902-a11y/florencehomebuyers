@@ -27,7 +27,7 @@ const testimonials: Testimonial[] = [
   {
     id: 2,
     name: 'Sarah Johnson',
-    location: 'Capitol Hill, Denver',
+    location: 'Verified Customer',
     rating: 5,
     text: 'I was going through a difficult divorce and needed to sell quickly. Florence Home Buyers understood my situation and offered a fair price. The entire process was smooth and professional.',
     date: '2024-12-01',
