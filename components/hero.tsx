@@ -34,15 +34,15 @@ export function HeroSection() {
         <div className='text-center space-y-8'>
           {/* Main Heading */}
           <h1 className='text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight text-balance'>
-            Sell My House Fast <span className='text-emerald-600'>Denver</span>
+            Sell My House Fast <span className='text-emerald-600'>Huntsville</span>
           </h1>
           <h2 className='text-2xl sm:text-3xl font-bold text-gray-800'>
-            We Buy Houses Denver
+            We Buy Houses Huntsville, Alabama
           </h2>
 
           {/* Subheading */}
           <p className='text-lg sm:text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed text-balance'>
-            Get A Fair Cash Offer From A Trusted Local Denver Cash Home Buyer – Sell On The Date You Pick.{' '}
+            Get A Fair Cash Offer From A Trusted Local Huntsville Cash Home Buyer – Sell On The Date You Pick.{' '}
             <span className='font-bold text-emerald-600'>100% FREE!</span>
           </p>
 
@@ -84,7 +84,7 @@ export function HeroSection() {
           {/* Trust Badge */}
           <div className='pt-8'>
             <p className='text-sm text-gray-600 font-medium'>
-              ⭐⭐⭐⭐⭐ Trusted by hundreds of Denver homeowners
+              ⭐⭐⭐⭐⭐ Trusted by hundreds of Huntsville homeowners
             </p>
           </div>
         </div>
