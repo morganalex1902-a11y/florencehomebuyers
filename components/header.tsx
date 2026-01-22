@@ -99,7 +99,7 @@ export function Header() {
               <Link
                 key={link.href}
                 href={link.href}
-                className='block text-gray-700 hover:text-emerald-600 font-semibold py-2 transition-colors'
+                className='block text-gray-700 hover:text-red-600 font-semibold py-2 transition-colors'
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 {link.label}
