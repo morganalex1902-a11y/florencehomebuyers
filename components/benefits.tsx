@@ -118,7 +118,7 @@ export function BenefitsSection() {
 
           {/* CTA */}
           <div className='text-center'>
-            <button className='px-8 py-4 bg-emerald-600 text-white font-bold rounded-lg hover:bg-emerald-700 hover:scale-105 transition-all shadow-lg text-lg'>
+            <button className='px-8 py-4 bg-red-600 text-white font-bold rounded-lg hover:bg-red-700 active:scale-95 transition-all shadow-lg hover:shadow-xl text-lg'>
               Yes! I Want My Fair Cash Offer!
             </button>
           </div>
