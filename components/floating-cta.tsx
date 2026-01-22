@@ -3,7 +3,7 @@
 import { Phone, ArrowRight } from 'lucide-react'
 import { useState, useEffect } from 'react'
 
-const PHONE_NUMBER = '+92 321 1234567'
+const PHONE_NUMBER = '(720) 456-7890'
 
 export function FloatingCTA() {
   const [isVisible, setIsVisible] = useState(false)
