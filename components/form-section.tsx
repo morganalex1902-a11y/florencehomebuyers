@@ -118,8 +118,8 @@ export function FormSection() {
             <div className='md:col-span-2 bg-white p-10 rounded-xl border-2 border-red-200 shadow-lg'>
               {submitted ? (
                 <div className='text-center py-8'>
-                  <div className='inline-block p-4 bg-emerald-100 rounded-full mb-4'>
-                    <div className='text-4xl'>✓</div>
+                  <div className='inline-block p-4 bg-red-100 rounded-full mb-4'>
+                    <div className='text-4xl text-red-600'>✓</div>
                   </div>
                   <h3 className='text-2xl font-bold text-gray-900 mb-2'>
                     Thank You!
