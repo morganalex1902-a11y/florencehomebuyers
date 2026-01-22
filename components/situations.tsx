@@ -41,11 +41,13 @@ export function SituationsSection() {
       <div className='container mx-auto px-4'>
         <div className='max-w-3xl mx-auto text-center mb-16'>
           <h2 className='text-4xl sm:text-5xl font-bold text-gray-900 mb-6'>
-            We Can Buy Your House No Matter Your Reasons For Selling!
+            We Can Buy Your House No Matter Your Reason For Selling
           </h2>
-          <p className='text-xl text-gray-700 font-medium'>
-            Are You Stuck In One Of These Situations?{' '}
-            <span className='text-emerald-600'>If yes, let's chat!</span>
+          <p className='text-xl text-gray-700 font-medium mb-4'>
+            Are You In One Of These Situations?
+          </p>
+          <p className='text-gray-600 text-lg'>
+            <span className='text-emerald-600 font-bold'>Get a free, no-obligation offer today.</span> We can often have an offer to you within 24 hours.
           </p>
         </div>
 
