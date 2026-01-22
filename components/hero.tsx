@@ -51,7 +51,7 @@ export function HeroSection() {
             <div className='flex items-start gap-3 bg-white p-4 rounded-lg shadow-sm border border-gray-100'>
               <Check className='w-5 h-5 text-emerald-600 mt-1 flex-shrink-0' />
               <p className='text-sm text-gray-700 font-medium'>
-                Sell Your House As-Is In Denver And Pay No Agent Fees
+                Sell Your House As-Is In Huntsville And Pay No Agent Fees
               </p>
             </div>
             <div className='flex items-start gap-3 bg-white p-4 rounded-lg shadow-sm border border-gray-100'>
