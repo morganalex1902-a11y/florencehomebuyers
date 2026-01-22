@@ -48,7 +48,10 @@ export function TrustedSection() {
                 Our team handles all the paperwork, inspections, and closing costs so you can focus on what matters most. We pride ourselves on transparency and integrity in every transaction.
               </p>
 
-              <button className='px-8 py-4 bg-red-600 text-white font-bold rounded-lg hover:bg-red-700 transition-all shadow-lg text-lg'>
+              <button
+                onClick={() => document.getElementById('form-section')?.scrollIntoView({ behavior: 'smooth' })}
+                className='px-8 py-4 bg-red-600 text-white font-bold rounded-lg hover:bg-red-700 active:scale-95 transition-all shadow-lg hover:shadow-xl text-lg'
+              >
                 Contact Us Today
               </button>
             </div>
