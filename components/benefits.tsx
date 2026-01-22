@@ -48,10 +48,10 @@ export function BenefitsSection() {
           <div className='text-center mb-12'>
             <h2 className='text-4xl sm:text-5xl font-bold text-gray-900 mb-4'>
               Benefits of Selling Your Huntsville House to{' '}
-              <span className='text-emerald-600'>Florence Home Buyers</span>
+              <span className='text-red-600'>Florence Home Buyers</span>
             </h2>
             <p className='text-xl text-gray-700 font-medium'>
-              <span className='text-emerald-600 font-bold'>No fees, no commissions, quick hassle-free closing.</span>
+              <span className='text-red-600 font-bold'>No fees, no commissions, quick hassle-free closing.</span>
             </p>
           </div>
 
