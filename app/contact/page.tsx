@@ -34,9 +34,9 @@ export default function Contact() {
             <div className='bg-gradient-to-br from-blue-50 to-blue-100 border border-blue-200 rounded-lg p-8 text-center'>
               <Phone className='w-12 h-12 text-blue-600 mx-auto mb-4' />
               <h3 className='text-2xl font-bold text-gray-900 mb-2'>Call Us</h3>
-              <a href='tel:+923211234567' className='text-blue-600 hover:text-blue-700 font-bold text-2xl block mb-4'>
-                +92 321 1234567
-              </a>
+              <a href='tel:7204567890' className='text-blue-600 hover:text-blue-700 font-bold text-2xl block mb-4'>
+              (720) 456-7890
+            </a>
               <p className='text-gray-700'>
                 Call us directly to speak with a specialist about your property.
               </p>
@@ -72,9 +72,9 @@ export default function Contact() {
                 <p className='text-gray-900 font-semibold'>Florence Home Buyers</p>
                 <p className='text-gray-700'>by Jeffreys Residences</p>
                 <p className='text-gray-700 mt-2'>
-                  123 Main Street
+                  1234 Business Drive
                   <br />
-                  Karachi, Pakistan 75600
+                  Denver, Colorado 80202
                 </p>
                 <p className='text-sm text-gray-600 mt-4'>
                   We're located in the heart of Karachi for your convenience. By appointment preferred.
