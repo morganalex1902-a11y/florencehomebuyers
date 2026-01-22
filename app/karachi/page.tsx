@@ -171,32 +171,32 @@ export default function PropertyTypesPage() {
         </div>
       </section>
 
-      {/* Why Denver Homeowners Choose Us */}
+      {/* Why Homeowners Choose Us */}
       <section className='py-16 bg-white'>
         <div className='container mx-auto px-4'>
           <h2 className='text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12'>
-            Why Denver Homeowners Choose Florence Home Buyers
+            Why Homeowners Choose Florence Home Buyers
           </h2>
 
           <div className='grid md:grid-cols-2 gap-8'>
             <div className='bg-gradient-to-b from-blue-50 to-transparent p-8 rounded-lg border border-blue-100'>
-              <h3 className='text-xl font-bold text-gray-900 mb-4'>Local Expertise</h3>
+              <h3 className='text-xl font-bold text-gray-900 mb-4'>Market Expertise</h3>
               <p className='text-gray-700 leading-relaxed'>
-                We know the Denver real estate market inside and out. We understand the neighborhoods, the property values, and the unique challenges that homeowners in Denver face. This means we can make fair offers quickly.
+                We understand the real estate market. We know property values and the unique challenges that homeowners face. This means we can make fair offers quickly, no matter where your property is.
               </p>
             </div>
 
             <div className='bg-gradient-to-b from-emerald-50 to-transparent p-8 rounded-lg border border-emerald-100'>
               <h3 className='text-xl font-bold text-gray-900 mb-4'>Fast Closing</h3>
               <p className='text-gray-700 leading-relaxed'>
-                In Denver's competitive market, speed matters. We can close in as little as 7 days with our cash offer program. No waiting for financing, no contingencies — just a clean, quick transaction.
+                Speed matters when you need to sell. We can close in as little as 7 days with our cash offer program. No waiting for financing, no contingencies — just a clean, quick transaction.
               </p>
             </div>
 
             <div className='bg-gradient-to-b from-purple-50 to-transparent p-8 rounded-lg border border-purple-100'>
               <h3 className='text-xl font-bold text-gray-900 mb-4'>Fair Market Pricing</h3>
               <p className='text-gray-700 leading-relaxed'>
-                We're not here to lowball or trick anyone. Our offers are based on current Denver market conditions and the actual condition of your property. You get fair pricing, not a discount we've arbitrarily decided on.
+                We're not here to lowball or trick anyone. Our offers are based on current market conditions and the actual condition of your property. You get fair pricing, not an arbitrary discount.
               </p>
             </div>
 
