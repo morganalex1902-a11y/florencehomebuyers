@@ -19,7 +19,7 @@ export default function HowItWorks() {
       <Header />
 
       {/* Hero Section */}
-      <section className='min-h-[400px] bg-gradient-to-br from-blue-50 to-emerald-50 flex items-center justify-center py-12'>
+      <section className='min-h-[400px] bg-gradient-to-br from-red-50 to-red-100 flex items-center justify-center py-12'>
         <div className='container mx-auto px-4 text-center'>
           <h1 className='text-4xl md:text-5xl font-bold text-gray-900 mb-6'>
             How Do I Sell My House Fast In Huntsville, Alabama?
