@@ -64,10 +64,13 @@ export function SituationsSection() {
           ))}
         </div>
 
-        <div className='text-center pt-12'>
-          <button className='px-8 py-4 bg-emerald-600 text-white font-bold rounded-lg hover:bg-emerald-700 hover:scale-105 transition-all shadow-lg text-lg'>
-            Yes! I Want My Fair Cash Offer!
+        <div className='text-center pt-12 space-y-4'>
+          <button className='block sm:inline-block px-8 py-4 bg-emerald-600 text-white font-bold rounded-lg hover:bg-emerald-700 hover:scale-105 transition-all shadow-lg text-lg'>
+            Get My Free Offer → (Takes 2 Minutes)
           </button>
+          <p className='text-sm text-gray-600'>
+            No credit check • No obligation • 100% free
+          </p>
         </div>
       </div>
     </section>
