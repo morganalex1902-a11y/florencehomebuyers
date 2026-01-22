@@ -88,7 +88,7 @@ const faqItems: FAQItem[] = [
 export const metadata = {
   title: 'FAQ - Florence Home Buyers',
   description:
-    'Frequently asked questions about selling your house to Florence Home Buyers in Karachi. Get answers to common questions about our process.',
+    'Frequently asked questions about selling your house to Florence Home Buyers in Denver, Colorado. Get answers to common questions about our process.',
 }
 
 export default function FAQ() {
