@@ -4,6 +4,7 @@ import React from "react"
 
 import { Phone } from 'lucide-react'
 import { useState, useEffect, useRef } from 'react'
+import Image from 'next/image'
 
 const PHONE_NUMBER = '(720) 456-7890'
 
@@ -110,7 +111,7 @@ export function FormSection() {
                       onChange={handleChange}
                       required
                       className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent'
-                      placeholder='+92 XXX XXXXXXX'
+                      placeholder='(256) XXX-XXXX'
                     />
                   </div>
 
@@ -170,6 +171,16 @@ export function FormSection() {
 
             {/* Contact Info */}
             <div className='flex flex-col justify-center space-y-8'>
+              {/* Contact Image */}
+              <div className='relative h-64 rounded-xl overflow-hidden shadow-lg'>
+                <Image
+                  src='https://images.pexels.com/photos/30004360/pexels-photo-30004360.jpeg'
+                  alt='Professional real estate team'
+                  fill
+                  className='object-cover'
+                />
+              </div>
+
               <div className='bg-white p-8 rounded-xl border border-gray-200 shadow-lg'>
                 <h3 className='text-2xl font-bold text-gray-900 mb-6'>
                   Quick Contact
@@ -207,7 +218,7 @@ export function FormSection() {
               {/* Trust Badge */}
               <div className='bg-emerald-50 p-6 rounded-xl border border-emerald-200'>
                 <p className='text-center text-gray-800 font-medium'>
-                  <span className='text-3xl'>🏆</span> Trusted By Hundreds of Karachi
+                  <span className='text-3xl'>🏆</span> Trusted By Hundreds of Huntsville
                   Homeowners
                 </p>
                 <p className='text-center text-sm text-gray-700 mt-4'>

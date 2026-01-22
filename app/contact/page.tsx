@@ -6,7 +6,7 @@ import { Phone, Mail, MapPin, Clock, Facebook, Linkedin } from 'lucide-react'
 
 export const metadata = {
   title: 'Contact Us - Florence Home Buyers',
-  description: 'Get in touch with Florence Home Buyers in Denver, Colorado. Call, email, or fill out our form to start selling your house today.',
+  description: 'Get in touch with Florence Home Buyers in Huntsville, Alabama. Call, email, or fill out our form to start selling your house today.',
 }
 
 export default function Contact() {
@@ -74,10 +74,10 @@ export default function Contact() {
                 <p className='text-gray-700 mt-2'>
                   1234 Business Drive
                   <br />
-                  Denver, Colorado 80202
+                  Huntsville, Alabama 35801
                 </p>
                 <p className='text-sm text-gray-600 mt-4'>
-                  We're located in the heart of Karachi for your convenience. By appointment preferred.
+                  We're located in the heart of Huntsville for your convenience. By appointment preferred.
                 </p>
               </div>
             </div>
