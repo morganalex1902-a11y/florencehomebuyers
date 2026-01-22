@@ -118,7 +118,7 @@ export function Header() {
                   document.getElementById('form-section')?.scrollIntoView({ behavior: 'smooth' })
                   setIsMobileMenuOpen(false)
                 }}
-                className='w-full px-4 py-2 bg-emerald-600 text-white font-bold rounded-lg hover:bg-emerald-700 active:scale-95 transition-all shadow-md hover:shadow-lg'
+                className='w-full px-4 py-2 bg-red-600 text-white font-bold rounded-lg hover:bg-red-700 active:scale-95 transition-all shadow-md hover:shadow-lg'
               >
                 Get Free Offer
               </button>
