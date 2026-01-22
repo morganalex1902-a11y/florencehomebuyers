@@ -41,28 +41,28 @@ export function HeroSection() {
       <div className='container mx-auto max-w-4xl relative z-10'>
         <div className='text-center space-y-8'>
           {/* Main Heading */}
-          <h1 className='text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight text-balance'>
-            Sell Your House <span className='text-emerald-600'>Hassle-Free</span>
+          <h1 className='text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight text-balance drop-shadow-lg'>
+            Sell Your House <span className='text-emerald-300'>Hassle-Free</span>
           </h1>
-          <h2 className='text-2xl sm:text-3xl font-bold text-gray-800'>
+          <h2 className='text-2xl sm:text-3xl font-bold text-white drop-shadow-lg'>
             Fast Cash Offers from Florence Home Buyers
           </h2>
 
           {/* Subheading */}
-          <p className='text-lg sm:text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed text-balance'>
+          <p className='text-lg sm:text-xl text-gray-100 max-w-3xl mx-auto leading-relaxed text-balance drop-shadow-lg'>
             Get a Fair Cash Offer Within 24 Hours – Sell On Your Terms.{' '}
-            <span className='font-bold text-emerald-600'>100% FREE!</span>
+            <span className='font-bold text-emerald-300'>100% FREE!</span>
           </p>
 
           {/* Key Benefits */}
           <div className='grid sm:grid-cols-2 gap-4 max-w-2xl mx-auto pt-6'>
-            <div className='flex items-start gap-3 bg-white p-4 rounded-lg shadow-sm border border-gray-100'>
+            <div className='flex items-start gap-3 bg-white/95 backdrop-blur-sm p-4 rounded-lg shadow-lg border border-emerald-100'>
               <Check className='w-5 h-5 text-emerald-600 mt-1 flex-shrink-0' />
               <p className='text-sm text-gray-700 font-medium'>
                 Sell Your House As-Is With No Agent Fees
               </p>
             </div>
-            <div className='flex items-start gap-3 bg-white p-4 rounded-lg shadow-sm border border-gray-100'>
+            <div className='flex items-start gap-3 bg-white/95 backdrop-blur-sm p-4 rounded-lg shadow-lg border border-emerald-100'>
               <Check className='w-5 h-5 text-emerald-600 mt-1 flex-shrink-0' />
               <p className='text-sm text-gray-700 font-medium'>
                 No Repairs Needed – We Handle Everything
@@ -71,7 +71,7 @@ export function HeroSection() {
           </div>
 
           {/* Description */}
-          <p className='text-lg text-gray-700 max-w-2xl mx-auto font-medium'>
+          <p className='text-lg text-gray-100 max-w-2xl mx-auto font-medium drop-shadow-lg'>
             We solve problems – <span className='font-bold'>fast, easy, hassle-free</span>. By Jeffreys Residences.
           </p>
 
