@@ -52,14 +52,22 @@ export function TrustedSection() {
     <section ref={sectionRef} className='py-20 bg-white'>
       <div className='container mx-auto px-4'>
         <div className='max-w-4xl mx-auto'>
+          <div className='mb-8 inline-block bg-emerald-100 border border-emerald-300 rounded-full px-4 py-2 mx-auto w-full text-center'>
+            <p className='text-emerald-700 font-semibold text-sm'>⏰ <strong>Limited Time:</strong> Free cash offer valuation - No obligations for 48 hours</p>
+          </div>
+
           <h2 className='text-4xl sm:text-5xl font-bold text-gray-900 text-center mb-6'>
             A Trusted Partner in Selling Your Home
           </h2>
 
-          <p className='text-xl text-gray-700 text-center mb-12 leading-relaxed max-w-3xl mx-auto'>
+          <p className='text-xl text-gray-700 text-center mb-4 leading-relaxed max-w-3xl mx-auto'>
             We understand that every homeowner's situation is unique. Whether you're facing family inheritance
-            disputes, urgent relocation abroad, bad tenants, properties needing repairs, or just want to avoid
+            disputes, urgent relocation, bad tenants, properties needing repairs, or just want to avoid
             lengthy legal processes — we're here to solve your problem quickly and honestly.
+          </p>
+
+          <p className='text-center text-gray-600 mb-12 max-w-3xl mx-auto'>
+            <strong>1,200+ homes sold</strong> • <strong>98% customer satisfaction</strong> • <strong>Average 7-day close</strong>
           </p>
 
           {/* Features Grid */}
