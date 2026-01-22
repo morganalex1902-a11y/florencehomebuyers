@@ -22,7 +22,7 @@ export default function HowItWorks() {
       <section className='min-h-[400px] bg-gradient-to-br from-blue-50 to-emerald-50 flex items-center justify-center py-12'>
         <div className='container mx-auto px-4 text-center'>
           <h1 className='text-4xl md:text-5xl font-bold text-gray-900 mb-6'>
-            How Do I Sell My House Fast In Karachi?
+            How Do I Sell My House Fast In Denver?
           </h1>
           <p className='text-xl text-gray-700 max-w-2xl mx-auto'>
             Share your home details online or call us to get started. Fill out our quick, confidential form and receive a fair cash offer within 24 hours — no obligations, no hassle!
@@ -50,7 +50,7 @@ export default function HowItWorks() {
                 Get a Fair Offer Within 24 Hours
               </h3>
               <p className='text-gray-700 text-center mb-4'>
-                Avoid the hassles of listing your house with our Karachi Cash Offer Program. In many cases, we can present you with a fair, all-cash offer in as little as 24 hours – no obligations, no fees.
+                Avoid the hassles of listing your house with our Denver Cash Offer Program. In many cases, we can present you with a fair, all-cash offer in as little as 24 hours – no obligations, no fees.
               </p>
               <ul className='space-y-2 text-sm text-gray-600'>
                 <li className='flex items-start gap-2'>
