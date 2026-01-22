@@ -214,7 +214,7 @@ export default function HowItWorks() {
             </div>
           </div>
 
-          <div className='bg-emerald-50 border-l-4 border-emerald-600 p-6 rounded-r-lg'>
+          <div className='bg-red-50 border-l-4 border-red-600 p-6 rounded-r-lg'>
             <h4 className='font-bold text-gray-900 mb-2'>Not Sure If This Is Right For You?</h4>
             <p className='text-gray-700'>
               We're not always the best option for everyone, and we do our best to point people in the right direction in that case. If selling to a cash buyer isn't the right fit, we'll be honest with you about it.
