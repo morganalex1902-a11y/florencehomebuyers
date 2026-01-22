@@ -479,58 +479,50 @@ export function FormSection() {
             </div>
 
             {/* Contact Info */}
-            <div className='flex flex-col justify-center space-y-8'>
-              {/* Contact Image */}
-              <div className='relative h-64 rounded-xl overflow-hidden shadow-lg'>
-                <Image
-                  src='https://images.pexels.com/photos/30004360/pexels-photo-30004360.jpeg'
-                  alt='Professional real estate team'
-                  fill
-                  className='object-cover'
-                />
-              </div>
-
-              <div className='bg-white p-8 rounded-xl border border-gray-200 shadow-lg'>
-                <h3 className='text-2xl font-bold text-gray-900 mb-6'>
-                  Quick Contact
+            <div className='flex flex-col justify-center space-y-6'>
+              <div className='bg-red-700 text-white p-8 rounded-xl shadow-xl'>
+                <h3 className='text-2xl font-bold mb-6'>
+                  Need Help?
                 </h3>
 
                 <a
                   href={`tel:${PHONE_NUMBER.replace(/\s/g, '')}`}
-                  className='flex items-center gap-4 p-4 bg-blue-50 rounded-lg hover:bg-blue-100 transition-colors mb-6'
+                  className='flex items-center gap-4 p-4 bg-white/20 rounded-lg hover:bg-white/30 transition-colors mb-6'
                 >
-                  <Phone className='w-8 h-8 text-blue-600 flex-shrink-0' />
+                  <Phone className='w-8 h-8 flex-shrink-0' />
                   <div>
-                    <p className='text-sm text-gray-600 font-medium'>Call Now</p>
-                    <p className='text-2xl font-bold text-blue-600'>
+                    <p className='text-sm text-red-100 font-medium'>Call Now</p>
+                    <p className='text-2xl font-bold'>
                       {PHONE_NUMBER}
                     </p>
                   </div>
                 </a>
 
-                <div className='space-y-4'>
-                  <p className='text-gray-700 font-medium'>
+                <div className='space-y-3 text-red-50'>
+                  <p className='font-medium'>
                     ✓ Available 7 days a week
                   </p>
-                  <p className='text-gray-700 font-medium'>
-                    ✓ Quick response time (within 24 hours)
+                  <p className='font-medium'>
+                    ✓ Quick response within 24 hours
                   </p>
-                  <p className='text-gray-700 font-medium'>
+                  <p className='font-medium'>
                     ✓ Free, no-obligation offer
                   </p>
-                  <p className='text-gray-700 font-medium'>
-                    ✓ Direct cash buyers (no agents)
+                  <p className='font-medium'>
+                    ✓ Direct cash buyers
                   </p>
                 </div>
               </div>
 
               {/* Trust Badge */}
-              <div className='bg-emerald-50 p-6 rounded-xl border border-emerald-200'>
-                <p className='text-center text-gray-800 font-medium'>
-                  <span className='text-3xl'>🏆</span> Trusted By Hundreds of Huntsville
-                  Homeowners
+              <div className='bg-gradient-to-br from-red-50 to-red-100 p-6 rounded-xl border-2 border-red-200'>
+                <p className='text-center text-gray-800 font-bold text-lg mb-2'>
+                  🏆 Trusted Choice
                 </p>
-                <p className='text-center text-sm text-gray-700 mt-4'>
+                <p className='text-center text-gray-700 font-medium'>
+                  Hundreds of Huntsville homeowners have sold with us
+                </p>
+                <p className='text-center text-sm text-gray-600 mt-3'>
                   Fast • Fair • Hassle-Free
                 </p>
               </div>
