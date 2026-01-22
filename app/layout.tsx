@@ -8,8 +8,8 @@ const _inter = Inter({ subsets: ["latin"] });
 const _manrope = Manrope({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Sell My House Fast Karachi - Florence Home Buyers',
-  description: 'Get a fair cash offer for your house in Karachi within 24 hours. No fees, no commissions. Sell on your terms with Florence Home Buyers by Jeffreys Residences.',
+  title: 'Sell My House Fast Denver - Florence Home Buyers',
+  description: 'Get a fair cash offer for your house in Denver, Colorado within 24 hours. No fees, no commissions. Sell on your terms with Florence Home Buyers by Jeffreys Residences.',
   generator: 'v0.app',
   icons: {
     icon: [
