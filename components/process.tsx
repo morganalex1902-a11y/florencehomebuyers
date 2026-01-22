@@ -34,18 +34,21 @@ export function ProcessSection() {
       title: 'Step 1: Get a Fair Offer',
       description:
         'Avoid the hassles of listing your house with our Cash Offer Program. In many cases, we can present you with a fair, all-cash offer in as little as 24 hours – no obligations, no fees.',
+      image: 'https://images.pexels.com/photos/7578866/pexels-photo-7578866.jpeg',
     },
     {
       icon: Calendar,
       title: 'Step 2: Pick the Date',
       description:
         'Selling your house can be stressful. Have peace of mind by knowing all of your options to sell your house. We can even handle repairs for you!',
+      image: 'https://images.pexels.com/photos/26571206/pexels-photo-26571206.jpeg',
     },
     {
       icon: Handshake,
       title: 'Step 3: Close Quickly',
       description:
         'Have the flexibility to sell on the date you choose. We can often close in as quick as 7 days with our Cash Offer Program.',
+      image: 'https://images.pexels.com/photos/7647387/pexels-photo-7647387.jpeg',
     },
   ]
 
