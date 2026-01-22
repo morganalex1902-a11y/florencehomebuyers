@@ -28,7 +28,7 @@ export function TrustedSection() {
       icon: Shield,
       title: 'Trusted Partner',
       description:
-        'Years of experience helping Karachi families solve their home-selling challenges with integrity and professionalism.',
+        'Years of experience helping families solve their home-selling challenges with integrity and professionalism.',
     },
     {
       icon: TrendingUp,
