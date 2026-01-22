@@ -96,13 +96,20 @@ export function FormSection() {
       <div className='container mx-auto px-4'>
         <div className='max-w-3xl mx-auto'>
           <div className='text-center mb-12'>
+            {step === 2 && (
+              <div className='inline-block bg-blue-50 px-4 py-2 rounded-full mb-4'>
+                <p className='text-sm font-semibold text-blue-600'>Step {step} of 2</p>
+              </div>
+            )}
             <h2 className='text-4xl sm:text-5xl font-bold text-gray-900 mb-4'>
-              Get Your No-Obligation Cash Offer Today!
+              {step === 1
+                ? 'Get Your No-Obligation Cash Offer Today!'
+                : 'Help Us Learn More About Your Property'}
             </h2>
             <p className='text-lg text-gray-700'>
-              {step === 1 
-                ? 'Fill out the form below and we\'ll get back to you within 24 hours.' 
-                : 'Step 2 of 2: Help Us Learn More About Your Property...'}
+              {step === 1
+                ? 'Fill out the form below and we\'ll get back to you within 24 hours.'
+                : 'Just a few more questions to help us provide you with your options and a cash offer.'}
             </p>
           </div>
 
