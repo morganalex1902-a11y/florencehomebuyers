@@ -57,13 +57,13 @@ export function ProcessSection() {
       <div className='container mx-auto px-4'>
         <div className='max-w-3xl mx-auto text-center mb-16'>
           <h2 className='text-4xl sm:text-5xl font-bold text-gray-900 mb-6'>
-            Why Wait Months To Sell Your Home?
+            3 Simple Steps to Cash in Your Hand
           </h2>
-          <p className='text-xl text-gray-700'>
-            Sell To A Cash Buyer Today!
+          <p className='text-xl text-gray-700 mb-4'>
+            No agent, no inspections, no waiting. Start today.
           </p>
-          <p className='text-gray-600 mt-4 leading-relaxed'>
-            Don't let opportunity pass you by. Get your fair cash offer today.
+          <p className='text-gray-600 leading-relaxed'>
+            <span className='bg-yellow-100 px-3 py-1 rounded-full font-semibold'>⚡ Average time to offer: 24 hours</span>
           </p>
         </div>
 
