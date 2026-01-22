@@ -28,21 +28,21 @@ export function HeroSection() {
   return (
     <section
       ref={sectionRef}
-      className='min-h-screen flex items-center justify-center bg-gradient-to-b from-white via-blue-50 to-white px-4 py-20'
+      className='min-h-screen flex items-center justify-center bg-gradient-to-b from-white via-emerald-50 to-white px-4 py-20'
     >
       <div className='container mx-auto max-w-4xl'>
         <div className='text-center space-y-8'>
           {/* Main Heading */}
           <h1 className='text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight text-balance'>
-            Sell My House Fast <span className='text-emerald-600'>Denver</span>
+            Sell Your House <span className='text-emerald-600'>Hassle-Free</span>
           </h1>
           <h2 className='text-2xl sm:text-3xl font-bold text-gray-800'>
-            We Buy Houses Denver
+            Fast Cash Offers from Florence Home Buyers
           </h2>
 
           {/* Subheading */}
           <p className='text-lg sm:text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed text-balance'>
-            Get A Fair Cash Offer From A Trusted Local Denver Cash Home Buyer – Sell On The Date You Pick.{' '}
+            Get a Fair Cash Offer Within 24 Hours – Sell On Your Terms.{' '}
             <span className='font-bold text-emerald-600'>100% FREE!</span>
           </p>
 
@@ -51,20 +51,20 @@ export function HeroSection() {
             <div className='flex items-start gap-3 bg-white p-4 rounded-lg shadow-sm border border-gray-100'>
               <Check className='w-5 h-5 text-emerald-600 mt-1 flex-shrink-0' />
               <p className='text-sm text-gray-700 font-medium'>
-                Sell Your House As-Is In Denver And Pay No Agent Fees
+                Sell Your House As-Is With No Agent Fees
               </p>
             </div>
             <div className='flex items-start gap-3 bg-white p-4 rounded-lg shadow-sm border border-gray-100'>
               <Check className='w-5 h-5 text-emerald-600 mt-1 flex-shrink-0' />
               <p className='text-sm text-gray-700 font-medium'>
-                Don't Worry About Cleaning Up or Repairing Anything
+                No Repairs Needed – We Handle Everything
               </p>
             </div>
           </div>
 
           {/* Description */}
           <p className='text-lg text-gray-700 max-w-2xl mx-auto font-medium'>
-            We solve problems – <span className='font-bold'>fast, easy, hassle-free</span>. Trusted local buyers by Jeffreys Residences.
+            We solve problems – <span className='font-bold'>fast, easy, hassle-free</span>. By Jeffreys Residences.
           </p>
 
           {/* CTA Buttons */}
@@ -84,7 +84,7 @@ export function HeroSection() {
           {/* Trust Badge */}
           <div className='pt-8'>
             <p className='text-sm text-gray-600 font-medium'>
-              ⭐⭐⭐⭐⭐ Trusted by hundreds of Denver homeowners
+              ⭐⭐⭐⭐⭐ Trusted by hundreds of satisfied homeowners
             </p>
           </div>
         </div>
