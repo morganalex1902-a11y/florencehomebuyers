@@ -207,7 +207,7 @@ export function FormSection() {
               {/* Trust Badge */}
               <div className='bg-emerald-50 p-6 rounded-xl border border-emerald-200'>
                 <p className='text-center text-gray-800 font-medium'>
-                  <span className='text-3xl'>🏆</span> Trusted By Hundreds of Karachi
+                  <span className='text-3xl'>🏆</span> Trusted By Hundreds of Satisfied
                   Homeowners
                 </p>
                 <p className='text-center text-sm text-gray-700 mt-4'>
