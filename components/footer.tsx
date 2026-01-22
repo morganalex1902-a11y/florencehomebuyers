@@ -15,7 +15,7 @@ export function Footer() {
               Florence Home Buyers
             </h3>
             <p className='text-gray-400 mb-4'>
-              Trusted local cash home buyers in Denver, Colorado. We buy houses as-is, pay all closing costs, and close fast.
+              Trusted local cash home buyers in Huntsville, Alabama. We buy houses as-is, pay all closing costs, and close fast.
             </p>
             <a
               href={`tel:${PHONE_NUMBER.replace(/\s/g, '')}`}
