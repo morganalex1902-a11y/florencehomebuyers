@@ -30,22 +30,25 @@ export function TestimonialsSection() {
 
   const testimonials = [
     {
-      name: 'Ahmed Khan',
-      location: 'Clifton, Karachi',
+      name: 'Sarah Johnson',
+      location: 'Verified Customer',
       rating: 5,
       text: 'Florence Home Buyers made the process so easy! Got a fair offer within 24 hours and closed within a week. Highly recommended!',
+      image: 'https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg',
     },
     {
-      name: 'Fatima Ali',
-      location: 'DHA, Karachi',
+      name: 'Michelle Davis',
+      location: 'Verified Customer',
       rating: 5,
       text: 'I was stressed about selling my inherited property. They handled everything professionally and paid all costs. Worth every penny!',
+      image: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg',
     },
     {
-      name: 'Rizwan Sheikh',
-      location: 'Gulshan-e-Iqbal, Karachi',
+      name: 'James Wilson',
+      location: 'Verified Customer',
       rating: 5,
-      text: 'Needed to sell quickly for a job abroad. These guys delivered! Fast, transparent, and trustworthy.',
+      text: 'Needed to sell quickly for a job opportunity. These guys delivered! Fast, transparent, and trustworthy.',
+      image: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg',
     },
   ]
 
