@@ -2,6 +2,7 @@
 
 import { Star } from 'lucide-react'
 import { useEffect, useRef } from 'react'
+import Image from 'next/image'
 
 export function TestimonialsSection() {
   const sectionRef = useRef<HTMLElement>(null)
