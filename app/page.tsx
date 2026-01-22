@@ -2,6 +2,7 @@ import { Header } from '@/components/header'
 import { HeroSection } from '@/components/hero'
 import { TrustedSection } from '@/components/trusted-section'
 import { ProcessSection } from '@/components/process'
+import { CTABannerSection } from '@/components/cta-banner'
 import { TestimonialsSection } from '@/components/testimonials'
 import { FAQSection } from '@/components/faq'
 import { FormSection } from '@/components/form-section'
@@ -23,10 +24,4 @@ export default function Home() {
       <FloatingCTA />
     </main>
   )
-}
-
-import { CTABannerSection } from '@/components/cta-banner'
-
-function CTABannerSectionWrapper() {
-  return <CTABannerSection />
 }
