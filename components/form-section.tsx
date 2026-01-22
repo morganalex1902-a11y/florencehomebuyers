@@ -208,7 +208,7 @@ export function FormSection() {
 
                   <button
                     type='submit'
-                    className='w-full py-4 bg-emerald-600 text-white font-bold rounded-lg hover:bg-emerald-700 hover:scale-105 transition-all shadow-lg text-lg'
+                    className='w-full py-4 bg-red-600 text-white font-bold rounded-lg hover:bg-red-700 active:scale-95 transition-all shadow-lg text-lg'
                   >
                     Continue to Get Offer
                   </button>
