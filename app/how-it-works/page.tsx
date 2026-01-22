@@ -54,15 +54,15 @@ export default function HowItWorks() {
               </p>
               <ul className='space-y-2 text-sm text-gray-600'>
                 <li className='flex items-start gap-2'>
-                  <CheckCircle className='w-5 h-5 text-green-600 mt-0.5 flex-shrink-0' />
+                  <CheckCircle className='w-5 h-5 text-red-600 mt-0.5 flex-shrink-0' />
                   <span>Quick property assessment</span>
                 </li>
                 <li className='flex items-start gap-2'>
-                  <CheckCircle className='w-5 h-5 text-green-600 mt-0.5 flex-shrink-0' />
+                  <CheckCircle className='w-5 h-5 text-red-600 mt-0.5 flex-shrink-0' />
                   <span>No commission or fees</span>
                 </li>
                 <li className='flex items-start gap-2'>
-                  <CheckCircle className='w-5 h-5 text-green-600 mt-0.5 flex-shrink-0' />
+                  <CheckCircle className='w-5 h-5 text-red-600 mt-0.5 flex-shrink-0' />
                   <span>Zero obligations to accept</span>
                 </li>
               </ul>
@@ -84,15 +84,15 @@ export default function HowItWorks() {
               </p>
               <ul className='space-y-2 text-sm text-gray-600'>
                 <li className='flex items-start gap-2'>
-                  <CheckCircle className='w-5 h-5 text-green-600 mt-0.5 flex-shrink-0' />
+                  <CheckCircle className='w-5 h-5 text-red-600 mt-0.5 flex-shrink-0' />
                   <span>Flexible closing dates</span>
                 </li>
                 <li className='flex items-start gap-2'>
-                  <CheckCircle className='w-5 h-5 text-green-600 mt-0.5 flex-shrink-0' />
+                  <CheckCircle className='w-5 h-5 text-red-600 mt-0.5 flex-shrink-0' />
                   <span>We handle all repairs</span>
                 </li>
                 <li className='flex items-start gap-2'>
-                  <CheckCircle className='w-5 h-5 text-green-600 mt-0.5 flex-shrink-0' />
+                  <CheckCircle className='w-5 h-5 text-red-600 mt-0.5 flex-shrink-0' />
                   <span>No stress or pressure</span>
                 </li>
               </ul>
@@ -114,15 +114,15 @@ export default function HowItWorks() {
               </p>
               <ul className='space-y-2 text-sm text-gray-600'>
                 <li className='flex items-start gap-2'>
-                  <CheckCircle className='w-5 h-5 text-green-600 mt-0.5 flex-shrink-0' />
+                  <CheckCircle className='w-5 h-5 text-red-600 mt-0.5 flex-shrink-0' />
                   <span>Close in as little as 7 days</span>
                 </li>
                 <li className='flex items-start gap-2'>
-                  <CheckCircle className='w-5 h-5 text-green-600 mt-0.5 flex-shrink-0' />
+                  <CheckCircle className='w-5 h-5 text-red-600 mt-0.5 flex-shrink-0' />
                   <span>No showings or open houses</span>
                 </li>
                 <li className='flex items-start gap-2'>
-                  <CheckCircle className='w-5 h-5 text-green-600 mt-0.5 flex-shrink-0' />
+                  <CheckCircle className='w-5 h-5 text-red-600 mt-0.5 flex-shrink-0' />
                   <span>All-cash purchase</span>
                 </li>
               </ul>
