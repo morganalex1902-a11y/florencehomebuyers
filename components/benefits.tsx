@@ -90,10 +90,16 @@ export function BenefitsSection() {
             </div>
           </div>
 
+          {/* Quick Capture Form */}
+          <div className='max-w-2xl mx-auto mb-12'>
+            <QuickCaptureForm />
+          </div>
+
           {/* CTA */}
           <div className='text-center'>
+            <p className='text-gray-600 mb-6'>Or dive deeper into our process:</p>
             <button className='px-8 py-4 bg-emerald-600 text-white font-bold rounded-lg hover:bg-emerald-700 hover:scale-105 transition-all shadow-lg text-lg'>
-              Yes! I Want My Fair Cash Offer!
+              See Our Full Process
             </button>
           </div>
         </div>
