@@ -11,6 +11,7 @@ interface Testimonial {
   rating: number
   text: string
   date: string
+  image: string
 }
 
 const testimonials: Testimonial[] = [
