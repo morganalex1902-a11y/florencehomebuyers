@@ -91,7 +91,7 @@ export function HeroSection() {
 
           {/* Trust Badge */}
           <div className='pt-8'>
-            <p className='text-sm text-gray-600 font-medium'>
+            <p className='text-sm text-white font-medium drop-shadow-lg'>
               ⭐⭐⭐⭐⭐ Trusted by hundreds of satisfied homeowners
             </p>
           </div>
