@@ -12,23 +12,23 @@ import { FloatingCTA } from '@/components/floating-cta'
 import { MapPin } from 'lucide-react'
 
 export const metadata = {
-  title: 'Sell My House Fast Denver - Florence Home Buyers',
-  description: 'Get a fair cash offer for your house in Denver, Colorado within 24 hours. No fees, no commissions. Sell on your terms with Florence Home Buyers.',
+  title: 'Sell Your House Fast - Florence Home Buyers',
+  description: 'Get a fair cash offer for your house within 24 hours. No fees, no commissions. Sell on your terms with Florence Home Buyers by Jeffreys Residences.',
 }
 
-const DENVER_NEIGHBORHOODS = [
-  'Cherry Creek',
-  'Capitol Hill',
-  'South Denver',
-  'Highlands',
-  'Lakewood',
-  'Boulder',
-  'Westminster',
-  'Broomfield',
-  'Aurora',
-  'Littleton',
-  'Arvada',
-  'Fort Collins',
+const SERVICE_AREAS = [
+  'Urban Centers',
+  'Suburban Areas',
+  'Rural Properties',
+  'Multi-Family Homes',
+  'Commercial Properties',
+  'Vacant Land',
+  'Foreclosure Properties',
+  'Investment Properties',
+  'Distressed Homes',
+  'Historic Properties',
+  'Estate Properties',
+  'Bank-Owned Properties',
 ]
 
 export default function DenverPage() {
