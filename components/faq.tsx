@@ -38,7 +38,7 @@ export function FAQSection() {
     {
       question: 'Where do you buy property?',
       answer:
-        'Throughout Karachi, Sindh — Clifton, DHA, Gulshan-e-Iqbal, North Nazimabad, Korangi, Malir, and surrounding areas. Fill the form even if your location isn\'t listed!',
+        'We buy properties nationwide. Fill the form with your property address and we\'ll let you know if we can help. Even if your location isn\'t listed, reach out!',
     },
     {
       question: 'What information must I provide?',
