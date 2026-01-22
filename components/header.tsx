@@ -108,10 +108,10 @@ export function Header() {
             <div className='pt-4 border-t border-gray-200 space-y-3'>
               <a
                 href={`tel:${PHONE_NUMBER.replace(/\s/g, '')}`}
-                className='flex items-center gap-2 px-4 py-2 rounded-lg bg-blue-50 hover:bg-blue-100 transition-colors'
+                className='flex items-center gap-2 px-4 py-2 rounded-lg bg-red-50 hover:bg-red-100 transition-colors'
               >
-                <Phone className='w-5 h-5 text-blue-600' />
-                <span className='font-bold text-blue-600'>{PHONE_NUMBER}</span>
+                <Phone className='w-5 h-5 text-red-600' />
+                <span className='font-bold text-red-600'>{PHONE_NUMBER}</span>
               </a>
               <button
                 onClick={() => {
