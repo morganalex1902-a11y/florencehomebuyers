@@ -105,9 +105,21 @@ export function TestimonialsSection() {
           ))}
         </div>
 
-        <div className='text-center mt-12'>
+        <div className='text-center mt-16 space-y-6'>
+          <div className='bg-emerald-50 border-2 border-emerald-200 rounded-lg p-8'>
+            <p className='text-lg text-gray-900 font-semibold mb-2'>
+              Join 500+ Satisfied Homeowners
+            </p>
+            <p className='text-gray-700 mb-6'>
+              Get your free, fair cash offer today. Average processing time: <span className='font-bold'>24 hours</span>
+            </p>
+            <button className='px-8 py-3 bg-emerald-600 text-white font-bold rounded-lg hover:bg-emerald-700 transition-colors'>
+              Get My Free Offer Now
+            </button>
+          </div>
+
           <button className='px-6 py-3 text-emerald-600 font-bold border-2 border-emerald-600 rounded-lg hover:bg-emerald-50 transition-colors'>
-            See More Reviews
+            See More Customer Stories
           </button>
         </div>
       </div>
