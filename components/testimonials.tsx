@@ -139,9 +139,12 @@ export function TestimonialsSection() {
 
         {/* CTA Button */}
         <div className='text-center mt-12'>
-          <button className='px-8 py-3 bg-red-600 text-white font-bold rounded-lg hover:bg-red-700 transition-all shadow-lg'>
+          <a
+            href='/reviews'
+            className='inline-block px-8 py-3 bg-red-600 text-white font-bold rounded-lg hover:bg-red-700 active:scale-95 transition-all shadow-lg hover:shadow-xl'
+          >
             See More Reviews
-          </button>
+          </a>
         </div>
       </div>
     </section>
