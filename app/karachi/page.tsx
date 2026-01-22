@@ -127,21 +127,21 @@ export default function PropertyTypesPage() {
       {/* FAQ Section */}
       <FAQSection />
 
-      {/* Denver-Specific CTA */}
+      {/* Cash Offer Program CTA */}
       <section className='py-16 bg-emerald-600 text-white'>
         <div className='container mx-auto px-4'>
           <div className='grid md:grid-cols-2 gap-12 items-center'>
             <div>
               <h2 className='text-3xl md:text-4xl font-bold mb-6'>
-                Denver Cash Offer Program
+                Our Cash Offer Program
               </h2>
               <p className='text-lg mb-6 opacity-90'>
-                Whether you're dealing with a foreclosure, going through a divorce, dealing with difficult tenants, or just need to move quickly, we can help. We understand the Denver real estate market and we know how to buy houses quickly and fairly.
+                Whether you're dealing with a foreclosure, going through a divorce, dealing with difficult tenants, or just need to move quickly, we can help. We understand the real estate market and we know how to buy houses quickly and fairly.
               </p>
               <ul className='space-y-3 mb-8'>
                 <li className='flex items-start gap-3'>
                   <span className='text-xl font-bold mt-1'>✓</span>
-                  <span>We buy houses in Denver and surrounding areas</span>
+                  <span>We buy properties nationwide</span>
                 </li>
                 <li className='flex items-start gap-3'>
                   <span className='text-xl font-bold mt-1'>✓</span>
@@ -164,7 +164,7 @@ export default function PropertyTypesPage() {
             <div className='bg-gradient-to-br from-emerald-400 to-emerald-600 rounded-lg h-96 flex items-center justify-center opacity-50'>
               <div className='text-center'>
                 <MapPin className='w-24 h-24 mx-auto opacity-50' />
-                <p className='text-lg font-semibold mt-4'>Denver Map Placeholder</p>
+                <p className='text-lg font-semibold mt-4'>Real Estate Opportunities</p>
               </div>
             </div>
           </div>
