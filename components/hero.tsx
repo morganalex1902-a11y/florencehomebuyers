@@ -3,7 +3,7 @@
 import { Phone, Check } from 'lucide-react'
 import { useEffect, useRef } from 'react'
 
-const PHONE_NUMBER = '+92 321 1234567'
+const PHONE_NUMBER = '(720) 456-7890'
 
 export function HeroSection() {
   const sectionRef = useRef<HTMLElement>(null)
@@ -34,15 +34,15 @@ export function HeroSection() {
         <div className='text-center space-y-8'>
           {/* Main Heading */}
           <h1 className='text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight text-balance'>
-            Sell My House Fast <span className='text-emerald-600'>Karachi</span>
+            Sell My House Fast <span className='text-emerald-600'>Denver</span>
           </h1>
           <h2 className='text-2xl sm:text-3xl font-bold text-gray-800'>
-            We Buy Houses Karachi
+            We Buy Houses Denver
           </h2>
 
           {/* Subheading */}
           <p className='text-lg sm:text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed text-balance'>
-            Get A Fair Cash Offer From A Trusted Local Karachi Cash Home Buyer – Sell On The Date You Pick.{' '}
+            Get A Fair Cash Offer From A Trusted Local Denver Cash Home Buyer – Sell On The Date You Pick.{' '}
             <span className='font-bold text-emerald-600'>100% FREE!</span>
           </p>
 
@@ -51,7 +51,7 @@ export function HeroSection() {
             <div className='flex items-start gap-3 bg-white p-4 rounded-lg shadow-sm border border-gray-100'>
               <Check className='w-5 h-5 text-emerald-600 mt-1 flex-shrink-0' />
               <p className='text-sm text-gray-700 font-medium'>
-                Sell Your House As-Is In Karachi And Pay No Agent Fees
+                Sell Your House As-Is In Denver And Pay No Agent Fees
               </p>
             </div>
             <div className='flex items-start gap-3 bg-white p-4 rounded-lg shadow-sm border border-gray-100'>
@@ -84,7 +84,7 @@ export function HeroSection() {
           {/* Trust Badge */}
           <div className='pt-8'>
             <p className='text-sm text-gray-600 font-medium'>
-              ⭐⭐⭐⭐⭐ Trusted by hundreds of Karachi homeowners
+              ⭐⭐⭐⭐⭐ Trusted by hundreds of Denver homeowners
             </p>
           </div>
         </div>

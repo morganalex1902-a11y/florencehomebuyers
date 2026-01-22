@@ -1,6 +1,6 @@
 import { Phone } from 'lucide-react'
 
-const PHONE_NUMBER = '+92 321 1234567'
+const PHONE_NUMBER = '(720) 456-7890'
 
 export function Footer() {
   const currentYear = new Date().getFullYear()
@@ -15,7 +15,7 @@ export function Footer() {
               Florence Home Buyers
             </h3>
             <p className='text-gray-400 mb-4'>
-              Trusted local cash home buyers in Karachi, Sindh. We buy houses as-is, pay all closing costs, and close fast.
+              Trusted local cash home buyers in Denver, Colorado. We buy houses as-is, pay all closing costs, and close fast.
             </p>
             <a
               href={`tel:${PHONE_NUMBER.replace(/\s/g, '')}`}

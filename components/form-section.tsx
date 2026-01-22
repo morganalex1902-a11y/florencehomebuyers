@@ -5,7 +5,7 @@ import React from "react"
 import { Phone } from 'lucide-react'
 import { useState, useEffect, useRef } from 'react'
 
-const PHONE_NUMBER = '+92 321 1234567'
+const PHONE_NUMBER = '(720) 456-7890'
 
 export function FormSection() {
   const [formData, setFormData] = useState({
