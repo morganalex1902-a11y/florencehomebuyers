@@ -22,6 +22,7 @@ const testimonials: Testimonial[] = [
     rating: 5,
     text: 'Florence Home Buyers made selling my house incredibly easy! I got a fair offer within 24 hours, and we closed in just one week. No repairs, no hassles, no fees. Highly recommended!',
     date: '2024-12-15',
+    image: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg',
   },
   {
     id: 2,
@@ -30,6 +31,7 @@ const testimonials: Testimonial[] = [
     rating: 5,
     text: 'I was going through a difficult divorce and needed to sell quickly. Florence Home Buyers understood my situation and offered a fair price. The entire process was smooth and professional.',
     date: '2024-12-01',
+    image: 'https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg',
   },
   {
     id: 3,
@@ -38,6 +40,7 @@ const testimonials: Testimonial[] = [
     rating: 5,
     text: 'Dealing with tenants was a nightmare. When I called Florence Home Buyers, they made the whole process painless. Fair offer, quick close, and I\'m relieved of the landlord responsibilities.',
     date: '2024-11-20',
+    image: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg',
   },
   {
     id: 4,
@@ -46,6 +49,7 @@ const testimonials: Testimonial[] = [
     rating: 5,
     text: 'I inherited a property I didn\'t want to manage. Florence Home Buyers purchased it as-is with no repairs needed. The entire transaction was transparent and hassle-free. Excellent service!',
     date: '2024-11-10',
+    image: 'https://images.pexels.com/photos/1520760/pexels-photo-1520760.jpeg',
   },
   {
     id: 5,
@@ -54,6 +58,7 @@ const testimonials: Testimonial[] = [
     rating: 5,
     text: 'The property needed significant repairs, and I didn\'t have the money or energy to fix it. Florence Home Buyers bought it as-is and even covered the repairs themselves. Perfect solution!',
     date: '2024-10-25',
+    image: 'https://images.pexels.com/photos/1704488/pexels-photo-1704488.jpeg',
   },
   {
     id: 6,
@@ -62,6 +67,7 @@ const testimonials: Testimonial[] = [
     rating: 5,
     text: 'I needed to relocate for work and had very little time. Florence Home Buyers came through with a fair offer quickly and we closed in 10 days. Couldn\'t have asked for better service.',
     date: '2024-10-15',
+    image: 'https://images.pexels.com/photos/1926769/pexels-photo-1926769.jpeg',
   },
   {
     id: 7,
@@ -70,6 +76,7 @@ const testimonials: Testimonial[] = [
     rating: 5,
     text: 'My credit situation made it hard to get a traditional loan, so I sold my property to Florence Home Buyers. They were understanding and professional throughout. Thank you!',
     date: '2024-09-30',
+    image: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg',
   },
   {
     id: 8,
@@ -78,6 +85,7 @@ const testimonials: Testimonial[] = [
     rating: 5,
     text: 'The property had been vacant for years and was costing me money each month. Florence Home Buyers purchased it quickly and put it back on the market. Finally, some peace of mind!',
     date: '2024-09-20',
+    image: 'https://images.pexels.com/photos/1438761/pexels-photo-1438761.jpeg',
   },
   {
     id: 9,
@@ -86,6 +94,7 @@ const testimonials: Testimonial[] = [
     rating: 5,
     text: 'I was pre-foreclosure and desperate. Florence Home Buyers offered a fair price and we closed before the foreclosure date. They literally saved my credit and my family\'s situation.',
     date: '2024-08-15',
+    image: 'https://images.pexels.com/photos/1680172/pexels-photo-1680172.jpeg',
   },
   {
     id: 10,
@@ -94,6 +103,7 @@ const testimonials: Testimonial[] = [
     rating: 5,
     text: 'Going through a tough financial situation, I needed to sell quickly. Florence Home Buyers understood my circumstances and provided a fair, compassionate solution. Truly grateful.',
     date: '2024-08-01',
+    image: 'https://images.pexels.com/photos/2709285/pexels-photo-2709285.jpeg',
   },
   {
     id: 11,
@@ -102,6 +112,7 @@ const testimonials: Testimonial[] = [
     rating: 5,
     text: 'The neighborhood declined, and property value went down. Instead of losing more money listing it, I sold to Florence Home Buyers. Smart business decision on my part.',
     date: '2024-07-20',
+    image: 'https://images.pexels.com/photos/1542085/pexels-photo-1542085.jpeg',
   },
   {
     id: 12,
@@ -110,6 +121,7 @@ const testimonials: Testimonial[] = [
     rating: 5,
     text: 'After my divorce, I needed to liquidate my property quickly and fairly. Florence Home Buyers handled everything professionally and kindly. Highly recommend them to anyone!',
     date: '2024-07-10',
+    image: 'https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg',
   },
 ]
 
