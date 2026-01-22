@@ -2,6 +2,7 @@
 
 import { Phone, Check } from 'lucide-react'
 import { useEffect, useRef } from 'react'
+import Image from 'next/image'
 
 const PHONE_NUMBER = '(720) 456-7890'
 
@@ -29,8 +30,15 @@ export function HeroSection() {
     <section
       ref={sectionRef}
       className='min-h-screen flex items-center justify-center bg-gradient-to-b from-white via-emerald-50 to-white px-4 py-20'
+      style={{
+        backgroundImage: 'url(https://images.pexels.com/photos/8482895/pexels-photo-8482895.jpeg)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundAttachment: 'fixed',
+      }}
     >
-      <div className='container mx-auto max-w-4xl'>
+      <div className='absolute inset-0 bg-black/40'></div>
+      <div className='container mx-auto max-w-4xl relative z-10'>
         <div className='text-center space-y-8'>
           {/* Main Heading */}
           <h1 className='text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight text-balance'>
