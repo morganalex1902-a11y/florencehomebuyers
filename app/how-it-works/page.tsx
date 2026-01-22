@@ -10,7 +10,7 @@ import { Clock, Calendar, Handshake, CheckCircle } from 'lucide-react'
 
 export const metadata = {
   title: 'How We Buy Houses - Florence Home Buyers',
-  description: 'Learn our proven process for buying houses in Karachi. Get a fair cash offer in 24 hours and close on your timeline.',
+  description: 'Learn our proven process for buying houses in Denver, Colorado. Get a fair cash offer in 24 hours and close on your timeline.',
 }
 
 export default function HowItWorks() {
