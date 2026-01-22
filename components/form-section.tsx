@@ -216,8 +216,8 @@ export function FormSection() {
               ) : (
                 <form onSubmit={handleStep2Submit} className='space-y-6'>
                   <div className='pb-6 border-b border-gray-200'>
-                    <div className='inline-block bg-emerald-50 px-3 py-1 rounded-full mb-2'>
-                      <p className='text-xs font-semibold text-emerald-700'>Step 2 of 2</p>
+                    <div className='inline-block bg-red-50 px-3 py-1 rounded-full mb-2'>
+                      <p className='text-xs font-semibold text-red-700'>Step 2 of 2</p>
                     </div>
                   </div>
 
