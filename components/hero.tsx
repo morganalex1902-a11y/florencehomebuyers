@@ -2,6 +2,7 @@
 
 import { Phone, Check } from 'lucide-react'
 import { useEffect, useRef } from 'react'
+import Image from 'next/image'
 
 const PHONE_NUMBER = '(720) 456-7890'
 
