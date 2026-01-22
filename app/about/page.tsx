@@ -5,6 +5,7 @@ import { TestimonialsSection } from '@/components/testimonials'
 import { FormSection } from '@/components/form-section'
 import { FloatingCTA } from '@/components/floating-cta'
 import { Award, Users, Handshake, Heart } from 'lucide-react'
+import Image from 'next/image'
 
 export const metadata = {
   title: 'About Us - Florence Home Buyers',
@@ -47,11 +48,13 @@ export default function About() {
                 For over a decade, we've been helping homeowners in Huntsville and surrounding areas sell their homes quickly, fairly, and without the hassles of traditional real estate.
               </p>
             </div>
-            <div className='bg-gradient-to-br from-emerald-100 to-blue-100 rounded-lg h-96 flex items-center justify-center'>
-              <div className='text-center text-gray-600'>
-                <Users className='w-32 h-32 mx-auto mb-4 opacity-30' />
-                <p className='text-lg'>Team Photo Placeholder</p>
-              </div>
+            <div className='relative h-96 rounded-lg overflow-hidden shadow-lg'>
+              <Image
+                src='https://images.pexels.com/photos/30004360/pexels-photo-30004360.jpeg'
+                alt='Professional real estate team'
+                fill
+                className='object-cover'
+              />
             </div>
           </div>
         </div>
