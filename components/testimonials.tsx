@@ -1,22 +1,18 @@
 'use client'
 
-import { Star } from 'lucide-react'
-import { useEffect, useRef } from 'react'
+import { Play, ChevronLeft, ChevronRight } from 'lucide-react'
+import { useEffect, useRef, useState } from 'react'
 import Image from 'next/image'
 
 export function TestimonialsSection() {
   const sectionRef = useRef<HTMLElement>(null)
+  const [currentIndex, setCurrentIndex] = useState(0)
 
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
-          const items = entry.target.querySelectorAll('[data-testimonial]')
-          items.forEach((item, index) => {
-            setTimeout(() => {
-              item.classList.add('animate-fade-in-up')
-            }, index * 150)
-          })
+          entry.target.classList.add('animate-fade-in-up')
         }
       },
       { threshold: 0.1 }
@@ -32,85 +28,118 @@ export function TestimonialsSection() {
   const testimonials = [
     {
       name: 'Jennifer Martinez',
-      location: 'Madison, AL',
-      rating: 5,
-      text: 'Florence Home Buyers made the process so easy! Got a fair offer within 24 hours and closed within a week. Highly recommended!',
-      avatar: 'https://images.pexels.com/photos/11701102/pexels-photo-11701102.jpeg'
+      title: 'Madison, AL',
+      text: 'Florence Home Buyers made the process so easy! Got a fair offer within 24 hours and closed within a week.',
+      image: 'https://images.pexels.com/photos/11701102/pexels-photo-11701102.jpeg'
     },
     {
       name: 'Robert Thompson',
-      location: 'Huntsville, AL',
-      rating: 5,
-      text: 'I was stressed about selling my inherited property. They handled everything professionally and paid all costs. Worth every penny!',
-      avatar: 'https://images.pexels.com/photos/9271180/pexels-photo-9271180.jpeg'
+      title: 'Huntsville, AL',
+      text: 'I was stressed about selling my inherited property. They handled everything professionally and paid all costs.',
+      image: 'https://images.pexels.com/photos/9271180/pexels-photo-9271180.jpeg'
     },
     {
       name: 'Sarah Williams',
-      location: 'Madison County, AL',
-      rating: 5,
+      title: 'Madison County, AL',
       text: 'Needed to sell quickly for a job transfer. These guys delivered! Fast, transparent, and trustworthy.',
-      avatar: 'https://images.pexels.com/photos/8867475/pexels-photo-8867475.jpeg'
+      image: 'https://images.pexels.com/photos/8867475/pexels-photo-8867475.jpeg'
     },
   ]
 
+  const nextSlide = () => {
+    setCurrentIndex((prev) => (prev + 1) % testimonials.length)
+  }
+
+  const prevSlide = () => {
+    setCurrentIndex((prev) => (prev - 1 + testimonials.length) % testimonials.length)
+  }
+
   return (
-    <section ref={sectionRef} className='py-20 bg-gray-50'>
+    <section ref={sectionRef} className='py-20 bg-white'>
       <div className='container mx-auto px-4'>
         <div className='max-w-4xl mx-auto text-center mb-16'>
           <h2 className='text-4xl sm:text-5xl font-bold text-gray-900 mb-4'>
-            Our Customers Love Us & So Will You!
+            Real Clients. Real Reviews.
           </h2>
           <p className='text-xl text-gray-700'>
-            Hundreds of satisfied Huntsville homeowners have trusted us with their most important asset.
+            Hear from homeowners who have trusted us with their properties.
           </p>
         </div>
 
-        <div className='grid md:grid-cols-3 gap-8 max-w-5xl mx-auto'>
-          {testimonials.map((testimonial, index) => (
-            <div
-              key={index}
-              data-testimonial
-              className='opacity-0 bg-white rounded-xl border border-gray-200 shadow-md hover:shadow-lg hover:border-emerald-200 transition-all overflow-hidden'
-            >
-              {/* Avatar */}
-              <div className='relative h-48 w-full'>
-                <Image
-                  src={testimonial.avatar}
-                  alt={testimonial.name}
-                  fill
-                  className='object-cover'
-                />
-              </div>
-
-              {/* Content */}
-              <div className='p-6'>
-                {/* Stars */}
-                <div className='flex gap-1 mb-4'>
-                  {Array.from({ length: testimonial.rating }).map((_, i) => (
-                    <Star
-                      key={i}
-                      className='w-5 h-5 fill-amber-400 text-amber-400'
-                    />
-                  ))}
-                </div>
-
-                {/* Quote */}
-                <p className='text-gray-700 mb-6 leading-relaxed italic text-sm'>
-                  "{testimonial.text}"
-                </p>
-
-                {/* Author */}
-                <div>
-                  <p className='font-bold text-gray-900'>{testimonial.name}</p>
-                  <p className='text-sm text-gray-600'>{testimonial.location}</p>
-                </div>
+        {/* Carousel Container */}
+        <div className='max-w-6xl mx-auto'>
+          <div className='grid md:grid-cols-3 gap-6 mb-12'>
+            {/* Left Image */}
+            <div className='relative h-64 md:h-80 rounded-lg overflow-hidden shadow-lg group'>
+              <Image
+                src={testimonials[(currentIndex - 1 + testimonials.length) % testimonials.length].image}
+                alt='Testimonial'
+                fill
+                className='object-cover'
+              />
+              <div className='absolute inset-0 bg-black/30 group-hover:bg-black/50 transition-all flex items-center justify-center'>
+                <Play className='w-12 h-12 text-white fill-white' />
               </div>
             </div>
-          ))}
+
+            {/* Center Card */}
+            <div className='bg-red-700 text-white rounded-lg p-8 flex flex-col justify-center shadow-lg h-64 md:h-80'>
+              <p className='text-lg leading-relaxed mb-6 italic'>
+                "{testimonials[currentIndex].text}"
+              </p>
+              <div>
+                <p className='font-bold text-lg'>{testimonials[currentIndex].name}</p>
+                <p className='text-red-100'>{testimonials[currentIndex].title}</p>
+              </div>
+            </div>
+
+            {/* Right Image */}
+            <div className='relative h-64 md:h-80 rounded-lg overflow-hidden shadow-lg group'>
+              <Image
+                src={testimonials[(currentIndex + 1) % testimonials.length].image}
+                alt='Testimonial'
+                fill
+                className='object-cover'
+              />
+              <div className='absolute inset-0 bg-black/30 group-hover:bg-black/50 transition-all flex items-center justify-center'>
+                <Play className='w-12 h-12 text-white fill-white' />
+              </div>
+            </div>
+          </div>
+
+          {/* Navigation */}
+          <div className='flex items-center justify-center gap-6'>
+            <button
+              onClick={prevSlide}
+              className='p-2 border-2 border-gray-300 rounded-full hover:border-red-600 hover:bg-red-50 transition-all'
+            >
+              <ChevronLeft className='w-6 h-6 text-gray-600 hover:text-red-600' />
+            </button>
+
+            <div className='flex gap-2'>
+              {testimonials.map((_, index) => (
+                <button
+                  key={index}
+                  onClick={() => setCurrentIndex(index)}
+                  className={`w-2 h-2 rounded-full transition-all ${
+                    index === currentIndex ? 'bg-red-600 w-6' : 'bg-gray-300'
+                  }`}
+                />
+              ))}
+            </div>
+
+            <button
+              onClick={nextSlide}
+              className='p-2 border-2 border-gray-300 rounded-full hover:border-red-600 hover:bg-red-50 transition-all'
+            >
+              <ChevronRight className='w-6 h-6 text-gray-600 hover:text-red-600' />
+            </button>
+          </div>
         </div>
 
+        {/* CTA Button */}
         <div className='text-center mt-12'>
-          <button className='px-6 py-3 text-emerald-600 font-bold border-2 border-emerald-600 rounded-lg hover:bg-emerald-50 transition-colors'>
+          <button className='px-8 py-3 bg-red-600 text-white font-bold rounded-lg hover:bg-red-700 transition-all shadow-lg'>
             See More Reviews
           </button>
         </div>
