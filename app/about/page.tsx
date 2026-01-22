@@ -8,7 +8,7 @@ import { Award, Users, Handshake, Heart } from 'lucide-react'
 
 export const metadata = {
   title: 'About Us - Florence Home Buyers',
-  description: 'Learn about Florence Home Buyers, a trusted local cash home buyer in Karachi with years of experience helping homeowners sell their properties quickly and fairly.',
+  description: 'Learn about Florence Home Buyers, a trusted local cash home buyer in Denver, Colorado with years of experience helping homeowners sell their properties quickly and fairly.',
 }
 
 export default function About() {
