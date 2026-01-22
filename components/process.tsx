@@ -33,7 +33,7 @@ export function ProcessSection() {
       icon: Clock,
       title: 'Step 1: Get a Fair Offer',
       description:
-        'Avoid the hassles of listing your house with our Karachi Cash Offer Program. In many cases, we can present you with a fair, all-cash offer in as little as 24 hours – no obligations, no fees.',
+        'Avoid the hassles of listing your house with our Huntsville Cash Offer Program. In many cases, we can present you with a fair, all-cash offer in as little as 24 hours – no obligations, no fees.',
     },
     {
       icon: Calendar,
@@ -60,7 +60,7 @@ export function ProcessSection() {
             Sell To A Cash Buyer Today!
           </p>
           <p className='text-gray-600 mt-4 leading-relaxed'>
-            Karachi's fast-moving real estate market doesn't wait. Neither should you.
+            Huntsville's fast-moving real estate market doesn't wait. Neither should you.
           </p>
         </div>
 
