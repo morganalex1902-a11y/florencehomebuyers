@@ -25,6 +25,8 @@ export default function Home() {
   )
 }
 
+'use client'
+
 function CTABannerSection() {
   return (
     <section className='py-12 bg-red-700'>
