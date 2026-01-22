@@ -2,6 +2,7 @@
 
 import { Check, X } from 'lucide-react'
 import { useEffect, useRef } from 'react'
+import Image from 'next/image'
 
 export function BenefitsSection() {
   const sectionRef = useRef<HTMLElement>(null)
@@ -43,7 +44,7 @@ export function BenefitsSection() {
   return (
     <section ref={sectionRef} className='py-20 bg-white'>
       <div className='container mx-auto px-4'>
-        <div className='max-w-4xl mx-auto'>
+        <div className='max-w-5xl mx-auto'>
           <div className='text-center mb-12'>
             <h2 className='text-4xl sm:text-5xl font-bold text-gray-900 mb-4'>
               Benefits of Selling Your Huntsville House to{' '}
@@ -57,35 +58,61 @@ export function BenefitsSection() {
           {/* Comparison Cards */}
           <div className='grid md:grid-cols-2 gap-8 mb-12'>
             {/* Our Program */}
-            <div className='bg-gradient-to-br from-emerald-50 to-green-50 p-8 rounded-xl border-2 border-emerald-200 shadow-lg hover:shadow-xl transition-shadow'>
-              <h3 className='text-2xl font-bold text-emerald-700 mb-6 flex items-center gap-2'>
-                <Check className='w-7 h-7' />
-                Our Cash Offer Program
-              </h3>
-              <ul className='space-y-4'>
-                {ourBenefits.map((benefit, index) => (
-                  <li key={index} className='flex items-start gap-3'>
-                    <Check className='w-5 h-5 text-emerald-600 mt-1 flex-shrink-0' />
-                    <span className='text-gray-800 font-medium'>{benefit}</span>
-                  </li>
-                ))}
-              </ul>
+            <div className='rounded-xl border-2 border-emerald-200 shadow-lg hover:shadow-xl transition-shadow overflow-hidden'>
+              {/* Image */}
+              <div className='relative h-56 w-full'>
+                <Image
+                  src='https://images.pexels.com/photos/7414960/pexels-photo-7414960.jpeg'
+                  alt='Happy family in their new home'
+                  fill
+                  className='object-cover'
+                />
+              </div>
+              
+              {/* Content */}
+              <div className='bg-gradient-to-br from-emerald-50 to-green-50 p-8'>
+                <h3 className='text-2xl font-bold text-emerald-700 mb-6 flex items-center gap-2'>
+                  <Check className='w-7 h-7' />
+                  Our Cash Offer Program
+                </h3>
+                <ul className='space-y-3'>
+                  {ourBenefits.map((benefit, index) => (
+                    <li key={index} className='flex items-start gap-3'>
+                      <Check className='w-5 h-5 text-emerald-600 mt-1 flex-shrink-0' />
+                      <span className='text-gray-800 font-medium text-sm'>{benefit}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </div>
 
             {/* Traditional Way */}
-            <div className='bg-gradient-to-br from-gray-50 to-red-50 p-8 rounded-xl border-2 border-gray-200 shadow-lg hover:shadow-xl transition-shadow'>
-              <h3 className='text-2xl font-bold text-gray-700 mb-6 flex items-center gap-2'>
-                <X className='w-7 h-7' />
-                The Traditional Way / Agent
-              </h3>
-              <ul className='space-y-4'>
-                {traditionalWayProblems.map((problem, index) => (
-                  <li key={index} className='flex items-start gap-3'>
-                    <X className='w-5 h-5 text-red-600 mt-1 flex-shrink-0' />
-                    <span className='text-gray-800 font-medium'>{problem}</span>
-                  </li>
-                ))}
-              </ul>
+            <div className='rounded-xl border-2 border-gray-200 shadow-lg hover:shadow-xl transition-shadow overflow-hidden'>
+              {/* Image */}
+              <div className='relative h-56 w-full'>
+                <Image
+                  src='https://images.pexels.com/photos/8962573/pexels-photo-8962573.jpeg'
+                  alt='Traditional real estate process'
+                  fill
+                  className='object-cover'
+                />
+              </div>
+              
+              {/* Content */}
+              <div className='bg-gradient-to-br from-gray-50 to-red-50 p-8'>
+                <h3 className='text-2xl font-bold text-gray-700 mb-6 flex items-center gap-2'>
+                  <X className='w-7 h-7' />
+                  The Traditional Way / Agent
+                </h3>
+                <ul className='space-y-3'>
+                  {traditionalWayProblems.map((problem, index) => (
+                    <li key={index} className='flex items-start gap-3'>
+                      <X className='w-5 h-5 text-red-600 mt-1 flex-shrink-0' />
+                      <span className='text-gray-800 font-medium text-sm'>{problem}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </div>
           </div>
 
