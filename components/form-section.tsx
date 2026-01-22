@@ -92,30 +92,30 @@ export function FormSection() {
   }
 
   return (
-    <section ref={sectionRef} id='form-section' className='py-20 bg-gradient-to-b from-white to-gray-50'>
+    <section ref={sectionRef} id='form-section' className='py-20 bg-white'>
       <div className='container mx-auto px-4'>
-        <div className='max-w-3xl mx-auto'>
-          <div className='text-center mb-12'>
+        <div className='max-w-4xl mx-auto'>
+          <div className='text-center mb-16'>
             {step === 2 && (
-              <div className='inline-block bg-blue-50 px-4 py-2 rounded-full mb-4'>
-                <p className='text-sm font-semibold text-blue-600'>Step {step} of 2</p>
+              <div className='inline-block bg-red-50 px-4 py-2 rounded-full mb-4'>
+                <p className='text-sm font-semibold text-red-600'>Step {step} of 2</p>
               </div>
             )}
             <h2 className='text-4xl sm:text-5xl font-bold text-gray-900 mb-4'>
               {step === 1
-                ? 'Get Your No-Obligation Cash Offer Today!'
-                : 'Help Us Learn More About Your Property'}
+                ? 'Get Your Free Cash Offer Today!'
+                : 'Tell Us About Your Property'}
             </h2>
             <p className='text-lg text-gray-700'>
               {step === 1
-                ? 'Fill out the form below and we\'ll get back to you within 24 hours.'
-                : 'Just a few more questions to help us provide you with your options and a cash offer.'}
+                ? 'No obligations. We\'ll respond within 24 hours with a fair cash offer.'
+                : 'Help us understand your situation so we can provide the best offer.'}
             </p>
           </div>
 
-          <div className='grid md:grid-cols-2 gap-12'>
+          <div className='grid md:grid-cols-3 gap-12 items-stretch'>
             {/* Form */}
-            <div className='bg-white p-8 rounded-xl border border-gray-200 shadow-lg'>
+            <div className='md:col-span-2 bg-white p-10 rounded-xl border-2 border-red-200 shadow-lg'>
               {submitted ? (
                 <div className='text-center py-8'>
                   <div className='inline-block p-4 bg-emerald-100 rounded-full mb-4'>
