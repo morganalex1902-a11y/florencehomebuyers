@@ -39,7 +39,7 @@ export function Header() {
         <div className='flex items-center justify-between'>
           {/* Logo */}
           <Link href='/' className='flex items-center gap-2 hover:opacity-80 transition-opacity'>
-            <Home className='w-6 h-6 text-emerald-600' />
+            <Home className='w-6 h-6 text-red-600' />
             <div className='flex flex-col'>
               <span className='font-bold text-sm text-gray-900'>Florence Home Buyers</span>
               <span className='text-xs text-gray-600'>by Jeffreys Residences</span>
