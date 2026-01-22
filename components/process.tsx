@@ -74,16 +74,25 @@ export function ProcessSection() {
               <div
                 key={index}
                 data-animate
-                className='opacity-0 group bg-gray-50 p-8 rounded-xl border border-gray-200 hover:shadow-lg hover:border-emerald-200 transition-all duration-300 hover:-translate-y-1'
+                className='opacity-0 group bg-white p-6 rounded-xl border border-gray-200 hover:shadow-lg hover:border-emerald-200 transition-all duration-300 hover:-translate-y-1 overflow-hidden'
               >
-                <div className='flex items-center gap-4 mb-6'>
-                  <div className='w-14 h-14 bg-gradient-to-br from-emerald-500 to-emerald-600 rounded-lg flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform'>
-                    <Icon className='w-7 h-7 text-white' />
-                  </div>
-                  <div className='text-4xl font-bold text-emerald-200'>{index + 1}</div>
+                {/* Image */}
+                <div className='mb-4 -mx-6 -mt-6'>
+                  <img
+                    src={step.image}
+                    alt={step.title}
+                    className='w-full h-40 object-cover rounded-t-xl group-hover:scale-105 transition-transform duration-300'
+                  />
                 </div>
-                <h3 className='text-xl font-bold text-gray-900 mb-4'>{step.title}</h3>
-                <p className='text-gray-700 leading-relaxed'>{step.description}</p>
+
+                <div className='flex items-center gap-4 mb-4'>
+                  <div className='w-12 h-12 bg-gradient-to-br from-emerald-500 to-emerald-600 rounded-lg flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform'>
+                    <Icon className='w-6 h-6 text-white' />
+                  </div>
+                  <div className='text-3xl font-bold text-emerald-200'>{index + 1}</div>
+                </div>
+                <h3 className='text-lg font-bold text-gray-900 mb-3'>{step.title}</h3>
+                <p className='text-sm text-gray-700 leading-relaxed'>{step.description}</p>
               </div>
             )
           })}
