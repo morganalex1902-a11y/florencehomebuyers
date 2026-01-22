@@ -12,48 +12,48 @@ import { FloatingCTA } from '@/components/floating-cta'
 import { MapPin } from 'lucide-react'
 
 export const metadata = {
-  title: 'Sell My House Fast Karachi - Florence Home Buyers',
-  description: 'Get a fair cash offer for your house in Karachi within 24 hours. No fees, no commissions. Sell on your terms with Florence Home Buyers.',
+  title: 'Sell My House Fast Denver - Florence Home Buyers',
+  description: 'Get a fair cash offer for your house in Denver, Colorado within 24 hours. No fees, no commissions. Sell on your terms with Florence Home Buyers.',
 }
 
-const KARACHI_NEIGHBORHOODS = [
-  'Clifton',
-  'Defence',
-  'Gulshan-e-Iqbal',
-  'Bagh-e-Jinnah',
-  'Gulistan-e-Johar',
-  'Zamzama',
-  'North Karachi',
-  'Pakora',
-  'Gulberg',
-  'Sea View',
-  'Malir',
-  'Karim Abad',
+const DENVER_NEIGHBORHOODS = [
+  'Cherry Creek',
+  'Capitol Hill',
+  'South Denver',
+  'Highlands',
+  'Lakewood',
+  'Boulder',
+  'Westminster',
+  'Broomfield',
+  'Aurora',
+  'Littleton',
+  'Arvada',
+  'Fort Collins',
 ]
 
-export default function KarachiPage() {
+export default function DenverPage() {
   return (
     <main className='w-full min-h-screen bg-white'>
       <Header />
 
-      {/* Hero Section - Customized for Karachi */}
+      {/* Hero Section - Customized for Denver */}
       <section className='relative min-h-[500px] bg-gradient-to-br from-emerald-50 via-blue-50 to-white py-12 flex items-center'>
         <div className='container mx-auto px-4'>
           <div className='max-w-3xl'>
             <h1 className='text-4xl md:text-6xl font-bold text-gray-900 mb-4'>
-              Sell My House Fast <span className='text-emerald-600'>Karachi</span>
+              Sell My House Fast <span className='text-emerald-600'>Denver</span>
             </h1>
 
             <div className='bg-white border-l-4 border-emerald-600 p-6 rounded-r-lg mb-8 shadow-sm'>
-              <h2 className='text-2xl font-bold text-gray-900 mb-3'>We Buy Houses Karachi</h2>
+              <h2 className='text-2xl font-bold text-gray-900 mb-3'>We Buy Houses Denver</h2>
               <p className='text-lg text-gray-700 mb-3'>
-                Get A Fair Cash Offer From A Trusted Local Karachi Cash Home Buyer – Sell On The Date You Pick. <span className='text-emerald-600 font-bold'>100% FREE!</span>
+                Get A Fair Cash Offer From A Trusted Local Denver Cash Home Buyer – Sell On The Date You Pick. <span className='text-emerald-600 font-bold'>100% FREE!</span>
               </p>
 
               <div className='space-y-3 mb-6'>
                 <div className='flex items-center gap-3'>
                   <span className='text-emerald-600 font-bold text-lg'>✓</span>
-                  <span className='text-gray-700 font-semibold'>Sell Your House As-Is In Karachi And Pay No Agent Fees</span>
+                  <span className='text-gray-700 font-semibold'>Sell Your House As-Is In Denver And Pay No Agent Fees</span>
                 </div>
                 <div className='flex items-center gap-3'>
                   <span className='text-emerald-600 font-bold text-lg'>✓</span>
@@ -62,7 +62,7 @@ export default function KarachiPage() {
               </div>
 
               <p className='text-gray-700 mb-6 leading-relaxed'>
-                <strong>We solve problems – fast, easy, hassle-free.</strong> Trusted local buyers by Jeffreys Residences. We've been buying houses in Karachi for over a decade. When you need to sell your Karachi home quickly, fairly, and without the stress of listing, Florence Home Buyers is here for you.
+                <strong>We solve problems – fast, easy, hassle-free.</strong> Trusted local buyers by Jeffreys Residences. We've been buying houses in Denver for over a decade. When you need to sell your Denver home quickly, fairly, and without the stress of listing, Florence Home Buyers is here for you.
               </p>
 
               <div className='flex flex-col sm:flex-row gap-4'>
@@ -83,14 +83,14 @@ export default function KarachiPage() {
         <div className='container mx-auto px-4'>
           <h2 className='text-3xl font-bold text-gray-900 mb-4 flex items-center gap-2'>
             <MapPin className='w-8 h-8 text-emerald-600' />
-            We Buy Houses in These Karachi Neighborhoods
+            We Buy Houses in These Denver Neighborhoods
           </h2>
           <p className='text-gray-700 mb-8 max-w-2xl'>
-            We serve all of Karachi and the surrounding areas. If you don't see your neighborhood listed below, don't worry — we likely still serve your area. Contact us to confirm.
+            We serve all of Denver and the surrounding metropolitan areas. If you don't see your neighborhood listed below, don't worry — we likely still serve your area. Contact us to confirm.
           </p>
 
           <div className='grid md:grid-cols-3 gap-4'>
-            {KARACHI_NEIGHBORHOODS.map((neighborhood) => (
+            {DENVER_NEIGHBORHOODS.map((neighborhood) => (
               <div
                 key={neighborhood}
                 className='bg-white border border-gray-200 rounded-lg p-4 text-center hover:shadow-md transition-shadow'
@@ -127,21 +127,21 @@ export default function KarachiPage() {
       {/* FAQ Section */}
       <FAQSection />
 
-      {/* Karachi-Specific CTA */}
+      {/* Denver-Specific CTA */}
       <section className='py-16 bg-emerald-600 text-white'>
         <div className='container mx-auto px-4'>
           <div className='grid md:grid-cols-2 gap-12 items-center'>
             <div>
               <h2 className='text-3xl md:text-4xl font-bold mb-6'>
-                Karachi Cash Offer Program
+                Denver Cash Offer Program
               </h2>
               <p className='text-lg mb-6 opacity-90'>
-                Whether you're dealing with a foreclosure, going through a divorce, dealing with difficult tenants, or just need to move quickly, we can help. We understand the Karachi real estate market and we know how to buy houses quickly and fairly.
+                Whether you're dealing with a foreclosure, going through a divorce, dealing with difficult tenants, or just need to move quickly, we can help. We understand the Denver real estate market and we know how to buy houses quickly and fairly.
               </p>
               <ul className='space-y-3 mb-8'>
                 <li className='flex items-start gap-3'>
                   <span className='text-xl font-bold mt-1'>✓</span>
-                  <span>We buy houses in Karachi and surrounding areas</span>
+                  <span>We buy houses in Denver and surrounding areas</span>
                 </li>
                 <li className='flex items-start gap-3'>
                   <span className='text-xl font-bold mt-1'>✓</span>
@@ -164,39 +164,39 @@ export default function KarachiPage() {
             <div className='bg-gradient-to-br from-emerald-400 to-emerald-600 rounded-lg h-96 flex items-center justify-center opacity-50'>
               <div className='text-center'>
                 <MapPin className='w-24 h-24 mx-auto opacity-50' />
-                <p className='text-lg font-semibold mt-4'>Karachi Map Placeholder</p>
+                <p className='text-lg font-semibold mt-4'>Denver Map Placeholder</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Why Karachi Homeowners Choose Us */}
+      {/* Why Denver Homeowners Choose Us */}
       <section className='py-16 bg-white'>
         <div className='container mx-auto px-4'>
           <h2 className='text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12'>
-            Why Karachi Homeowners Choose Florence Home Buyers
+            Why Denver Homeowners Choose Florence Home Buyers
           </h2>
 
           <div className='grid md:grid-cols-2 gap-8'>
             <div className='bg-gradient-to-b from-blue-50 to-transparent p-8 rounded-lg border border-blue-100'>
               <h3 className='text-xl font-bold text-gray-900 mb-4'>Local Expertise</h3>
               <p className='text-gray-700 leading-relaxed'>
-                We know the Karachi real estate market inside and out. We understand the neighborhoods, the property values, and the unique challenges that homeowners in Karachi face. This means we can make fair offers quickly.
+                We know the Denver real estate market inside and out. We understand the neighborhoods, the property values, and the unique challenges that homeowners in Denver face. This means we can make fair offers quickly.
               </p>
             </div>
 
             <div className='bg-gradient-to-b from-emerald-50 to-transparent p-8 rounded-lg border border-emerald-100'>
               <h3 className='text-xl font-bold text-gray-900 mb-4'>Fast Closing</h3>
               <p className='text-gray-700 leading-relaxed'>
-                In Karachi's competitive market, speed matters. We can close in as little as 7 days with our cash offer program. No waiting for financing, no contingencies — just a clean, quick transaction.
+                In Denver's competitive market, speed matters. We can close in as little as 7 days with our cash offer program. No waiting for financing, no contingencies — just a clean, quick transaction.
               </p>
             </div>
 
             <div className='bg-gradient-to-b from-purple-50 to-transparent p-8 rounded-lg border border-purple-100'>
               <h3 className='text-xl font-bold text-gray-900 mb-4'>Fair Market Pricing</h3>
               <p className='text-gray-700 leading-relaxed'>
-                We're not here to lowball or trick anyone. Our offers are based on current Karachi market conditions and the actual condition of your property. You get fair pricing, not a discount we've arbitrarily decided on.
+                We're not here to lowball or trick anyone. Our offers are based on current Denver market conditions and the actual condition of your property. You get fair pricing, not a discount we've arbitrarily decided on.
               </p>
             </div>
 
