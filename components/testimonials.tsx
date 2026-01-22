@@ -87,10 +87,19 @@ export function TestimonialsSection() {
                 "{testimonial.text}"
               </p>
 
-              {/* Author */}
-              <div>
-                <p className='font-bold text-gray-900'>{testimonial.name}</p>
-                <p className='text-sm text-gray-600'>{testimonial.location}</p>
+              {/* Author with Image */}
+              <div className='flex items-center gap-4'>
+                <div className='relative w-14 h-14 flex-shrink-0'>
+                  <img
+                    src={testimonial.image}
+                    alt={testimonial.name}
+                    className='w-full h-full rounded-full object-cover border-2 border-emerald-200'
+                  />
+                </div>
+                <div>
+                  <p className='font-bold text-gray-900'>{testimonial.name}</p>
+                  <p className='text-sm text-gray-600'>{testimonial.location}</p>
+                </div>
               </div>
             </div>
           ))}
