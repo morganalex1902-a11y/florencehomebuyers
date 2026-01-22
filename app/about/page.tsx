@@ -1,0 +1,211 @@
+import { Header } from '@/components/header'
+import { Footer } from '@/components/footer'
+import { TrustedSection } from '@/components/trusted-section'
+import { TestimonialsSection } from '@/components/testimonials'
+import { FormSection } from '@/components/form-section'
+import { FloatingCTA } from '@/components/floating-cta'
+import { Award, Users, Handshake, Heart } from 'lucide-react'
+
+export const metadata = {
+  title: 'About Us - Florence Home Buyers',
+  description: 'Learn about Florence Home Buyers, a trusted local cash home buyer in Karachi with years of experience helping homeowners sell their properties quickly and fairly.',
+}
+
+export default function About() {
+  return (
+    <main className='w-full min-h-screen bg-white'>
+      <Header />
+
+      {/* Hero Section */}
+      <section className='min-h-[400px] bg-gradient-to-br from-emerald-50 to-blue-50 flex items-center justify-center py-12'>
+        <div className='container mx-auto px-4 text-center'>
+          <h1 className='text-4xl md:text-5xl font-bold text-gray-900 mb-6'>
+            About Florence Home Buyers
+          </h1>
+          <p className='text-xl text-gray-700 max-w-2xl mx-auto'>
+            We are Karachi's premier house-buying company, dedicated to helping homeowners in all situations sell their properties quickly, fairly, and with complete peace of mind.
+          </p>
+        </div>
+      </section>
+
+      {/* Our Story */}
+      <section className='py-16 bg-white'>
+        <div className='container mx-auto px-4'>
+          <div className='grid md:grid-cols-2 gap-12 items-center mb-12'>
+            <div>
+              <h2 className='text-3xl md:text-4xl font-bold text-gray-900 mb-6'>Our Story</h2>
+              <p className='text-gray-700 mb-4 leading-relaxed'>
+                Florence Home Buyers was founded with a simple mission: to provide homeowners in Karachi with a fair, honest, and fast alternative to selling through traditional real estate channels.
+              </p>
+              <p className='text-gray-700 mb-4 leading-relaxed'>
+                We understood the pain points homeowners face — the stress of open houses, the uncertainty of market timing, the burden of expensive repairs, and the frustration of agent commissions eating into their proceeds.
+              </p>
+              <p className='text-gray-700 mb-4 leading-relaxed'>
+                That's why we created a different approach. We buy houses directly from homeowners, we pay in cash, and we close on your timeline. No fluff, no games, just straightforward business.
+              </p>
+              <p className='text-gray-700 leading-relaxed'>
+                For over a decade, we've been helping homeowners in Karachi and surrounding areas sell their homes quickly, fairly, and without the hassles of traditional real estate.
+              </p>
+            </div>
+            <div className='bg-gradient-to-br from-emerald-100 to-blue-100 rounded-lg h-96 flex items-center justify-center'>
+              <div className='text-center text-gray-600'>
+                <Users className='w-32 h-32 mx-auto mb-4 opacity-30' />
+                <p className='text-lg'>Team Photo Placeholder</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Our Values */}
+      <section className='py-16 bg-gray-50'>
+        <div className='container mx-auto px-4'>
+          <h2 className='text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12'>
+            Our Core Values
+          </h2>
+
+          <div className='grid md:grid-cols-2 gap-8'>
+            {/* Honesty */}
+            <div className='bg-white p-8 rounded-lg border border-gray-200 hover:shadow-lg transition-shadow'>
+              <div className='flex items-start gap-4 mb-4'>
+                <Award className='w-8 h-8 text-emerald-600 flex-shrink-0 mt-1' />
+                <div>
+                  <h3 className='text-2xl font-bold text-gray-900 mb-3'>Honesty & Integrity</h3>
+                  <p className='text-gray-700 leading-relaxed'>
+                    We believe in transparent communication and fair dealing. We are not always the best option for everyone, and we do our best to point people in the right direction in that case. Your trust is our most valuable asset.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Speed & Efficiency */}
+            <div className='bg-white p-8 rounded-lg border border-gray-200 hover:shadow-lg transition-shadow'>
+              <div className='flex items-start gap-4 mb-4'>
+                <Award className='w-8 h-8 text-blue-600 flex-shrink-0 mt-1' />
+                <div>
+                  <h3 className='text-2xl font-bold text-gray-900 mb-3'>Speed & Efficiency</h3>
+                  <p className='text-gray-700 leading-relaxed'>
+                    We respect your time. That's why we've streamlined our process to get you a fair cash offer within 24 hours, and we can close as quickly as 7 days if that works for you.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Fair Pricing */}
+            <div className='bg-white p-8 rounded-lg border border-gray-200 hover:shadow-lg transition-shadow'>
+              <div className='flex items-start gap-4 mb-4'>
+                <Handshake className='w-8 h-8 text-purple-600 flex-shrink-0 mt-1' />
+                <div>
+                  <h3 className='text-2xl font-bold text-gray-900 mb-3'>Fair Pricing</h3>
+                  <p className='text-gray-700 leading-relaxed'>
+                    We offer competitive cash prices based on current market conditions. No low-ball offers here — we want to do business with you in a way that's fair for everyone.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Customer Care */}
+            <div className='bg-white p-8 rounded-lg border border-gray-200 hover:shadow-lg transition-shadow'>
+              <div className='flex items-start gap-4 mb-4'>
+                <Heart className='w-8 h-8 text-red-600 flex-shrink-0 mt-1' />
+                <div>
+                  <h3 className='text-2xl font-bold text-gray-900 mb-3'>Customer Care</h3>
+                  <p className='text-gray-700 leading-relaxed'>
+                    We care deeply about the satisfaction of the homeowners with whom we work. We are always striving for excellence in everything we do.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Company Stats */}
+      <section className='py-16 bg-white'>
+        <div className='container mx-auto px-4'>
+          <h2 className='text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12'>
+            By The Numbers
+          </h2>
+
+          <div className='grid md:grid-cols-4 gap-8 text-center'>
+            <div className='p-8 bg-gradient-to-b from-emerald-50 to-transparent rounded-lg border border-emerald-100'>
+              <div className='text-4xl md:text-5xl font-bold text-emerald-600 mb-2'>500+</div>
+              <p className='text-gray-700 font-semibold'>Happy Homeowners</p>
+              <p className='text-gray-600 text-sm mt-2'>Families we've helped sell their homes</p>
+            </div>
+
+            <div className='p-8 bg-gradient-to-b from-blue-50 to-transparent rounded-lg border border-blue-100'>
+              <div className='text-4xl md:text-5xl font-bold text-blue-600 mb-2'>10+</div>
+              <p className='text-gray-700 font-semibold'>Years Experience</p>
+              <p className='text-gray-600 text-sm mt-2'>Successfully buying and selling homes</p>
+            </div>
+
+            <div className='p-8 bg-gradient-to-b from-purple-50 to-transparent rounded-lg border border-purple-100'>
+              <div className='text-4xl md:text-5xl font-bold text-purple-600 mb-2'>24</div>
+              <p className='text-gray-700 font-semibold'>Hour Offers</p>
+              <p className='text-gray-600 text-sm mt-2'>Fast fair cash offers on your home</p>
+            </div>
+
+            <div className='p-8 bg-gradient-to-b from-orange-50 to-transparent rounded-lg border border-orange-100'>
+              <div className='text-4xl md:text-5xl font-bold text-orange-600 mb-2'>5★</div>
+              <p className='text-gray-700 font-semibold'>Average Rating</p>
+              <p className='text-gray-600 text-sm mt-2'>Highly rated by our customers</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Community Involvement */}
+      <section className='py-16 bg-gray-50'>
+        <div className='container mx-auto px-4'>
+          <h2 className='text-3xl md:text-4xl font-bold text-center text-gray-900 mb-8'>
+            Community Involvement
+          </h2>
+          <p className='text-center text-gray-700 max-w-2xl mx-auto mb-12'>
+            We believe in giving back to the community we serve. Florence Home Buyers is actively involved in local initiatives and charitable organizations throughout Karachi.
+          </p>
+
+          <div className='grid md:grid-cols-3 gap-8'>
+            <div className='bg-white p-6 rounded-lg border border-gray-200 text-center'>
+              <h4 className='text-xl font-bold text-gray-900 mb-2'>Local Partnerships</h4>
+              <p className='text-gray-600'>We partner with local non-profits to support community development</p>
+            </div>
+            <div className='bg-white p-6 rounded-lg border border-gray-200 text-center'>
+              <h4 className='text-xl font-bold text-gray-900 mb-2'>Charitable Giving</h4>
+              <p className='text-gray-600'>A portion of our business goes to supporting causes in Karachi</p>
+            </div>
+            <div className='bg-white p-6 rounded-lg border border-gray-200 text-center'>
+              <h4 className='text-xl font-bold text-gray-900 mb-2'>Community Events</h4>
+              <p className='text-gray-600'>We sponsor and participate in local events and initiatives</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Trust Badges */}
+      <TrustedSection />
+
+      {/* Testimonials */}
+      <TestimonialsSection />
+
+      {/* Contact CTA */}
+      <section className='py-16 bg-emerald-600 text-white text-center'>
+        <div className='container mx-auto px-4'>
+          <h2 className='text-3xl md:text-4xl font-bold mb-4'>
+            Ready to Sell Your House?
+          </h2>
+          <p className='text-xl mb-8 opacity-90 max-w-2xl mx-auto'>
+            Get your fair cash offer today. It's free, no obligation, and we can have an offer to you within 24 hours.
+          </p>
+          <button className='px-8 py-3 bg-white text-emerald-600 font-bold rounded-lg hover:bg-gray-100 transition-colors text-lg'>
+            Get Your Free Offer
+          </button>
+        </div>
+      </section>
+
+      <FormSection />
+      <Footer />
+      <FloatingCTA />
+    </main>
+  )
+}
