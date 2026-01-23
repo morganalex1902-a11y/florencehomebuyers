@@ -12,8 +12,8 @@ import { FloatingCTA } from '@/components/floating-cta'
 import { MapPin } from 'lucide-react'
 
 export const metadata = {
-  title: 'Sell My House Fast Huntsville - Florence Home Buyers',
-  description: 'Get a fair cash offer for your house in Huntsville, Alabama within 24 hours. No fees, no commissions. Sell on your terms with Florence Home Buyers.',
+  title: 'Sell My House Fast Florence - Florence Home Buyers',
+  description: 'Get a fair cash offer for your house in Florence, Alabama within 24 hours. No fees, no commissions. Sell on your terms with Florence Home Buyers.',
 }
 
 const HUNTSVILLE_AREAS = [
