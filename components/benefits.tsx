@@ -47,7 +47,7 @@ export function BenefitsSection() {
         <div className='max-w-5xl mx-auto'>
           <div className='text-center mb-12'>
             <h2 className='text-4xl sm:text-5xl font-bold text-gray-900 mb-4'>
-              Benefits of Selling Your Huntsville House to{' '}
+              Benefits of Selling Your Florence House to{' '}
               <span className='text-red-600'>Florence Home Buyers</span>
             </h2>
             <p className='text-xl text-gray-700 font-medium'>
