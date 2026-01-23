@@ -61,20 +61,20 @@ export default function About() {
       </section>
 
       {/* Our Values */}
-      <section className='py-16 bg-gray-50'>
+      <section className='py-16 bg-gray-900'>
         <div className='container mx-auto px-4'>
-          <h2 className='text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12'>
+          <h2 className='text-3xl md:text-4xl font-bold text-center text-white mb-12'>
             Our Core Values
           </h2>
 
           <div className='grid md:grid-cols-2 gap-8'>
             {/* Honesty */}
-            <div className='bg-white p-8 rounded-lg border border-gray-200 hover:shadow-lg transition-shadow'>
+            <div className='bg-gray-800 p-8 rounded-lg border border-gray-700 hover:shadow-lg transition-shadow'>
               <div className='flex items-start gap-4 mb-4'>
-                <Award className='w-8 h-8 text-emerald-600 flex-shrink-0 mt-1' />
+                <Award className='w-8 h-8 text-red-500 flex-shrink-0 mt-1' />
                 <div>
-                  <h3 className='text-2xl font-bold text-gray-900 mb-3'>Honesty & Integrity</h3>
-                  <p className='text-gray-700 leading-relaxed'>
+                  <h3 className='text-2xl font-bold text-white mb-3'>Honesty & Integrity</h3>
+                  <p className='text-gray-300 leading-relaxed'>
                     We believe in transparent communication and fair dealing. We are not always the best option for everyone, and we do our best to point people in the right direction in that case. Your trust is our most valuable asset.
                   </p>
                 </div>
@@ -82,12 +82,12 @@ export default function About() {
             </div>
 
             {/* Speed & Efficiency */}
-            <div className='bg-white p-8 rounded-lg border border-gray-200 hover:shadow-lg transition-shadow'>
+            <div className='bg-gray-800 p-8 rounded-lg border border-gray-700 hover:shadow-lg transition-shadow'>
               <div className='flex items-start gap-4 mb-4'>
-                <Award className='w-8 h-8 text-blue-600 flex-shrink-0 mt-1' />
+                <Award className='w-8 h-8 text-red-500 flex-shrink-0 mt-1' />
                 <div>
-                  <h3 className='text-2xl font-bold text-gray-900 mb-3'>Speed & Efficiency</h3>
-                  <p className='text-gray-700 leading-relaxed'>
+                  <h3 className='text-2xl font-bold text-white mb-3'>Speed & Efficiency</h3>
+                  <p className='text-gray-300 leading-relaxed'>
                     We respect your time. That's why we've streamlined our process to get you a fair cash offer within 24 hours, and we can close as quickly as 7 days if that works for you.
                   </p>
                 </div>
@@ -95,12 +95,12 @@ export default function About() {
             </div>
 
             {/* Fair Pricing */}
-            <div className='bg-white p-8 rounded-lg border border-gray-200 hover:shadow-lg transition-shadow'>
+            <div className='bg-gray-800 p-8 rounded-lg border border-gray-700 hover:shadow-lg transition-shadow'>
               <div className='flex items-start gap-4 mb-4'>
-                <Handshake className='w-8 h-8 text-purple-600 flex-shrink-0 mt-1' />
+                <Handshake className='w-8 h-8 text-red-500 flex-shrink-0 mt-1' />
                 <div>
-                  <h3 className='text-2xl font-bold text-gray-900 mb-3'>Fair Pricing</h3>
-                  <p className='text-gray-700 leading-relaxed'>
+                  <h3 className='text-2xl font-bold text-white mb-3'>Fair Pricing</h3>
+                  <p className='text-gray-300 leading-relaxed'>
                     We offer competitive cash prices based on current market conditions. No low-ball offers here — we want to do business with you in a way that's fair for everyone.
                   </p>
                 </div>
@@ -108,12 +108,12 @@ export default function About() {
             </div>
 
             {/* Customer Care */}
-            <div className='bg-white p-8 rounded-lg border border-gray-200 hover:shadow-lg transition-shadow'>
+            <div className='bg-gray-800 p-8 rounded-lg border border-gray-700 hover:shadow-lg transition-shadow'>
               <div className='flex items-start gap-4 mb-4'>
-                <Heart className='w-8 h-8 text-red-600 flex-shrink-0 mt-1' />
+                <Heart className='w-8 h-8 text-red-500 flex-shrink-0 mt-1' />
                 <div>
-                  <h3 className='text-2xl font-bold text-gray-900 mb-3'>Customer Care</h3>
-                  <p className='text-gray-700 leading-relaxed'>
+                  <h3 className='text-2xl font-bold text-white mb-3'>Customer Care</h3>
+                  <p className='text-gray-300 leading-relaxed'>
                     We care deeply about the satisfaction of the homeowners with whom we work. We are always striving for excellence in everything we do.
                   </p>
                 </div>
