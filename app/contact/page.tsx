@@ -86,19 +86,19 @@ export default function Contact() {
       </section>
 
       {/* Hours & Response Time */}
-      <section className='py-16 bg-gray-50'>
+      <section className='py-16 bg-gray-900'>
         <div className='container mx-auto px-4'>
-          <h2 className='text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12'>
+          <h2 className='text-3xl md:text-4xl font-bold text-center text-white mb-12'>
             Hours & Response Times
           </h2>
 
           <div className='grid md:grid-cols-2 gap-8 max-w-3xl mx-auto'>
-            <div className='bg-white border border-gray-200 rounded-lg p-8'>
+            <div className='bg-gray-800 border border-gray-700 rounded-lg p-8'>
               <div className='flex items-center gap-3 mb-6'>
-                <Clock className='w-6 h-6 text-emerald-600' />
-                <h3 className='text-xl font-bold text-gray-900'>Business Hours</h3>
+                <Clock className='w-6 h-6 text-red-500' />
+                <h3 className='text-xl font-bold text-white'>Business Hours</h3>
               </div>
-              <ul className='space-y-3 text-gray-700'>
+              <ul className='space-y-3 text-gray-300'>
                 <li className='flex justify-between'>
                   <span>Monday - Friday:</span>
                   <span className='font-semibold'>9:00 AM - 6:00 PM</span>
@@ -114,12 +114,12 @@ export default function Contact() {
               </ul>
             </div>
 
-            <div className='bg-white border border-gray-200 rounded-lg p-8'>
+            <div className='bg-gray-800 border border-gray-700 rounded-lg p-8'>
               <div className='flex items-center gap-3 mb-6'>
-                <Mail className='w-6 h-6 text-emerald-600' />
-                <h3 className='text-xl font-bold text-gray-900'>Response Times</h3>
+                <Mail className='w-6 h-6 text-red-500' />
+                <h3 className='text-xl font-bold text-white'>Response Times</h3>
               </div>
-              <ul className='space-y-3 text-gray-700'>
+              <ul className='space-y-3 text-gray-300'>
                 <li className='flex justify-between'>
                   <span>Phone Call:</span>
                   <span className='font-semibold'>Same day</span>
