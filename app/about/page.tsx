@@ -131,28 +131,28 @@ export default function About() {
           </h2>
 
           <div className='grid md:grid-cols-4 gap-8 text-center'>
-            <div className='p-8 bg-gradient-to-b from-emerald-50 to-transparent rounded-lg border border-emerald-100'>
-              <div className='text-4xl md:text-5xl font-bold text-emerald-600 mb-2'>500+</div>
-              <p className='text-gray-700 font-semibold'>Happy Homeowners</p>
-              <p className='text-gray-600 text-sm mt-2'>Families we've helped sell their homes</p>
+            <div className='p-8 bg-gray-800 rounded-lg border border-gray-700'>
+              <div className='text-4xl md:text-5xl font-bold text-red-500 mb-2'>500+</div>
+              <p className='text-white font-semibold'>Happy Homeowners</p>
+              <p className='text-gray-400 text-sm mt-2'>Families we've helped sell their homes</p>
             </div>
 
-            <div className='p-8 bg-gradient-to-b from-blue-50 to-transparent rounded-lg border border-blue-100'>
-              <div className='text-4xl md:text-5xl font-bold text-blue-600 mb-2'>10+</div>
-              <p className='text-gray-700 font-semibold'>Years Experience</p>
-              <p className='text-gray-600 text-sm mt-2'>Successfully buying and selling homes</p>
+            <div className='p-8 bg-gray-800 rounded-lg border border-gray-700'>
+              <div className='text-4xl md:text-5xl font-bold text-red-500 mb-2'>10+</div>
+              <p className='text-white font-semibold'>Years Experience</p>
+              <p className='text-gray-400 text-sm mt-2'>Successfully buying and selling homes</p>
             </div>
 
-            <div className='p-8 bg-gradient-to-b from-purple-50 to-transparent rounded-lg border border-purple-100'>
-              <div className='text-4xl md:text-5xl font-bold text-purple-600 mb-2'>24</div>
-              <p className='text-gray-700 font-semibold'>Hour Offers</p>
-              <p className='text-gray-600 text-sm mt-2'>Fast fair cash offers on your home</p>
+            <div className='p-8 bg-gray-800 rounded-lg border border-gray-700'>
+              <div className='text-4xl md:text-5xl font-bold text-red-500 mb-2'>24</div>
+              <p className='text-white font-semibold'>Hour Offers</p>
+              <p className='text-gray-400 text-sm mt-2'>Fast fair cash offers on your home</p>
             </div>
 
-            <div className='p-8 bg-gradient-to-b from-orange-50 to-transparent rounded-lg border border-orange-100'>
-              <div className='text-4xl md:text-5xl font-bold text-orange-600 mb-2'>5★</div>
-              <p className='text-gray-700 font-semibold'>Average Rating</p>
-              <p className='text-gray-600 text-sm mt-2'>Highly rated by our customers</p>
+            <div className='p-8 bg-gray-800 rounded-lg border border-gray-700'>
+              <div className='text-4xl md:text-5xl font-bold text-red-500 mb-2'>5★</div>
+              <p className='text-white font-semibold'>Average Rating</p>
+              <p className='text-gray-400 text-sm mt-2'>Highly rated by our customers</p>
             </div>
           </div>
         </div>
