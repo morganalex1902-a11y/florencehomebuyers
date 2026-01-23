@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import { Phone, Home, Menu, X } from 'lucide-react'
 import Link from 'next/link'
+import { ThemeToggle } from './theme-toggle'
 
 const PHONE_NUMBER = '(256) 762-1898'
 
@@ -68,6 +69,9 @@ export function Header() {
               <Phone className='w-4 h-4 text-red-600 animate-pulse' />
               <span className='font-bold text-red-600'>{PHONE_NUMBER}</span>
             </a>
+
+            {/* Theme Toggle */}
+            <ThemeToggle />
 
             {/* CTA Button */}
             <button
