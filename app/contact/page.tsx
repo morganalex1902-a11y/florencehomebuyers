@@ -27,20 +27,20 @@ export default function Contact() {
       </section>
 
       {/* Contact Information Cards */}
-      <section className='py-16 bg-white'>
+      <section className='py-16 bg-gray-900'>
         <div className='container mx-auto px-4'>
           <div className='grid md:grid-cols-2 gap-8 mb-12'>
             {/* Phone Card */}
-            <div className='bg-gradient-to-br from-blue-50 to-blue-100 border border-blue-200 rounded-lg p-8 text-center'>
-              <Phone className='w-12 h-12 text-blue-600 mx-auto mb-4' />
-              <h3 className='text-2xl font-bold text-gray-900 mb-2'>Call Us</h3>
-              <a href='tel:2567621898' className='text-blue-600 hover:text-blue-700 font-bold text-2xl block mb-4'>
+            <div className='bg-gray-800 border border-gray-700 rounded-lg p-8 text-center'>
+              <Phone className='w-12 h-12 text-red-500 mx-auto mb-4' />
+              <h3 className='text-2xl font-bold text-white mb-2'>Call Us</h3>
+              <a href='tel:2567621898' className='text-red-500 hover:text-red-400 font-bold text-2xl block mb-4'>
               (256) 762-1898
             </a>
-              <p className='text-gray-700'>
+              <p className='text-gray-300'>
                 Call us directly to speak with a specialist about your property.
               </p>
-              <p className='text-sm text-gray-600 mt-4'>
+              <p className='text-sm text-gray-400 mt-4'>
                 Available Monday - Friday, 9 AM - 6 PM
                 <br />
                 Saturday, 10 AM - 4 PM
@@ -48,35 +48,35 @@ export default function Contact() {
             </div>
 
             {/* Email Card */}
-            <div className='bg-gradient-to-br from-emerald-50 to-emerald-100 border border-emerald-200 rounded-lg p-8 text-center'>
-              <Mail className='w-12 h-12 text-emerald-600 mx-auto mb-4' />
-              <h3 className='text-2xl font-bold text-gray-900 mb-2'>Email Us</h3>
-              <a href='mailto:info@florencehomebuyers.com' className='text-emerald-600 hover:text-emerald-700 font-bold text-lg block mb-4'>
+            <div className='bg-gray-800 border border-gray-700 rounded-lg p-8 text-center'>
+              <Mail className='w-12 h-12 text-red-500 mx-auto mb-4' />
+              <h3 className='text-2xl font-bold text-white mb-2'>Email Us</h3>
+              <a href='mailto:info@florencehomebuyers.com' className='text-red-500 hover:text-red-400 font-bold text-lg block mb-4'>
                 info@florencehomebuyers.com
               </a>
-              <p className='text-gray-700'>
+              <p className='text-gray-300'>
                 Send us an email with details about your property and we'll respond quickly.
               </p>
-              <p className='text-sm text-gray-600 mt-4'>
+              <p className='text-sm text-gray-400 mt-4'>
                 We typically respond within 24 hours
               </p>
             </div>
           </div>
 
           {/* Address Card */}
-          <div className='bg-gradient-to-br from-purple-50 to-purple-100 border border-purple-200 rounded-lg p-8 max-w-2xl mx-auto'>
+          <div className='bg-gray-800 border border-gray-700 rounded-lg p-8 max-w-2xl mx-auto'>
             <div className='flex items-start gap-4'>
-              <MapPin className='w-12 h-12 text-purple-600 flex-shrink-0 mt-1' />
+              <MapPin className='w-12 h-12 text-red-500 flex-shrink-0 mt-1' />
               <div>
-                <h3 className='text-2xl font-bold text-gray-900 mb-2'>Visit Us</h3>
-                <p className='text-gray-900 font-semibold'>Florence Home Buyers</p>
-                <p className='text-gray-700'>by Jeffreys Investment Properties</p>
-                <p className='text-gray-700 mt-2'>
+                <h3 className='text-2xl font-bold text-white mb-2'>Visit Us</h3>
+                <p className='text-white font-semibold'>Florence Home Buyers</p>
+                <p className='text-gray-300'>by Jeffreys Investment Properties</p>
+                <p className='text-gray-300 mt-2'>
                   1234 Business Drive
                   <br />
                   Florence, Alabama 35801
                 </p>
-                <p className='text-sm text-gray-600 mt-4'>
+                <p className='text-sm text-gray-400 mt-4'>
                   We're located in the heart of Florence for your convenience. By appointment preferred.
                 </p>
               </div>
