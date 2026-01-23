@@ -124,9 +124,9 @@ export default function About() {
       </section>
 
       {/* Company Stats */}
-      <section className='py-16 bg-white'>
+      <section className='py-16 bg-gray-900'>
         <div className='container mx-auto px-4'>
-          <h2 className='text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12'>
+          <h2 className='text-3xl md:text-4xl font-bold text-center text-white mb-12'>
             By The Numbers
           </h2>
 
