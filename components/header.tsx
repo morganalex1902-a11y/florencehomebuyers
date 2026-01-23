@@ -41,8 +41,8 @@ export function Header() {
           <Link href='/' prefetch={false} className='flex items-center gap-2 hover:opacity-80 transition-opacity'>
             <Home className='w-6 h-6 text-red-600' />
             <div className='flex flex-col'>
-              <span className='font-bold text-sm text-white'>Florence Home Buyers</span>
-              <span className='text-xs text-gray-300'>by Jeffreys Investment Properties</span>
+              <span className='font-bold text-sm text-white drop-shadow-lg'>Florence Home Buyers</span>
+              <span className='text-xs text-gray-200 drop-shadow-md font-semibold'>by Jeffreys Investment Properties</span>
             </div>
           </Link>
 
