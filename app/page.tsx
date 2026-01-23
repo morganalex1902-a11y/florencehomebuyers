@@ -10,7 +10,7 @@ import { FloatingCTA } from '@/components/floating-cta'
 
 export default function Home() {
   return (
-    <main className='w-full min-h-screen bg-white'>
+    <main className='w-full min-h-screen bg-background'>
       <Header />
       <HeroSection />
 
