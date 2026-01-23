@@ -101,12 +101,12 @@ export function FormSection() {
                 <p className='text-sm font-semibold text-red-600'>Step {step} of 2</p>
               </div>
             )}
-            <h2 className='text-4xl sm:text-5xl font-bold text-gray-900 mb-4'>
+            <h2 className='text-4xl sm:text-5xl font-bold text-foreground mb-4'>
               {step === 1
                 ? 'Get Your Free Cash Offer Today!'
                 : 'Tell Us About Your Property'}
             </h2>
-            <p className='text-lg text-gray-700'>
+            <p className='text-lg text-foreground/80'>
               {step === 1
                 ? 'No obligations. We\'ll respond within 24 hours with a fair cash offer.'
                 : 'Help us understand your situation so we can provide the best offer.'}
