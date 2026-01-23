@@ -195,13 +195,13 @@ export default function Contact() {
       <FormSection />
 
       {/* FAQ Link */}
-      <section className='py-16 bg-blue-50 border-t border-blue-100'>
+      <section className='py-16 bg-gray-800 border-t border-gray-700'>
         <div className='container mx-auto px-4 text-center'>
-          <h2 className='text-2xl font-bold text-gray-900 mb-4'>Have Questions First?</h2>
-          <p className='text-gray-700 mb-6'>
+          <h2 className='text-2xl font-bold text-white mb-4'>Have Questions First?</h2>
+          <p className='text-gray-300 mb-6'>
             Check out our comprehensive FAQ to learn more about our process and what to expect.
           </p>
-          <a href='/faq' className='inline-block px-6 py-3 bg-emerald-600 text-white font-bold rounded-lg hover:bg-emerald-700 transition-colors'>
+          <a href='/faq' className='inline-block px-6 py-3 bg-red-600 text-white font-bold rounded-lg hover:bg-red-700 transition-colors'>
             Read Our FAQ
           </a>
         </div>
