@@ -9,12 +9,12 @@ import Image from 'next/image'
 
 export const metadata = {
   title: 'About Us - Florence Home Buyers',
-  description: 'Learn about Florence Home Buyers, a trusted local cash home buyer in Huntsville, Alabama with years of experience helping homeowners sell their properties quickly and fairly.',
+  description: 'Learn about Florence Home Buyers, a trusted local cash home buyer in Florence, Alabama with years of experience helping homeowners sell their properties quickly and fairly.',
 }
 
 export default function About() {
   return (
-    <main className='w-full min-h-screen bg-white'>
+    <main className='w-full min-h-screen bg-background'>
       <Header />
 
       {/* Hero Section */}
@@ -24,7 +24,7 @@ export default function About() {
             About Florence Home Buyers
           </h1>
           <p className='text-xl text-gray-700 max-w-2xl mx-auto'>
-            We are Huntsville's premier house-buying company, dedicated to helping homeowners in all situations sell their properties quickly, fairly, and with complete peace of mind.
+            We are Florence's premier house-buying company, dedicated to helping homeowners in all situations sell their properties quickly, fairly, and with complete peace of mind.
           </p>
         </div>
       </section>
@@ -36,7 +36,7 @@ export default function About() {
             <div>
               <h2 className='text-3xl md:text-4xl font-bold text-gray-900 mb-6'>Our Story</h2>
               <p className='text-gray-700 mb-4 leading-relaxed'>
-                Florence Home Buyers was founded with a simple mission: to provide homeowners in Huntsville, Alabama with a fair, honest, and fast alternative to selling through traditional real estate channels.
+                Florence Home Buyers was founded with a simple mission: to provide homeowners in Florence, Alabama with a fair, honest, and fast alternative to selling through traditional real estate channels.
               </p>
               <p className='text-gray-700 mb-4 leading-relaxed'>
                 We understood the pain points homeowners face — the stress of open houses, the uncertainty of market timing, the burden of expensive repairs, and the frustration of agent commissions eating into their proceeds.
@@ -45,7 +45,7 @@ export default function About() {
                 That's why we created a different approach. We buy houses directly from homeowners, we pay in cash, and we close on your timeline. No fluff, no games, just straightforward business.
               </p>
               <p className='text-gray-700 leading-relaxed'>
-                For over a decade, we've been helping homeowners in Huntsville and surrounding areas sell their homes quickly, fairly, and without the hassles of traditional real estate.
+                For over a decade, we've been helping homeowners in Florence and surrounding areas sell their homes quickly, fairly, and without the hassles of traditional real estate.
               </p>
             </div>
             <div className='relative h-96 rounded-lg overflow-hidden shadow-lg'>
