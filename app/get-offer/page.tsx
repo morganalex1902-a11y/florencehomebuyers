@@ -473,7 +473,7 @@ export default function GetOfferPage() {
                     🏆 Trusted Choice
                   </p>
                   <p className='text-center text-gray-700 font-medium'>
-                    Hundreds of Huntsville homeowners have sold with us
+                    Hundreds of Florence homeowners have sold with us
                   </p>
                   <p className='text-center text-sm text-gray-600 mt-3'>
                     Fast • Fair • Hassle-Free
