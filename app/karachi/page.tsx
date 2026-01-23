@@ -86,7 +86,7 @@ export default function DenverPage() {
             We Buy Houses in These Florence Areas
           </h2>
           <p className='text-gray-700 mb-8 max-w-2xl'>
-            We serve all of Florence and Madison County, Alabama. If you don't see your area listed below, don't worry — we likely still serve your location. Contact us to confirm.
+            We serve all of Florence, Alabama and surrounding areas. If you don't see your area listed below, don't worry — we likely still serve your location. Contact us to confirm.
           </p>
 
           <div className='grid md:grid-cols-3 gap-4'>
