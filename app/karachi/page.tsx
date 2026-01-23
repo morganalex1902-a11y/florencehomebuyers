@@ -101,7 +101,7 @@ export default function DenverPage() {
           </div>
 
           <p className='text-center text-gray-600 mt-8'>
-            ...and many more areas in and around Florence and Madison County, Alabama. If your area isn't listed, please contact us!
+            ...and many more areas in and around Florence, Alabama. If your area isn't listed, please contact us!
           </p>
         </div>
       </section>
