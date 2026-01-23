@@ -25,7 +25,7 @@ export function TrustedSection() {
   }, [])
 
   return (
-    <section ref={sectionRef} className='py-16 sm:py-20 bg-white'>
+    <section ref={sectionRef} className='py-16 sm:py-20 bg-background'>
       <div className='container mx-auto px-4'>
         <div className='max-w-5xl mx-auto'>
           <div className='grid md:grid-cols-2 gap-8 md:gap-12 items-center'>
