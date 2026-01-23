@@ -62,7 +62,7 @@ export default function DenverPage() {
               </div>
 
               <p className='text-gray-700 mb-6 leading-relaxed'>
-                <strong>We solve problems – fast, easy, hassle-free.</strong> Trusted local buyers by Jeffreys Residences. We've been buying houses in Florence for over a decade. When you need to sell your Florence home quickly, fairly, and without the stress of listing, Florence Home Buyers is here for you.
+                <strong>We solve problems – fast, easy, hassle-free.</strong> Trusted local buyers by Jeffreys Investment Properties. We've been buying houses in Florence for over a decade. When you need to sell your Florence home quickly, fairly, and without the stress of listing, Florence Home Buyers is here for you.
               </p>
 
               <div className='flex flex-col sm:flex-row gap-4'>
