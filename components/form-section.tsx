@@ -435,7 +435,7 @@ export function FormSection() {
                           value={formData.ultimateGoal}
                           onChange={handleChange}
                           rows={4}
-                          className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent resize-none'
+                          className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent resize-none placeholder-gray-400'
                           placeholder='Tell us about your goals...'
                         />
                       </div>
