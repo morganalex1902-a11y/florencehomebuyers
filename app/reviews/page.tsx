@@ -191,9 +191,9 @@ export default function Reviews() {
       </section>
 
       {/* Why We Get Good Reviews */}
-      <section className='py-16 bg-gray-50'>
+      <section className='py-16 bg-background'>
         <div className='container mx-auto px-4'>
-          <h2 className='text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12'>
+          <h2 className='text-3xl md:text-4xl font-bold text-center text-foreground mb-12'>
             Why Customers Love Us
           </h2>
 
