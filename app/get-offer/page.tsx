@@ -5,7 +5,7 @@ import { Header } from '@/components/header'
 import { Footer } from '@/components/footer'
 import { CheckCircle, Phone } from 'lucide-react'
 
-const PHONE_NUMBER = '(720) 456-7890'
+const PHONE_NUMBER = '(256) 762-1898'
 
 export default function GetOfferPage() {
   const [step, setStep] = useState(1)
