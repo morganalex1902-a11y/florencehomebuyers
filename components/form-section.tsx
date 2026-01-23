@@ -276,7 +276,7 @@ export function FormSection() {
                           name='zipCode'
                           value={formData.zipCode}
                           onChange={handleChange}
-                          className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+                          className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent placeholder-gray-400'
                           placeholder='Zip Code'
                         />
                       </div>
