@@ -297,8 +297,8 @@ export function FormSection() {
                             name='firstName'
                             value={formData.firstName}
                             onChange={handleChange}
-                            className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
-                          />
+                            className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent placeholder-gray-400'
+                        />
                         </div>
                         <div>
                           <label className='block text-sm font-bold text-white mb-2'>
@@ -309,8 +309,8 @@ export function FormSection() {
                             name='lastName'
                             value={formData.lastName}
                             onChange={handleChange}
-                            className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
-                          />
+                            className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent placeholder-gray-400'
+                        />
                         </div>
                       </div>
 
@@ -323,7 +323,7 @@ export function FormSection() {
                           name='email'
                           value={formData.email}
                           onChange={handleChange}
-                          className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+                          className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent placeholder-gray-400'
                         />
                       </div>
 
@@ -336,7 +336,7 @@ export function FormSection() {
                           name='phone'
                           value={formData.phone}
                           onChange={handleChange}
-                          className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+                          className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent placeholder-gray-400'
                         />
                       </div>
                     </div>
