@@ -55,7 +55,7 @@ export function TestimonialsSection() {
   }
 
   return (
-    <section ref={sectionRef} className='py-20 bg-white'>
+    <section ref={sectionRef} className='py-20 bg-background'>
       <div className='container mx-auto px-4'>
         <div className='max-w-4xl mx-auto text-center mb-16'>
           <h2 className='text-4xl sm:text-5xl font-bold text-gray-900 mb-4'>
@@ -83,7 +83,7 @@ export function TestimonialsSection() {
             </div>
 
             {/* Center Card */}
-            <div className='bg-red-700 text-white rounded-lg p-8 flex flex-col justify-center shadow-lg h-64 md:h-80'>
+            <div className='bg-primary text-white rounded-lg p-8 flex flex-col justify-center shadow-lg h-64 md:h-80'>
               <p className='text-lg leading-relaxed mb-6 italic'>
                 "{testimonials[currentIndex].text}"
               </p>
