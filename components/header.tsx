@@ -52,6 +52,7 @@ export function Header() {
               <Link
                 key={link.href}
                 href={link.href}
+                prefetch={false}
                 className='text-gray-200 hover:text-red-600 font-semibold text-sm transition-colors'
               >
                 {link.label}
