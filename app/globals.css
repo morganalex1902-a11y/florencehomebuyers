@@ -4,45 +4,45 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* Light backgrounds - trust & cleanliness */
-  --background: #FFFFFF;
-  --foreground: #111827;
-  --card: #FFFFFF;
-  --card-foreground: #374151;
-  
-  /* Accents */
-  --primary: #10B981;
+  /* Dark backgrounds - black background with dark grey text */
+  --background: #000000;
+  --foreground: #333333;
+  --card: #111111;
+  --card-foreground: #CCCCCC;
+
+  /* Accents - blue buttons */
+  --primary: #0066CC;
   --primary-foreground: #FFFFFF;
-  --accent: #1E40AF;
+  --accent: #0052A3;
   --accent-foreground: #FFFFFF;
-  
+
   /* Neutral tones */
-  --secondary: #F9FAFB;
-  --secondary-foreground: #374151;
-  --muted: #F3F4F6;
-  --muted-foreground: #6B7280;
-  
+  --secondary: #1A1A1A;
+  --secondary-foreground: #999999;
+  --muted: #222222;
+  --muted-foreground: #777777;
+
   /* UI Elements */
-  --border: #E5E7EB;
-  --input: #F3F4F6;
-  --ring: #10B981;
-  
+  --border: #333333;
+  --input: #1A1A1A;
+  --ring: #0066CC;
+
   /* Charts & misc */
-  --chart-1: #10B981;
-  --chart-2: #1E40AF;
-  --chart-3: #F59E0B;
-  --chart-4: #8B5CF6;
-  --chart-5: #EC4899;
-  
+  --chart-1: #0066CC;
+  --chart-2: #0052A3;
+  --chart-3: #0099FF;
+  --chart-4: #003D7A;
+  --chart-5: #0080CC;
+
   --radius: 0.5rem;
-  --sidebar: #FFFFFF;
-  --sidebar-foreground: #111827;
-  --sidebar-primary: #10B981;
+  --sidebar: #111111;
+  --sidebar-foreground: #CCCCCC;
+  --sidebar-primary: #0066CC;
   --sidebar-primary-foreground: #FFFFFF;
-  --sidebar-accent: #F9FAFB;
-  --sidebar-accent-foreground: #111827;
-  --sidebar-border: #E5E7EB;
-  --sidebar-ring: #10B981;
+  --sidebar-accent: #1A1A1A;
+  --sidebar-accent-foreground: #CCCCCC;
+  --sidebar-border: #333333;
+  --sidebar-ring: #0066CC;
 }
 
 .dark {
