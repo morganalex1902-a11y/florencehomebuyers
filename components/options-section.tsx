@@ -81,7 +81,7 @@ export function OptionsSection() {
             Selling To Florence Home Buyers vs The Alternatives
           </h2>
           <p className='text-xl text-gray-700'>
-            See why Huntsville homeowners choose the cash buyer route.
+            See why Florence homeowners choose the cash buyer route.
           </p>
         </div>
 
