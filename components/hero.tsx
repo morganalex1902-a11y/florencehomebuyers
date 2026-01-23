@@ -31,7 +31,7 @@ export function HeroSection() {
       {/* Background Image with Overlay */}
       <Image
         src='https://images.pexels.com/photos/17174768/pexels-photo-17174768.jpeg'
-        alt='Beautiful Huntsville home'
+        alt='Beautiful Florence home'
         fill
         className='object-cover'
         priority
