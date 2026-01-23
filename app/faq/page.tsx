@@ -115,15 +115,15 @@ export default function FAQ() {
             {faqItems.map((item, index) => (
               <details
                 key={item.id}
-                className='group border border-border rounded-lg overflow-hidden hover:border-primary transition-colors'
+                className='group border border-gray-700 rounded-lg overflow-hidden hover:border-red-600 transition-colors'
                 open={index === 0}
               >
-                <summary className='flex items-center justify-between px-6 py-4 cursor-pointer bg-card hover:bg-card transition-colors'>
-                  <h3 className='text-lg font-bold text-foreground pr-4'>{item.question}</h3>
-                  <ChevronDown className='w-5 h-5 text-muted-foreground flex-shrink-0 group-open:rotate-180 transition-transform' />
+                <summary className='flex items-center justify-between px-6 py-4 cursor-pointer bg-gray-900 hover:bg-gray-800 transition-colors'>
+                  <h3 className='text-lg font-bold text-white pr-4'>{item.question}</h3>
+                  <ChevronDown className='w-5 h-5 text-gray-400 flex-shrink-0 group-open:rotate-180 transition-transform' />
                 </summary>
-                <div className='px-6 py-4 bg-card border-t border-border'>
-                  <p className='text-foreground leading-relaxed'>{item.answer}</p>
+                <div className='px-6 py-4 bg-gray-800 border-t border-gray-700'>
+                  <p className='text-gray-300 leading-relaxed'>{item.answer}</p>
                 </div>
               </details>
             ))}
