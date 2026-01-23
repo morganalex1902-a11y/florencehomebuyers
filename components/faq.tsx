@@ -83,7 +83,7 @@ export function FAQSection() {
               >
                 <button
                   onClick={() => setOpenIndex(openIndex === index ? null : index)}
-                  className='w-full flex items-center justify-between p-6 bg-gray-800 hover:bg-gray-750 transition-colors text-left'
+                  className='w-full flex items-center justify-between p-6 bg-gray-800 hover:bg-gray-800/80 transition-colors text-left'
                 >
                   <span className='font-bold text-white text-lg'>
                     {faq.question}
@@ -96,7 +96,7 @@ export function FAQSection() {
                 </button>
 
                 {openIndex === index && (
-                  <div className='px-6 pb-6 bg-gray-750 border-t border-gray-700'>
+                  <div className='px-6 pb-6 bg-gray-900 border-t border-gray-700'>
                     <p className='text-gray-200 leading-relaxed'>{faq.answer}</p>
                   </div>
                 )}
