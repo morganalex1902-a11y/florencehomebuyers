@@ -138,85 +138,85 @@ export default function HowItWorks() {
       </section>
 
       {/* Why Choose Cash Buyer */}
-      <section className='py-16 bg-gray-50'>
+      <section className='py-16 bg-gray-900'>
         <div className='container mx-auto px-4'>
-          <h2 className='text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12'>
+          <h2 className='text-3xl md:text-4xl font-bold text-center text-white mb-12'>
             Why Choose a Cash Home Buyer?
           </h2>
 
           <div className='grid md:grid-cols-2 gap-12 mb-12'>
             <div>
-              <h3 className='text-2xl font-bold text-gray-900 mb-6'>Save Time & Money</h3>
+              <h3 className='text-2xl font-bold text-white mb-6'>Save Time & Money</h3>
               <ul className='space-y-4'>
                 <li className='flex gap-4'>
-                  <CheckCircle className='w-6 h-6 text-red-600 flex-shrink-0' />
+                  <CheckCircle className='w-6 h-6 text-red-500 flex-shrink-0' />
                   <div>
-                    <h4 className='font-bold text-gray-900'>No Agent Fees</h4>
-                    <p className='text-gray-600 text-sm'>Save up to 6% in real estate commissions</p>
+                    <h4 className='font-bold text-white'>No Agent Fees</h4>
+                    <p className='text-gray-400 text-sm'>Save up to 6% in real estate commissions</p>
                   </div>
                 </li>
                 <li className='flex gap-4'>
-                  <CheckCircle className='w-6 h-6 text-red-600 flex-shrink-0' />
+                  <CheckCircle className='w-6 h-6 text-red-500 flex-shrink-0' />
                   <div>
-                    <h4 className='font-bold text-gray-900'>Fast Timeline</h4>
-                    <p className='text-gray-600 text-sm'>Close in as few as 7 days, not 30-90 days</p>
+                    <h4 className='font-bold text-white'>Fast Timeline</h4>
+                    <p className='text-gray-400 text-sm'>Close in as few as 7 days, not 30-90 days</p>
                   </div>
                 </li>
                 <li className='flex gap-4'>
-                  <CheckCircle className='w-6 h-6 text-red-600 flex-shrink-0' />
+                  <CheckCircle className='w-6 h-6 text-red-500 flex-shrink-0' />
                   <div>
-                    <h4 className='font-bold text-gray-900'>No Repairs Needed</h4>
-                    <p className='text-gray-600 text-sm'>Sell your house as-is without costly renovations</p>
+                    <h4 className='font-bold text-white'>No Repairs Needed</h4>
+                    <p className='text-gray-400 text-sm'>Sell your house as-is without costly renovations</p>
                   </div>
                 </li>
                 <li className='flex gap-4'>
-                  <CheckCircle className='w-6 h-6 text-red-600 flex-shrink-0' />
+                  <CheckCircle className='w-6 h-6 text-red-500 flex-shrink-0' />
                   <div>
-                    <h4 className='font-bold text-gray-900'>Certainty of Sale</h4>
-                    <p className='text-gray-600 text-sm'>All-cash offer means no financing falling through</p>
+                    <h4 className='font-bold text-white'>Certainty of Sale</h4>
+                    <p className='text-gray-400 text-sm'>All-cash offer means no financing falling through</p>
                   </div>
                 </li>
               </ul>
             </div>
 
             <div>
-              <h3 className='text-2xl font-bold text-gray-900 mb-6'>Flexibility & Peace of Mind</h3>
+              <h3 className='text-2xl font-bold text-white mb-6'>Flexibility & Peace of Mind</h3>
               <ul className='space-y-4'>
                 <li className='flex gap-4'>
-                  <CheckCircle className='w-6 h-6 text-red-600 flex-shrink-0' />
+                  <CheckCircle className='w-6 h-6 text-red-500 flex-shrink-0' />
                   <div>
-                    <h4 className='font-bold text-gray-900'>You Choose the Close Date</h4>
-                    <p className='text-gray-600 text-sm'>We work around your schedule and timeline</p>
+                    <h4 className='font-bold text-white'>You Choose the Close Date</h4>
+                    <p className='text-gray-400 text-sm'>We work around your schedule and timeline</p>
                   </div>
                 </li>
                 <li className='flex gap-4'>
-                  <CheckCircle className='w-6 h-6 text-red-600 flex-shrink-0' />
+                  <CheckCircle className='w-6 h-6 text-red-500 flex-shrink-0' />
                   <div>
-                    <h4 className='font-bold text-gray-900'>No Showings</h4>
-                    <p className='text-gray-600 text-sm'>No strangers through your home, no disruption</p>
+                    <h4 className='font-bold text-white'>No Showings</h4>
+                    <p className='text-gray-400 text-sm'>No strangers through your home, no disruption</p>
                   </div>
                 </li>
                 <li className='flex gap-4'>
-                  <CheckCircle className='w-6 h-6 text-red-600 flex-shrink-0' />
+                  <CheckCircle className='w-6 h-6 text-red-500 flex-shrink-0' />
                   <div>
-                    <h4 className='font-bold text-gray-900'>Fair Market Offer</h4>
-                    <p className='text-gray-600 text-sm'>Get a competitive offer based on current market conditions</p>
+                    <h4 className='font-bold text-white'>Fair Market Offer</h4>
+                    <p className='text-gray-400 text-sm'>Get a competitive offer based on current market conditions</p>
                   </div>
                 </li>
                 <li className='flex gap-4'>
-                  <CheckCircle className='w-6 h-6 text-red-600 flex-shrink-0' />
+                  <CheckCircle className='w-6 h-6 text-red-500 flex-shrink-0' />
                   <div>
-                    <h4 className='font-bold text-gray-900'>No Hidden Costs</h4>
-                    <p className='text-gray-600 text-sm'>Transparent pricing with no surprise fees at closing</p>
+                    <h4 className='font-bold text-white'>No Hidden Costs</h4>
+                    <p className='text-gray-400 text-sm'>Transparent pricing with no surprise fees at closing</p>
                   </div>
                 </li>
               </ul>
             </div>
           </div>
 
-          <div className='bg-red-50 border-l-4 border-red-600 p-6 rounded-r-lg'>
-            <h4 className='font-bold text-gray-900 mb-2'>Not Sure If This Is Right For You?</h4>
-            <p className='text-gray-700'>
+          <div className='bg-red-900 border-l-4 border-red-500 p-6 rounded-r-lg'>
+            <h4 className='font-bold text-white mb-2'>Not Sure If This Is Right For You?</h4>
+            <p className='text-gray-300'>
               We're not always the best option for everyone, and we do our best to point people in the right direction in that case. If selling to a cash buyer isn't the right fit, we'll be honest with you about it.
             </p>
           </div>
