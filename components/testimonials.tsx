@@ -58,10 +58,10 @@ export function TestimonialsSection() {
     <section ref={sectionRef} className='py-20 bg-background'>
       <div className='container mx-auto px-4'>
         <div className='max-w-4xl mx-auto text-center mb-16'>
-          <h2 className='text-4xl sm:text-5xl font-bold text-gray-900 mb-4'>
+          <h2 className='text-4xl sm:text-5xl font-bold text-white mb-4'>
             Real Clients. Real Reviews.
           </h2>
-          <p className='text-xl text-gray-700'>
+          <p className='text-xl text-gray-200'>
             Hear from homeowners who have trusted us with their properties.
           </p>
         </div>
@@ -111,9 +111,9 @@ export function TestimonialsSection() {
           <div className='flex items-center justify-center gap-6'>
             <button
               onClick={prevSlide}
-              className='p-2 border-2 border-gray-300 rounded-full hover:border-red-600 hover:bg-red-50 transition-all'
+              className='p-2 border-2 border-gray-600 rounded-full hover:border-red-600 hover:bg-red-900 transition-all'
             >
-              <ChevronLeft className='w-6 h-6 text-gray-600 hover:text-red-600' />
+              <ChevronLeft className='w-6 h-6 text-gray-300 hover:text-red-400' />
             </button>
 
             <div className='flex gap-2'>
@@ -122,7 +122,7 @@ export function TestimonialsSection() {
                   key={index}
                   onClick={() => setCurrentIndex(index)}
                   className={`w-2 h-2 rounded-full transition-all ${
-                    index === currentIndex ? 'bg-red-600 w-6' : 'bg-gray-300'
+                    index === currentIndex ? 'bg-red-600 w-6' : 'bg-gray-600'
                   }`}
                 />
               ))}
@@ -130,9 +130,9 @@ export function TestimonialsSection() {
 
             <button
               onClick={nextSlide}
-              className='p-2 border-2 border-gray-300 rounded-full hover:border-red-600 hover:bg-red-50 transition-all'
+              className='p-2 border-2 border-gray-600 rounded-full hover:border-red-600 hover:bg-red-900 transition-all'
             >
-              <ChevronRight className='w-6 h-6 text-gray-600 hover:text-red-600' />
+              <ChevronRight className='w-6 h-6 text-gray-300 hover:text-red-400' />
             </button>
           </div>
         </div>

@@ -35,16 +35,16 @@ export function TrustedSection() {
                 <div className='w-16 h-16 rounded-lg bg-gradient-to-br from-red-500 to-red-600 flex items-center justify-center shadow-lg'>
                   <Home className='w-8 h-8 text-white' />
                 </div>
-                <h2 className='text-4xl sm:text-5xl font-bold text-gray-900'>
+                <h2 className='text-4xl sm:text-5xl font-bold text-white'>
                   We Buy Houses Fast
                 </h2>
               </div>
 
-              <p className='text-lg text-gray-700 leading-relaxed mb-8'>
+              <p className='text-lg text-gray-200 leading-relaxed mb-8'>
                 Florence Home Buyers is committed to providing fair cash offers for your home, regardless of its current condition. Whether you're facing foreclosure, need to relocate quickly, or have an inherited property, we offer a straightforward solution without the typical hassles of traditional real estate sales.
               </p>
 
-              <p className='text-gray-700 leading-relaxed mb-8'>
+              <p className='text-gray-200 leading-relaxed mb-8'>
                 Our team handles all the paperwork, inspections, and closing costs so you can focus on what matters most. We pride ourselves on transparency and integrity in every transaction.
               </p>
 
