@@ -159,27 +159,27 @@ export default function About() {
       </section>
 
       {/* Community Involvement */}
-      <section className='py-16 bg-gray-50'>
+      <section className='py-16 bg-gray-900'>
         <div className='container mx-auto px-4'>
-          <h2 className='text-3xl md:text-4xl font-bold text-center text-gray-900 mb-8'>
+          <h2 className='text-3xl md:text-4xl font-bold text-center text-white mb-8'>
             Community Involvement
           </h2>
-          <p className='text-center text-gray-700 max-w-2xl mx-auto mb-12'>
+          <p className='text-center text-gray-300 max-w-2xl mx-auto mb-12'>
             We believe in giving back to the community we serve. Florence Home Buyers is actively involved in local initiatives and charitable organizations throughout Huntsville and Madison County.
           </p>
 
           <div className='grid md:grid-cols-3 gap-8'>
-            <div className='bg-white p-6 rounded-lg border border-gray-200 text-center'>
-              <h4 className='text-xl font-bold text-gray-900 mb-2'>Local Partnerships</h4>
-              <p className='text-gray-600'>We partner with local non-profits to support community development</p>
+            <div className='bg-gray-800 p-6 rounded-lg border border-gray-700 text-center'>
+              <h4 className='text-xl font-bold text-white mb-2'>Local Partnerships</h4>
+              <p className='text-gray-400'>We partner with local non-profits to support community development</p>
             </div>
-            <div className='bg-white p-6 rounded-lg border border-gray-200 text-center'>
-              <h4 className='text-xl font-bold text-gray-900 mb-2'>Charitable Giving</h4>
-              <p className='text-gray-600'>A portion of our business goes to supporting causes in Huntsville</p>
+            <div className='bg-gray-800 p-6 rounded-lg border border-gray-700 text-center'>
+              <h4 className='text-xl font-bold text-white mb-2'>Charitable Giving</h4>
+              <p className='text-gray-400'>A portion of our business goes to supporting causes in Huntsville</p>
             </div>
-            <div className='bg-white p-6 rounded-lg border border-gray-200 text-center'>
-              <h4 className='text-xl font-bold text-gray-900 mb-2'>Community Events</h4>
-              <p className='text-gray-600'>We sponsor and participate in local events and initiatives</p>
+            <div className='bg-gray-800 p-6 rounded-lg border border-gray-700 text-center'>
+              <h4 className='text-xl font-bold text-white mb-2'>Community Events</h4>
+              <p className='text-gray-400'>We sponsor and participate in local events and initiatives</p>
             </div>
           </div>
         </div>
