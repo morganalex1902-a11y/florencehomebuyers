@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 import { Phone, Home, Menu, X } from 'lucide-react'
 import Link from 'next/link'
 
-const PHONE_NUMBER = '(720) 456-7890'
+const PHONE_NUMBER = '(256) 762-1898'
 
 const NAV_LINKS = [
   { href: '/', label: 'Home' },
@@ -42,7 +42,7 @@ export function Header() {
             <Home className='w-6 h-6 text-red-600' />
             <div className='flex flex-col'>
               <span className='font-bold text-sm text-gray-900'>Florence Home Buyers</span>
-              <span className='text-xs text-gray-600'>by Jeffreys Residences</span>
+              <span className='text-xs text-gray-600'>by Jeffreys Investment Properties</span>
             </div>
           </Link>
 

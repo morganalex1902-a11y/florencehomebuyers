@@ -17,7 +17,7 @@ const testimonials: Testimonial[] = [
   {
     id: 1,
     name: 'James Mitchell',
-    location: 'Madison, AL',
+    location: 'Florence, AL',
     rating: 5,
     text: 'Florence Home Buyers made selling my house incredibly easy! I got a fair offer within 24 hours, and we closed in just one week. No repairs, no hassles, no fees. Highly recommended!',
     date: '2024-12-15',
@@ -25,7 +25,7 @@ const testimonials: Testimonial[] = [
   {
     id: 2,
     name: 'Sarah Johnson',
-    location: 'Huntsville, AL',
+    location: 'Florence, AL',
     rating: 5,
     text: 'I was going through a difficult divorce and needed to sell quickly. Florence Home Buyers understood my situation and offered a fair price. The entire process was smooth and professional.',
     date: '2024-12-01',
@@ -33,7 +33,7 @@ const testimonials: Testimonial[] = [
   {
     id: 3,
     name: 'Michael Chen',
-    location: 'Madison County, AL',
+    location: 'Florence, AL',
     rating: 5,
     text: 'Dealing with tenants was a nightmare. When I called Florence Home Buyers, they made the whole process painless. Fair offer, quick close, and I\'m relieved of the landlord responsibilities.',
     date: '2024-11-20',
@@ -41,7 +41,7 @@ const testimonials: Testimonial[] = [
   {
     id: 4,
     name: 'Rebecca Davis',
-    location: 'Huntsville, AL',
+    location: 'Florence, AL',
     rating: 5,
     text: 'I inherited a property I didn\'t want to manage. Florence Home Buyers purchased it as-is with no repairs needed. The entire transaction was transparent and hassle-free. Excellent service!',
     date: '2024-11-10',
@@ -49,7 +49,7 @@ const testimonials: Testimonial[] = [
   {
     id: 5,
     name: 'David Thompson',
-    location: 'Athens, AL',
+    location: 'Florence, AL',
     rating: 5,
     text: 'The property needed significant repairs, and I didn\'t have the money or energy to fix it. Florence Home Buyers bought it as-is and even covered the repairs themselves. Perfect solution!',
     date: '2024-10-25',
@@ -57,7 +57,7 @@ const testimonials: Testimonial[] = [
   {
     id: 6,
     name: 'Lisa Rodriguez',
-    location: 'Meridianville, AL',
+    location: 'Florence, AL',
     rating: 5,
     text: 'I needed to relocate for work and had very little time. Florence Home Buyers came through with a fair offer quickly and we closed in 10 days. Couldn\'t have asked for better service.',
     date: '2024-10-15',
@@ -65,7 +65,7 @@ const testimonials: Testimonial[] = [
   {
     id: 7,
     name: 'Robert Wilson',
-    location: 'Madison, AL',
+    location: 'Florence, AL',
     rating: 5,
     text: 'My credit situation made it hard to get a traditional loan, so I sold my property to Florence Home Buyers. They were understanding and professional throughout. Thank you!',
     date: '2024-09-30',
@@ -73,7 +73,7 @@ const testimonials: Testimonial[] = [
   {
     id: 8,
     name: 'Jennifer Martinez',
-    location: 'Huntsville, AL',
+    location: 'Florence, AL',
     rating: 5,
     text: 'The property had been vacant for years and was costing me money each month. Florence Home Buyers purchased it quickly and put it back on the market. Finally, some peace of mind!',
     date: '2024-09-20',
@@ -81,7 +81,7 @@ const testimonials: Testimonial[] = [
   {
     id: 9,
     name: 'Kevin Anderson',
-    location: 'Madison County, AL',
+    location: 'Florence, AL',
     rating: 5,
     text: 'I was pre-foreclosure and desperate. Florence Home Buyers offered a fair price and we closed before the foreclosure date. They literally saved my credit and my family\'s situation.',
     date: '2024-08-15',
@@ -89,7 +89,7 @@ const testimonials: Testimonial[] = [
   {
     id: 10,
     name: 'Amanda Foster',
-    location: 'Huntsville, AL',
+    location: 'Florence, AL',
     rating: 5,
     text: 'Going through a tough financial situation, I needed to sell quickly. Florence Home Buyers understood my circumstances and provided a fair, compassionate solution. Truly grateful.',
     date: '2024-08-01',
@@ -97,7 +97,7 @@ const testimonials: Testimonial[] = [
   {
     id: 11,
     name: 'Christopher Lee',
-    location: 'Madison, AL',
+    location: 'Florence, AL',
     rating: 5,
     text: 'The neighborhood declined, and property value went down. Instead of losing more money listing it, I sold to Florence Home Buyers. Smart business decision on my part.',
     date: '2024-07-20',
@@ -105,7 +105,7 @@ const testimonials: Testimonial[] = [
   {
     id: 12,
     name: 'Michelle Harris',
-    location: 'Huntsville, AL',
+    location: 'Florence, AL',
     rating: 5,
     text: 'After my divorce, I needed to liquidate my property quickly and fairly. Florence Home Buyers handled everything professionally and kindly. Highly recommend them to anyone!',
     date: '2024-07-10',
@@ -134,7 +134,7 @@ export const metadata = {
 
 export default function Reviews() {
   return (
-    <main className='w-full min-h-screen bg-white'>
+    <main className='w-full min-h-screen bg-background'>
       <Header />
 
       {/* Hero Section */}
@@ -151,9 +151,9 @@ export default function Reviews() {
       </section>
 
       {/* Reviews Grid */}
-      <section className='py-16 bg-white'>
+      <section className='py-16 bg-background'>
         <div className='container mx-auto px-4'>
-          <h2 className='text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12'>
+          <h2 className='text-3xl md:text-4xl font-bold text-center text-foreground mb-12'>
             What Our Customers Say
           </h2>
 
@@ -161,7 +161,7 @@ export default function Reviews() {
             {testimonials.map((testimonial) => (
               <div
                 key={testimonial.id}
-                className='bg-gradient-to-b from-gray-50 to-transparent border border-gray-200 rounded-lg p-8 hover:shadow-lg transition-shadow'
+                className='bg-card border border-border rounded-lg p-8 hover:shadow-lg transition-shadow'
               >
                 <StarRating rating={testimonial.rating} />
                 <p className='text-gray-700 mt-4 mb-6 leading-relaxed italic'>
@@ -191,9 +191,9 @@ export default function Reviews() {
       </section>
 
       {/* Why We Get Good Reviews */}
-      <section className='py-16 bg-gray-50'>
+      <section className='py-16 bg-background'>
         <div className='container mx-auto px-4'>
-          <h2 className='text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12'>
+          <h2 className='text-3xl md:text-4xl font-bold text-center text-foreground mb-12'>
             Why Customers Love Us
           </h2>
 

@@ -92,7 +92,7 @@ export function FormSection() {
   }
 
   return (
-    <section ref={sectionRef} id='form-section' className='py-20 bg-white'>
+    <section ref={sectionRef} id='form-section' className='py-20 bg-background'>
       <div className='container mx-auto px-4'>
         <div className='max-w-4xl mx-auto'>
           <div className='text-center mb-16'>
@@ -101,12 +101,12 @@ export function FormSection() {
                 <p className='text-sm font-semibold text-red-600'>Step {step} of 2</p>
               </div>
             )}
-            <h2 className='text-4xl sm:text-5xl font-bold text-gray-900 mb-4'>
+            <h2 className='text-4xl sm:text-5xl font-bold text-foreground mb-4'>
               {step === 1
                 ? 'Get Your Free Cash Offer Today!'
                 : 'Tell Us About Your Property'}
             </h2>
-            <p className='text-lg text-gray-700'>
+            <p className='text-lg text-foreground/80'>
               {step === 1
                 ? 'No obligations. We\'ll respond within 24 hours with a fair cash offer.'
                 : 'Help us understand your situation so we can provide the best offer.'}
@@ -115,7 +115,7 @@ export function FormSection() {
 
           <div className='grid md:grid-cols-3 gap-12 items-stretch'>
             {/* Form */}
-            <div className='md:col-span-2 bg-white p-10 rounded-xl border-2 border-red-200 shadow-lg'>
+            <div className='md:col-span-2 bg-card p-10 rounded-xl border-2 border-red-200 shadow-lg'>
               {submitted ? (
                 <div className='text-center py-8'>
                   <div className='inline-block p-4 bg-red-100 rounded-full mb-4'>
@@ -520,7 +520,7 @@ export function FormSection() {
                   🏆 Trusted Choice
                 </p>
                 <p className='text-center text-gray-700 font-medium'>
-                  Hundreds of Huntsville homeowners have sold with us
+                  Hundreds of Florence homeowners have sold with us
                 </p>
                 <p className='text-center text-sm text-gray-600 mt-3'>
                   Fast • Fair • Hassle-Free

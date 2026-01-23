@@ -101,9 +101,9 @@ export function QuickForm({
   }
 
   return (
-    <div className='bg-white p-10 rounded-xl border-2 border-red-200 shadow-lg'>
-      {title && <h2 className='text-3xl font-bold text-gray-900 mb-2'>{title}</h2>}
-      {subtitle && <p className='text-gray-700 mb-6'>{subtitle}</p>}
+    <div className='bg-card p-10 rounded-xl border-2 border-red-200 shadow-lg'>
+      {title && <h2 className='text-3xl font-bold text-foreground mb-2'>{title}</h2>}
+      {subtitle && <p className='text-foreground/80 mb-6'>{subtitle}</p>}
       
       <form onSubmit={handleSubmit} className='space-y-4'>
         <div>

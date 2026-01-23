@@ -93,7 +93,7 @@ export const metadata = {
 
 export default function FAQ() {
   return (
-    <main className='w-full min-h-screen bg-white'>
+    <main className='w-full min-h-screen bg-background'>
       <Header />
 
       {/* Hero Section */}
@@ -109,21 +109,21 @@ export default function FAQ() {
       </section>
 
       {/* FAQ Content */}
-      <section className='py-16 bg-white'>
+      <section className='py-16 bg-background'>
         <div className='container mx-auto px-4 max-w-3xl'>
           <div className='space-y-6'>
             {faqItems.map((item, index) => (
               <details
                 key={item.id}
-                className='group border border-gray-200 rounded-lg overflow-hidden hover:border-emerald-300 transition-colors'
+                className='group border border-border rounded-lg overflow-hidden hover:border-primary transition-colors'
                 open={index === 0}
               >
-                <summary className='flex items-center justify-between px-6 py-4 cursor-pointer bg-gradient-to-r from-gray-50 to-transparent hover:bg-gray-100 transition-colors'>
-                  <h3 className='text-lg font-bold text-gray-900 pr-4'>{item.question}</h3>
-                  <ChevronDown className='w-5 h-5 text-gray-600 flex-shrink-0 group-open:rotate-180 transition-transform' />
+                <summary className='flex items-center justify-between px-6 py-4 cursor-pointer bg-card hover:bg-card transition-colors'>
+                  <h3 className='text-lg font-bold text-foreground pr-4'>{item.question}</h3>
+                  <ChevronDown className='w-5 h-5 text-muted-foreground flex-shrink-0 group-open:rotate-180 transition-transform' />
                 </summary>
-                <div className='px-6 py-4 bg-white border-t border-gray-100'>
-                  <p className='text-gray-700 leading-relaxed'>{item.answer}</p>
+                <div className='px-6 py-4 bg-card border-t border-border'>
+                  <p className='text-foreground leading-relaxed'>{item.answer}</p>
                 </div>
               </details>
             ))}
@@ -132,9 +132,9 @@ export default function FAQ() {
       </section>
 
       {/* Still Have Questions */}
-      <section className='py-16 bg-gray-50'>
+      <section className='py-16 bg-background'>
         <div className='container mx-auto px-4 text-center'>
-          <h2 className='text-3xl md:text-4xl font-bold text-gray-900 mb-6'>
+          <h2 className='text-3xl md:text-4xl font-bold text-foreground mb-6'>
             Still Have Questions?
           </h2>
           <p className='text-xl text-gray-700 mb-8 max-w-2xl mx-auto'>

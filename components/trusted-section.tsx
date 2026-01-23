@@ -25,7 +25,7 @@ export function TrustedSection() {
   }, [])
 
   return (
-    <section ref={sectionRef} className='py-16 sm:py-20 bg-white'>
+    <section ref={sectionRef} className='py-16 sm:py-20 bg-background'>
       <div className='container mx-auto px-4'>
         <div className='max-w-5xl mx-auto'>
           <div className='grid md:grid-cols-2 gap-8 md:gap-12 items-center'>
@@ -41,7 +41,7 @@ export function TrustedSection() {
               </div>
 
               <p className='text-lg text-gray-700 leading-relaxed mb-8'>
-                Madison County House Buyers is committed to providing fair cash offers for your home, regardless of its current condition. Whether you're facing foreclosure, need to relocate quickly, or have an inherited property, we offer a straightforward solution without the typical hassles of traditional real estate sales.
+                Florence Home Buyers is committed to providing fair cash offers for your home, regardless of its current condition. Whether you're facing foreclosure, need to relocate quickly, or have an inherited property, we offer a straightforward solution without the typical hassles of traditional real estate sales.
               </p>
 
               <p className='text-gray-700 leading-relaxed mb-8'>
@@ -60,7 +60,7 @@ export function TrustedSection() {
             <div className='relative h-80 md:h-[500px] rounded-xl overflow-hidden shadow-lg'>
               <Image
                 src='https://images.pexels.com/photos/17174768/pexels-photo-17174768.jpeg'
-                alt='Madison County House'
+                alt='Florence Home'
                 fill
                 className='object-cover'
               />

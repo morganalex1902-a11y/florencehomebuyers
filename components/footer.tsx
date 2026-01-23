@@ -1,12 +1,12 @@
 import { Phone } from 'lucide-react'
 
-const PHONE_NUMBER = '(720) 456-7890'
+const PHONE_NUMBER = '(256) 762-1898'
 
 export function Footer() {
   const currentYear = new Date().getFullYear()
 
   return (
-    <footer className='bg-gray-900 text-white py-12'>
+    <footer className='bg-card text-white py-12'>
       <div className='container mx-auto px-4'>
         <div className='max-w-4xl mx-auto grid sm:grid-cols-2 gap-8 mb-12'>
           {/* Company Info */}
@@ -15,7 +15,7 @@ export function Footer() {
               Florence Home Buyers
             </h3>
             <p className='text-gray-400 mb-4'>
-              Trusted local cash home buyers in Huntsville, Alabama. We buy houses as-is, pay all closing costs, and close fast.
+              Trusted local cash home buyers in Florence, Alabama. We buy houses as-is, pay all closing costs, and close fast.
             </p>
             <a
               href={`tel:${PHONE_NUMBER.replace(/\s/g, '')}`}
@@ -57,7 +57,7 @@ export function Footer() {
         {/* Bottom */}
         <div className='border-t border-gray-800 pt-8 text-center text-gray-400'>
           <p>
-            © {currentYear} Florence Home Buyers by Jeffreys Residences. All rights
+            © {currentYear} Florence Home Buyers by Jeffreys Investment Properties. All rights
             reserved.
           </p>
           <div className='flex justify-center gap-6 mt-4'>

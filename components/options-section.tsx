@@ -74,14 +74,14 @@ export function OptionsSection() {
   ]
 
   return (
-    <section ref={sectionRef} className='py-20 bg-gray-50'>
+    <section ref={sectionRef} className='py-20 bg-background'>
       <div className='container mx-auto px-4'>
         <div className='text-center mb-16'>
           <h2 className='text-4xl sm:text-5xl font-bold text-gray-900 mb-6'>
             Selling To Florence Home Buyers vs The Alternatives
           </h2>
           <p className='text-xl text-gray-700'>
-            See why Huntsville homeowners choose the cash buyer route.
+            See why Florence homeowners choose the cash buyer route.
           </p>
         </div>
 

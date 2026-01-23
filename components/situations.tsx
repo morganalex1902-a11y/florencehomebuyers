@@ -37,7 +37,7 @@ export function SituationsSection() {
   ]
 
   return (
-    <section ref={sectionRef} className='py-20 bg-gray-50'>
+    <section ref={sectionRef} className='py-20 bg-background'>
       <div className='container mx-auto px-4'>
         <div className='max-w-3xl mx-auto text-center mb-16'>
           <h2 className='text-4xl sm:text-5xl font-bold text-gray-900 mb-6'>

@@ -30,8 +30,8 @@ export function HeroSection() {
     >
       {/* Background Image with Overlay */}
       <Image
-        src='https://images.pexels.com/photos/17174768/pexels-photo-17174768.jpeg'
-        alt='Beautiful Huntsville home'
+        src='https://images.pexels.com/photos/7937748/pexels-photo-7937748.jpeg'
+        alt='Beautiful Florence home'
         fill
         className='object-cover'
         priority
@@ -44,7 +44,7 @@ export function HeroSection() {
       <div className='relative z-10 container mx-auto px-4 text-center'>
         <div className='max-w-3xl mx-auto'>
           <h1 className='text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight text-balance mb-4'>
-            We Are Madison County House Buyers
+            Florence Home Buyers
           </h1>
           <p className='text-lg sm:text-xl text-gray-100'>
             We Buy Houses Fast. Sell With Confidence.

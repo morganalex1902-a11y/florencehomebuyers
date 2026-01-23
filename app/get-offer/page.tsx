@@ -5,7 +5,7 @@ import { Header } from '@/components/header'
 import { Footer } from '@/components/footer'
 import { CheckCircle, Phone } from 'lucide-react'
 
-const PHONE_NUMBER = '(720) 456-7890'
+const PHONE_NUMBER = '(256) 762-1898'
 
 export default function GetOfferPage() {
   const [step, setStep] = useState(1)
@@ -92,7 +92,7 @@ export default function GetOfferPage() {
   }
 
   return (
-    <main className='w-full min-h-screen bg-white'>
+    <main className='w-full min-h-screen bg-background'>
       <Header />
 
       {/* Hero Section */}
@@ -473,7 +473,7 @@ export default function GetOfferPage() {
                     🏆 Trusted Choice
                   </p>
                   <p className='text-center text-gray-700 font-medium'>
-                    Hundreds of Huntsville homeowners have sold with us
+                    Hundreds of Florence homeowners have sold with us
                   </p>
                   <p className='text-center text-sm text-gray-600 mt-3'>
                     Fast • Fair • Hassle-Free

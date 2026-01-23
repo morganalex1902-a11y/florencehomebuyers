@@ -28,19 +28,19 @@ export function TestimonialsSection() {
   const testimonials = [
     {
       name: 'Jennifer Martinez',
-      title: 'Madison, AL',
+      title: 'Florence, AL',
       text: 'Florence Home Buyers made the process so easy! Got a fair offer within 24 hours and closed within a week.',
       image: 'https://images.pexels.com/photos/11701102/pexels-photo-11701102.jpeg'
     },
     {
       name: 'Robert Thompson',
-      title: 'Huntsville, AL',
+      title: 'Florence, AL',
       text: 'I was stressed about selling my inherited property. They handled everything professionally and paid all costs.',
       image: 'https://images.pexels.com/photos/9271180/pexels-photo-9271180.jpeg'
     },
     {
       name: 'Sarah Williams',
-      title: 'Madison County, AL',
+      title: 'Florence, AL',
       text: 'Needed to sell quickly for a job transfer. These guys delivered! Fast, transparent, and trustworthy.',
       image: 'https://images.pexels.com/photos/8867475/pexels-photo-8867475.jpeg'
     },
@@ -55,7 +55,7 @@ export function TestimonialsSection() {
   }
 
   return (
-    <section ref={sectionRef} className='py-20 bg-white'>
+    <section ref={sectionRef} className='py-20 bg-background'>
       <div className='container mx-auto px-4'>
         <div className='max-w-4xl mx-auto text-center mb-16'>
           <h2 className='text-4xl sm:text-5xl font-bold text-gray-900 mb-4'>
