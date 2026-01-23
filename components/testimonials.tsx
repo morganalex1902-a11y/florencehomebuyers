@@ -83,7 +83,7 @@ export function TestimonialsSection() {
             </div>
 
             {/* Center Card */}
-            <div className='bg-primary text-white rounded-lg p-8 flex flex-col justify-center shadow-lg h-64 md:h-80'>
+            <div className='bg-red-700 text-white rounded-lg p-8 flex flex-col justify-center shadow-lg h-64 md:h-80'>
               <p className='text-lg leading-relaxed mb-6 italic'>
                 "{testimonials[currentIndex].text}"
               </p>
