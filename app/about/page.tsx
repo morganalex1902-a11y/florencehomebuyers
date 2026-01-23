@@ -30,21 +30,21 @@ export default function About() {
       </section>
 
       {/* Our Story */}
-      <section className='py-16 bg-background'>
+      <section className='py-16 bg-gray-900'>
         <div className='container mx-auto px-4'>
           <div className='grid md:grid-cols-2 gap-12 items-center mb-12'>
             <div>
-              <h2 className='text-3xl md:text-4xl font-bold text-gray-900 mb-6'>Our Story</h2>
-              <p className='text-gray-700 mb-4 leading-relaxed'>
+              <h2 className='text-3xl md:text-4xl font-bold text-white mb-6'>Our Story</h2>
+              <p className='text-gray-300 mb-4 leading-relaxed'>
                 Florence Home Buyers was founded with a simple mission: to provide homeowners in Florence, Alabama with a fair, honest, and fast alternative to selling through traditional real estate channels.
               </p>
-              <p className='text-gray-700 mb-4 leading-relaxed'>
+              <p className='text-gray-300 mb-4 leading-relaxed'>
                 We understood the pain points homeowners face — the stress of open houses, the uncertainty of market timing, the burden of expensive repairs, and the frustration of agent commissions eating into their proceeds.
               </p>
-              <p className='text-gray-700 mb-4 leading-relaxed'>
+              <p className='text-gray-300 mb-4 leading-relaxed'>
                 That's why we created a different approach. We buy houses directly from homeowners, we pay in cash, and we close on your timeline. No fluff, no games, just straightforward business.
               </p>
-              <p className='text-gray-700 leading-relaxed'>
+              <p className='text-gray-300 leading-relaxed'>
                 For over a decade, we've been helping homeowners in Florence and surrounding areas sell their homes quickly, fairly, and without the hassles of traditional real estate.
               </p>
             </div>
