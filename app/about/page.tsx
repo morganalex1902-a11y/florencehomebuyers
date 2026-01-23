@@ -30,7 +30,7 @@ export default function About() {
       </section>
 
       {/* Our Story */}
-      <section className='py-16 bg-white'>
+      <section className='py-16 bg-background'>
         <div className='container mx-auto px-4'>
           <div className='grid md:grid-cols-2 gap-12 items-center mb-12'>
             <div>
