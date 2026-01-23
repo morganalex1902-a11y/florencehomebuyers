@@ -31,9 +31,9 @@ export default function HowItWorks() {
       </section>
 
       {/* Detailed 3-Step Process */}
-      <section className='py-16 bg-white'>
+      <section className='py-16 bg-background'>
         <div className='container mx-auto px-4'>
-          <h2 className='text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12'>
+          <h2 className='text-3xl md:text-4xl font-bold text-center text-foreground mb-12'>
             Sell Your Home Fast, Easy, and Hassle-Free!
           </h2>
 
