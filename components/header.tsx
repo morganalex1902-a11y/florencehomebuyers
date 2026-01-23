@@ -70,6 +70,9 @@ export function Header() {
               <span className='font-bold text-red-600'>{PHONE_NUMBER}</span>
             </a>
 
+            {/* Theme Toggle */}
+            <ThemeToggle />
+
             {/* CTA Button */}
             <button
               onClick={() => document.getElementById('form-section')?.scrollIntoView({ behavior: 'smooth' })}
