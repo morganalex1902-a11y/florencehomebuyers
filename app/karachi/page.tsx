@@ -33,7 +33,7 @@ const HUNTSVILLE_AREAS = [
 
 export default function DenverPage() {
   return (
-    <main className='w-full min-h-screen bg-white'>
+    <main className='w-full min-h-screen bg-background'>
       <Header />
 
       {/* Hero Section - Customized for Denver */}
