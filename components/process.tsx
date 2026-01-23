@@ -51,7 +51,7 @@ export function ProcessSection() {
   ]
 
   return (
-    <section ref={sectionRef} className='py-20 bg-gray-100'>
+    <section ref={sectionRef} className='py-20 bg-background'>
       <div className='container mx-auto px-4'>
         <div className='max-w-4xl mx-auto text-center mb-16'>
           <h2 className='text-3xl sm:text-4xl font-bold text-gray-900 mb-4'>
@@ -64,7 +64,7 @@ export function ProcessSection() {
             <div
               key={index}
               data-animate
-              className='opacity-0 bg-red-700 hover:bg-red-800 rounded-lg p-6 text-white transition-all duration-300 hover:-translate-y-1 shadow-lg'
+              className='opacity-0 bg-primary hover:opacity-90 rounded-lg p-6 text-white transition-all duration-300 hover:-translate-y-1 shadow-lg'
             >
               <div className='text-5xl font-bold text-red-200 mb-4'>
                 {step.number}
