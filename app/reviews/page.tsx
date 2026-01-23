@@ -161,7 +161,7 @@ export default function Reviews() {
             {testimonials.map((testimonial) => (
               <div
                 key={testimonial.id}
-                className='bg-gradient-to-b from-gray-50 to-transparent border border-gray-200 rounded-lg p-8 hover:shadow-lg transition-shadow'
+                className='bg-card border border-border rounded-lg p-8 hover:shadow-lg transition-shadow'
               >
                 <StarRating rating={testimonial.rating} />
                 <p className='text-gray-700 mt-4 mb-6 leading-relaxed italic'>
