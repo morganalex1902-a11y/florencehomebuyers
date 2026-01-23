@@ -139,12 +139,12 @@ export default function Contact() {
       </section>
 
       {/* Contact Form Section */}
-      <section className='py-16 bg-white'>
+      <section className='py-16 bg-gray-900'>
         <div className='container mx-auto px-4'>
-          <h2 className='text-3xl md:text-4xl font-bold text-center text-gray-900 mb-4'>
+          <h2 className='text-3xl md:text-4xl font-bold text-center text-white mb-4'>
             Get Your Fair Cash Offer Today
           </h2>
-          <p className='text-center text-gray-700 text-lg mb-12 max-w-2xl mx-auto'>
+          <p className='text-center text-gray-300 text-lg mb-12 max-w-2xl mx-auto'>
             Fill out the form below with information about your property and we'll contact you within 24 hours with a fair cash offer. No obligation, no pressure, completely free.
           </p>
         </div>
