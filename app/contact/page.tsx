@@ -6,12 +6,12 @@ import { Phone, Mail, MapPin, Clock, Facebook, Linkedin } from 'lucide-react'
 
 export const metadata = {
   title: 'Contact Us - Florence Home Buyers',
-  description: 'Get in touch with Florence Home Buyers in Huntsville, Alabama. Call, email, or fill out our form to start selling your house today.',
+  description: 'Get in touch with Florence Home Buyers in Florence, Alabama. Call, email, or fill out our form to start selling your house today.',
 }
 
 export default function Contact() {
   return (
-    <main className='w-full min-h-screen bg-white'>
+    <main className='w-full min-h-screen bg-background'>
       <Header />
 
       {/* Hero Section */}
@@ -34,8 +34,8 @@ export default function Contact() {
             <div className='bg-gradient-to-br from-blue-50 to-blue-100 border border-blue-200 rounded-lg p-8 text-center'>
               <Phone className='w-12 h-12 text-blue-600 mx-auto mb-4' />
               <h3 className='text-2xl font-bold text-gray-900 mb-2'>Call Us</h3>
-              <a href='tel:7204567890' className='text-blue-600 hover:text-blue-700 font-bold text-2xl block mb-4'>
-              (720) 456-7890
+              <a href='tel:2567621898' className='text-blue-600 hover:text-blue-700 font-bold text-2xl block mb-4'>
+              (256) 762-1898
             </a>
               <p className='text-gray-700'>
                 Call us directly to speak with a specialist about your property.
@@ -70,14 +70,14 @@ export default function Contact() {
               <div>
                 <h3 className='text-2xl font-bold text-gray-900 mb-2'>Visit Us</h3>
                 <p className='text-gray-900 font-semibold'>Florence Home Buyers</p>
-                <p className='text-gray-700'>by Jeffreys Residences</p>
+                <p className='text-gray-700'>by Jeffreys Investment Properties</p>
                 <p className='text-gray-700 mt-2'>
                   1234 Business Drive
                   <br />
-                  Huntsville, Alabama 35801
+                  Florence, Alabama 35801
                 </p>
                 <p className='text-sm text-gray-600 mt-4'>
-                  We're located in the heart of Huntsville for your convenience. By appointment preferred.
+                  We're located in the heart of Florence for your convenience. By appointment preferred.
                 </p>
               </div>
             </div>
