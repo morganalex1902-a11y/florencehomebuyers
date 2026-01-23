@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import { Phone, Home, Menu, X } from 'lucide-react'
 import Link from 'next/link'
+import { ThemeToggle } from './theme-toggle'
 
 const PHONE_NUMBER = '(256) 762-1898'
 
