@@ -12,7 +12,7 @@ interface QuickFormSectionProps {
 export function QuickFormSection({
   title = 'Get Your Free Cash Offer',
   subtitle = 'Fill out the quick form below and we\'ll send you a fair cash offer within 24 hours.',
-  backgroundColor = 'bg-red-50',
+  backgroundColor = 'bg-gray-900',
   buttonText = 'Get Free Offer'
 }: QuickFormSectionProps) {
   return (

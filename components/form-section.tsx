@@ -97,8 +97,8 @@ export function FormSection() {
         <div className='max-w-4xl mx-auto'>
           <div className='text-center mb-16'>
             {step === 2 && (
-              <div className='inline-block bg-red-50 px-4 py-2 rounded-full mb-4'>
-                <p className='text-sm font-semibold text-red-600'>Step {step} of 2</p>
+              <div className='inline-block bg-red-900 px-4 py-2 rounded-full mb-4'>
+                <p className='text-sm font-semibold text-red-300'>Step {step} of 2</p>
               </div>
             )}
             <h2 className='text-4xl sm:text-5xl font-bold text-foreground mb-4'>
@@ -118,13 +118,13 @@ export function FormSection() {
             <div className='md:col-span-2 bg-card p-10 rounded-xl border-2 border-red-200 shadow-lg'>
               {submitted ? (
                 <div className='text-center py-8'>
-                  <div className='inline-block p-4 bg-red-100 rounded-full mb-4'>
-                    <div className='text-4xl text-red-600'>✓</div>
+                  <div className='inline-block p-4 bg-red-900 rounded-full mb-4'>
+                    <div className='text-4xl text-red-300'>✓</div>
                   </div>
-                  <h3 className='text-2xl font-bold text-gray-900 mb-2'>
+                  <h3 className='text-2xl font-bold text-white mb-2'>
                     Thank You!
                   </h3>
-                  <p className='text-gray-700'>
+                  <p className='text-gray-300'>
                     We'll be in touch within 24 hours with your cash offer.
                   </p>
                 </div>
@@ -132,7 +132,7 @@ export function FormSection() {
                 <form onSubmit={handleStep1Submit} className='space-y-5'>
                   <div className='grid grid-cols-2 gap-4'>
                     <div>
-                      <label className='block text-sm font-bold text-gray-900 mb-2'>
+                      <label className='block text-sm font-bold text-white mb-2'>
                         First Name *
                       </label>
                       <input
@@ -141,12 +141,12 @@ export function FormSection() {
                         value={formData.firstName}
                         onChange={handleChange}
                         required
-                        className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+                        className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
                         placeholder='First name'
                       />
                     </div>
                     <div>
-                      <label className='block text-sm font-bold text-gray-900 mb-2'>
+                      <label className='block text-sm font-bold text-white mb-2'>
                         Last Name *
                       </label>
                       <input
@@ -155,14 +155,14 @@ export function FormSection() {
                         value={formData.lastName}
                         onChange={handleChange}
                         required
-                        className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+                        className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
                         placeholder='Last name'
                       />
                     </div>
                   </div>
 
                   <div>
-                    <label className='block text-sm font-bold text-gray-900 mb-2'>
+                    <label className='block text-sm font-bold text-white mb-2'>
                       Email *
                     </label>
                     <input
@@ -171,13 +171,13 @@ export function FormSection() {
                       value={formData.email}
                       onChange={handleChange}
                       required
-                      className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+                      className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
                       placeholder='your@email.com'
                     />
                   </div>
 
                   <div>
-                    <label className='block text-sm font-bold text-gray-900 mb-2'>
+                    <label className='block text-sm font-bold text-white mb-2'>
                       Phone *
                     </label>
                     <input
@@ -186,13 +186,13 @@ export function FormSection() {
                       value={formData.phone}
                       onChange={handleChange}
                       required
-                      className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+                      className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
                       placeholder='(256) XXX-XXXX'
                     />
                   </div>
 
                   <div>
-                    <label className='block text-sm font-bold text-gray-900 mb-2'>
+                    <label className='block text-sm font-bold text-white mb-2'>
                       Street Address *
                     </label>
                     <input
@@ -201,7 +201,7 @@ export function FormSection() {
                       value={formData.streetAddress}
                       onChange={handleChange}
                       required
-                      className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+                      className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
                       placeholder='Street Address'
                     />
                   </div>
@@ -215,18 +215,18 @@ export function FormSection() {
                 </form>
               ) : (
                 <form onSubmit={handleStep2Submit} className='space-y-6'>
-                  <div className='pb-6 border-b border-gray-200'>
-                    <div className='inline-block bg-red-50 px-3 py-1 rounded-full mb-2'>
-                      <p className='text-xs font-semibold text-red-700'>Step 2 of 2</p>
+                  <div className='pb-6 border-b border-gray-700'>
+                    <div className='inline-block bg-red-900 px-3 py-1 rounded-full mb-2'>
+                      <p className='text-xs font-semibold text-red-300'>Step 2 of 2</p>
                     </div>
                   </div>
 
                   {/* Address Information */}
                   <div>
-                    <h3 className='text-lg font-bold text-gray-900 mb-4'>Address Information</h3>
+                    <h3 className='text-lg font-bold text-white mb-4'>Address Information</h3>
                     <div className='space-y-4'>
                       <div>
-                        <label className='block text-sm font-bold text-gray-900 mb-2'>
+                        <label className='block text-sm font-bold text-white mb-2'>
                           Street Address *
                         </label>
                         <input
@@ -234,13 +234,13 @@ export function FormSection() {
                           name='streetAddress'
                           value={formData.streetAddress}
                           onChange={handleChange}
-                          className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+                          className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
                         />
                       </div>
 
                       <div className='grid grid-cols-2 gap-4'>
                         <div>
-                          <label className='block text-sm font-bold text-gray-900 mb-2'>
+                          <label className='block text-sm font-bold text-white mb-2'>
                             City
                           </label>
                           <input
@@ -248,12 +248,12 @@ export function FormSection() {
                             name='city'
                             value={formData.city}
                             onChange={handleChange}
-                            className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+                            className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
                             placeholder='City'
                           />
                         </div>
                         <div>
-                          <label className='block text-sm font-bold text-gray-900 mb-2'>
+                          <label className='block text-sm font-bold text-white mb-2'>
                             State / Province / Region
                           </label>
                           <input
@@ -261,14 +261,14 @@ export function FormSection() {
                             name='state'
                             value={formData.state}
                             onChange={handleChange}
-                            className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+                            className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
                             placeholder='State'
                           />
                         </div>
                       </div>
 
                       <div>
-                        <label className='block text-sm font-bold text-gray-900 mb-2'>
+                        <label className='block text-sm font-bold text-white mb-2'>
                           Zip / Postal Code
                         </label>
                         <input
@@ -276,7 +276,7 @@ export function FormSection() {
                           name='zipCode'
                           value={formData.zipCode}
                           onChange={handleChange}
-                          className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+                          className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
                           placeholder='Zip Code'
                         />
                       </div>
@@ -285,11 +285,11 @@ export function FormSection() {
 
                   {/* Personal Information */}
                   <div>
-                    <h3 className='text-lg font-bold text-gray-900 mb-4'>Personal Information</h3>
+                    <h3 className='text-lg font-bold text-white mb-4'>Personal Information</h3>
                     <div className='space-y-4'>
                       <div className='grid grid-cols-2 gap-4'>
                         <div>
-                          <label className='block text-sm font-bold text-gray-900 mb-2'>
+                          <label className='block text-sm font-bold text-white mb-2'>
                             First Name
                           </label>
                           <input
@@ -297,11 +297,11 @@ export function FormSection() {
                             name='firstName'
                             value={formData.firstName}
                             onChange={handleChange}
-                            className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+                            className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
                           />
                         </div>
                         <div>
-                          <label className='block text-sm font-bold text-gray-900 mb-2'>
+                          <label className='block text-sm font-bold text-white mb-2'>
                             Last Name
                           </label>
                           <input
@@ -309,13 +309,13 @@ export function FormSection() {
                             name='lastName'
                             value={formData.lastName}
                             onChange={handleChange}
-                            className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+                            className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
                           />
                         </div>
                       </div>
 
                       <div>
-                        <label className='block text-sm font-bold text-gray-900 mb-2'>
+                        <label className='block text-sm font-bold text-white mb-2'>
                           Email
                         </label>
                         <input
@@ -323,12 +323,12 @@ export function FormSection() {
                           name='email'
                           value={formData.email}
                           onChange={handleChange}
-                          className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+                          className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
                         />
                       </div>
 
                       <div>
-                        <label className='block text-sm font-bold text-gray-900 mb-2'>
+                        <label className='block text-sm font-bold text-white mb-2'>
                           Phone
                         </label>
                         <input
@@ -336,7 +336,7 @@ export function FormSection() {
                           name='phone'
                           value={formData.phone}
                           onChange={handleChange}
-                          className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+                          className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
                         />
                       </div>
                     </div>
@@ -344,20 +344,20 @@ export function FormSection() {
 
                   {/* Property Information */}
                   <div>
-                    <h3 className='text-lg font-bold text-gray-900 mb-4'>Property Information</h3>
-                    <p className='text-sm text-gray-600 mb-4'>
+                    <h3 className='text-lg font-bold text-white mb-4'>Property Information</h3>
+                    <p className='text-sm text-gray-300 mb-4'>
                       Excellent, we need a bit more info about your situation as we can provide you with your options and a cash offer.
                     </p>
                     <div className='space-y-4'>
                       <div>
-                        <label className='block text-sm font-bold text-gray-900 mb-2'>
+                        <label className='block text-sm font-bold text-white mb-2'>
                           How long have you owned the property?
                         </label>
                         <select
                           name='ownershipDuration'
                           value={formData.ownershipDuration}
                           onChange={handleChange}
-                          className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+                          className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
                         >
                           <option value=''>Select duration</option>
                           <option value='less-than-1'>Less than 1 year</option>
@@ -369,14 +369,14 @@ export function FormSection() {
                       </div>
 
                       <div>
-                        <label className='block text-sm font-bold text-gray-900 mb-2'>
+                        <label className='block text-sm font-bold text-white mb-2'>
                           What kind of repairs and maintenance does the house need?
                         </label>
                         <select
                           name='repairNeeds'
                           value={formData.repairNeeds}
                           onChange={handleChange}
-                          className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+                          className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
                         >
                           <option value=''>Select repairs needed</option>
                           <option value='excellent'>Excellent</option>
@@ -390,17 +390,17 @@ export function FormSection() {
 
                   {/* Your Situation */}
                   <div>
-                    <h3 className='text-lg font-bold text-gray-900 mb-4'>Your Situation</h3>
+                    <h3 className='text-lg font-bold text-white mb-4'>Your Situation</h3>
                     <div className='space-y-4'>
                       <div>
-                        <label className='block text-sm font-bold text-gray-900 mb-2'>
+                        <label className='block text-sm font-bold text-white mb-2'>
                           Is the property owner occupied?
                         </label>
                         <select
                           name='ownerOccupied'
                           value={formData.ownerOccupied}
                           onChange={handleChange}
-                          className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+                          className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
                         >
                           <option value=''>Select option</option>
                           <option value='yes'>Yes - Owner Occupied</option>
@@ -409,14 +409,14 @@ export function FormSection() {
                       </div>
 
                       <div>
-                        <label className='block text-sm font-bold text-gray-900 mb-2'>
+                        <label className='block text-sm font-bold text-white mb-2'>
                           What's your timeline?
                         </label>
                         <select
                           name='timeline'
                           value={formData.timeline}
                           onChange={handleChange}
-                          className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+                          className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
                         >
                           <option value=''>Select timeline</option>
                           <option value='asap'>ASAP</option>
@@ -427,7 +427,7 @@ export function FormSection() {
                       </div>
 
                       <div>
-                        <label className='block text-sm font-bold text-gray-900 mb-2'>
+                        <label className='block text-sm font-bold text-white mb-2'>
                           What's your ultimate goal with your house?
                         </label>
                         <textarea
@@ -435,7 +435,7 @@ export function FormSection() {
                           value={formData.ultimateGoal}
                           onChange={handleChange}
                           rows={4}
-                          className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent resize-none'
+                          className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent resize-none'
                           placeholder='Tell us about your goals...'
                         />
                       </div>
@@ -443,7 +443,7 @@ export function FormSection() {
                   </div>
 
                   {/* SMS Consent */}
-                  <div className='bg-gray-50 p-4 rounded-lg'>
+                  <div className='bg-gray-800 p-4 rounded-lg border border-gray-700'>
                     <div className='flex items-start gap-3'>
                       <input
                         type='checkbox'
@@ -453,7 +453,7 @@ export function FormSection() {
                         id='sms-consent'
                         className='mt-1 w-5 h-5'
                       />
-                      <label htmlFor='sms-consent' className='text-sm text-gray-600'>
+                      <label htmlFor='sms-consent' className='text-sm text-gray-300'>
                         Yes, I want to receive SMS updates and exclusive offers from Madison County House Buyers. By submitting this form, you understand the instructions provided in our communication policy.
                       </label>
                     </div>
@@ -463,7 +463,7 @@ export function FormSection() {
                     <button
                       type='button'
                       onClick={() => setStep(1)}
-                      className='flex-1 py-3 border-2 border-red-300 text-gray-900 font-bold rounded-lg hover:bg-red-50 transition-colors'
+                      className='flex-1 py-3 border-2 border-red-600 text-white font-bold rounded-lg hover:bg-red-900 transition-colors'
                     >
                       Back
                     </button>
@@ -515,14 +515,14 @@ export function FormSection() {
               </div>
 
               {/* Trust Badge */}
-              <div className='bg-gradient-to-br from-red-50 to-red-100 p-6 rounded-xl border-2 border-red-200'>
-                <p className='text-center text-gray-800 font-bold text-lg mb-2'>
+              <div className='bg-gradient-to-br from-red-900 to-red-800 p-6 rounded-xl border-2 border-red-700'>
+                <p className='text-center text-white font-bold text-lg mb-2'>
                   🏆 Trusted Choice
                 </p>
-                <p className='text-center text-gray-700 font-medium'>
+                <p className='text-center text-gray-200 font-medium'>
                   Hundreds of Florence homeowners have sold with us
                 </p>
-                <p className='text-center text-sm text-gray-600 mt-3'>
+                <p className='text-center text-sm text-gray-300 mt-3'>
                   Fast • Fair • Hassle-Free
                 </p>
               </div>

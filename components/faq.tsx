@@ -71,7 +71,7 @@ export function FAQSection() {
     <section ref={sectionRef} className='py-20 bg-background'>
       <div className='container mx-auto px-4'>
         <div className='max-w-3xl mx-auto'>
-          <h2 className='text-4xl sm:text-5xl font-bold text-gray-900 text-center mb-16'>
+          <h2 className='text-4xl sm:text-5xl font-bold text-white text-center mb-16'>
             Common Questions
           </h2>
 
@@ -79,25 +79,25 @@ export function FAQSection() {
             {faqs.map((faq, index) => (
               <div
                 key={index}
-                className='border border-gray-200 rounded-lg overflow-hidden hover:border-emerald-300 transition-colors'
+                className='border border-gray-700 rounded-lg overflow-hidden hover:border-emerald-400 transition-colors'
               >
                 <button
                   onClick={() => setOpenIndex(openIndex === index ? null : index)}
-                  className='w-full flex items-center justify-between p-6 bg-white hover:bg-gray-50 transition-colors text-left'
+                  className='w-full flex items-center justify-between p-6 bg-gray-800 hover:bg-gray-800/80 transition-colors text-left'
                 >
-                  <span className='font-bold text-gray-900 text-lg'>
+                  <span className='font-bold text-white text-lg'>
                     {faq.question}
                   </span>
                   <ChevronDown
-                    className={`w-6 h-6 text-emerald-600 flex-shrink-0 transition-transform duration-300 ${
+                    className={`w-6 h-6 text-emerald-400 flex-shrink-0 transition-transform duration-300 ${
                       openIndex === index ? 'rotate-180' : ''
                     }`}
                   />
                 </button>
 
                 {openIndex === index && (
-                  <div className='px-6 pb-6 bg-gray-50 border-t border-gray-200'>
-                    <p className='text-gray-700 leading-relaxed'>{faq.answer}</p>
+                  <div className='px-6 pb-6 bg-gray-900 border-t border-gray-700'>
+                    <p className='text-gray-200 leading-relaxed'>{faq.answer}</p>
                   </div>
                 )}
               </div>
