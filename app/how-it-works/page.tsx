@@ -10,19 +10,19 @@ import { Clock, Calendar, Handshake, CheckCircle } from 'lucide-react'
 
 export const metadata = {
   title: 'How We Buy Houses - Florence Home Buyers',
-  description: 'Learn our proven process for buying houses in Huntsville, Alabama. Get a fair cash offer in 24 hours and close on your timeline.',
+  description: 'Learn our proven process for buying houses in Florence, Alabama. Get a fair cash offer in 24 hours and close on your timeline.',
 }
 
 export default function HowItWorks() {
   return (
-    <main className='w-full min-h-screen bg-white'>
+    <main className='w-full min-h-screen bg-background'>
       <Header />
 
       {/* Hero Section */}
       <section className='min-h-[400px] bg-gradient-to-br from-red-50 to-red-100 flex items-center justify-center py-12'>
         <div className='container mx-auto px-4 text-center'>
           <h1 className='text-4xl md:text-5xl font-bold text-gray-900 mb-6'>
-            How Do I Sell My House Fast In Huntsville, Alabama?
+            How Do I Sell My House Fast In Florence, Alabama?
           </h1>
           <p className='text-xl text-gray-700 max-w-2xl mx-auto'>
             Share your home details online or call us to get started. Fill out our quick, confidential form and receive a fair cash offer within 24 hours — no obligations, no hassle!
@@ -50,7 +50,7 @@ export default function HowItWorks() {
                 Get a Fair Offer Within 24 Hours
               </h3>
               <p className='text-gray-700 text-center mb-4'>
-                Avoid the hassles of listing your house with our Huntsville Cash Offer Program. In many cases, we can present you with a fair, all-cash offer in as little as 24 hours – no obligations, no fees.
+                Avoid the hassles of listing your house with our Florence Cash Offer Program. In many cases, we can present you with a fair, all-cash offer in as little as 24 hours – no obligations, no fees.
               </p>
               <ul className='space-y-2 text-sm text-gray-600'>
                 <li className='flex items-start gap-2'>
