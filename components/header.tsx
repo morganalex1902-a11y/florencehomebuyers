@@ -42,7 +42,7 @@ export function Header() {
             <Home className='w-6 h-6 text-red-600' />
             <div className='flex flex-col'>
               <span className='font-bold text-sm text-gray-900'>Florence Home Buyers</span>
-              <span className='text-xs text-gray-600'>by Jeffreys Residences</span>
+              <span className='text-xs text-gray-600'>by Jeffreys Investment Properties</span>
             </div>
           </Link>
 
