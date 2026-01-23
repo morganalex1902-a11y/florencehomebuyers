@@ -42,7 +42,7 @@ export function BenefitsSection() {
   ]
 
   return (
-    <section ref={sectionRef} className='py-20 bg-white'>
+    <section ref={sectionRef} className='py-20 bg-background'>
       <div className='container mx-auto px-4'>
         <div className='max-w-5xl mx-auto'>
           <div className='text-center mb-12'>
