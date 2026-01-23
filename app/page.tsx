@@ -18,7 +18,7 @@ export default function Home() {
       <QuickFormSection
         title='Get a Free Cash Offer Now'
         subtitle={'No obligations. Just fill out the form and we\'ll contact you within 24 hours with a fair cash offer.'}
-        backgroundColor='bg-white'
+        backgroundColor='bg-secondary'
         buttonText='Get My Free Offer'
       />
 
@@ -29,7 +29,7 @@ export default function Home() {
       <QuickFormSection
         title='Ready to Sell Your Home?'
         subtitle='Start the process with us. Quick, simple, and no hassle.'
-        backgroundColor='bg-red-50'
+        backgroundColor='bg-secondary'
         buttonText='Continue to Full Form'
       />
 
