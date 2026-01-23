@@ -17,13 +17,13 @@ export const metadata = {
 }
 
 const HUNTSVILLE_AREAS = [
-  'Downtown Huntsville',
+  'Downtown Florence',
   'Five Points',
   'Parkway Place',
   'Madison',
   'Research Park',
-  'South Huntsville',
-  'Northeast Huntsville',
+  'South Florence',
+  'Northeast Florence',
   'Meridianville',
   'Athens',
   'Owens Cross Roads',
@@ -41,19 +41,19 @@ export default function DenverPage() {
         <div className='container mx-auto px-4'>
           <div className='max-w-3xl'>
             <h1 className='text-4xl md:text-6xl font-bold text-gray-900 mb-4'>
-              Sell My House Fast <span className='text-emerald-600'>Huntsville</span>
+              Sell My House Fast <span className='text-emerald-600'>Florence</span>
             </h1>
 
             <div className='bg-white border-l-4 border-emerald-600 p-6 rounded-r-lg mb-8 shadow-sm'>
-              <h2 className='text-2xl font-bold text-gray-900 mb-3'>We Buy Houses Huntsville, Alabama</h2>
+              <h2 className='text-2xl font-bold text-gray-900 mb-3'>We Buy Houses Florence, Alabama</h2>
               <p className='text-lg text-gray-700 mb-3'>
-                Get A Fair Cash Offer From A Trusted Local Huntsville Cash Home Buyer – Sell On The Date You Pick. <span className='text-emerald-600 font-bold'>100% FREE!</span>
+                Get A Fair Cash Offer From A Trusted Local Florence Cash Home Buyer – Sell On The Date You Pick. <span className='text-emerald-600 font-bold'>100% FREE!</span>
               </p>
 
               <div className='space-y-3 mb-6'>
                 <div className='flex items-center gap-3'>
                   <span className='text-emerald-600 font-bold text-lg'>✓</span>
-                  <span className='text-gray-700 font-semibold'>Sell Your House As-Is In Huntsville And Pay No Agent Fees</span>
+                  <span className='text-gray-700 font-semibold'>Sell Your House As-Is In Florence And Pay No Agent Fees</span>
                 </div>
                 <div className='flex items-center gap-3'>
                   <span className='text-emerald-600 font-bold text-lg'>✓</span>
@@ -62,7 +62,7 @@ export default function DenverPage() {
               </div>
 
               <p className='text-gray-700 mb-6 leading-relaxed'>
-                <strong>We solve problems – fast, easy, hassle-free.</strong> Trusted local buyers by Jeffreys Residences. We've been buying houses in Huntsville for over a decade. When you need to sell your Huntsville home quickly, fairly, and without the stress of listing, Florence Home Buyers is here for you.
+                <strong>We solve problems – fast, easy, hassle-free.</strong> Trusted local buyers by Jeffreys Residences. We've been buying houses in Florence for over a decade. When you need to sell your Florence home quickly, fairly, and without the stress of listing, Florence Home Buyers is here for you.
               </p>
 
               <div className='flex flex-col sm:flex-row gap-4'>
@@ -83,10 +83,10 @@ export default function DenverPage() {
         <div className='container mx-auto px-4'>
           <h2 className='text-3xl font-bold text-gray-900 mb-4 flex items-center gap-2'>
             <MapPin className='w-8 h-8 text-emerald-600' />
-            We Buy Houses in These Huntsville Areas
+            We Buy Houses in These Florence Areas
           </h2>
           <p className='text-gray-700 mb-8 max-w-2xl'>
-            We serve all of Huntsville and Madison County, Alabama. If you don't see your area listed below, don't worry — we likely still serve your location. Contact us to confirm.
+            We serve all of Florence and Madison County, Alabama. If you don't see your area listed below, don't worry — we likely still serve your location. Contact us to confirm.
           </p>
 
           <div className='grid md:grid-cols-3 gap-4'>
@@ -101,7 +101,7 @@ export default function DenverPage() {
           </div>
 
           <p className='text-center text-gray-600 mt-8'>
-            ...and many more areas in and around Huntsville and Madison County, Alabama. If your area isn't listed, please contact us!
+            ...and many more areas in and around Florence and Madison County, Alabama. If your area isn't listed, please contact us!
           </p>
         </div>
       </section>
@@ -133,15 +133,15 @@ export default function DenverPage() {
           <div className='grid md:grid-cols-2 gap-12 items-center'>
             <div>
               <h2 className='text-3xl md:text-4xl font-bold mb-6'>
-                Huntsville Cash Offer Program
+                Florence Cash Offer Program
               </h2>
               <p className='text-lg mb-6 opacity-90'>
-                Whether you're dealing with a foreclosure, going through a divorce, dealing with difficult tenants, or just need to move quickly, we can help. We understand the Huntsville real estate market and we know how to buy houses quickly and fairly.
+                Whether you're dealing with a foreclosure, going through a divorce, dealing with difficult tenants, or just need to move quickly, we can help. We understand the Florence real estate market and we know how to buy houses quickly and fairly.
               </p>
               <ul className='space-y-3 mb-8'>
                 <li className='flex items-start gap-3'>
                   <span className='text-xl font-bold mt-1'>✓</span>
-                  <span>We buy houses in Huntsville and surrounding areas</span>
+                  <span>We buy houses in Florence and surrounding areas</span>
                 </li>
                 <li className='flex items-start gap-3'>
                   <span className='text-xl font-bold mt-1'>✓</span>
@@ -164,7 +164,7 @@ export default function DenverPage() {
             <div className='bg-gradient-to-br from-emerald-400 to-emerald-600 rounded-lg h-96 flex items-center justify-center opacity-50'>
               <div className='text-center'>
                 <MapPin className='w-24 h-24 mx-auto opacity-50' />
-                <p className='text-lg font-semibold mt-4'>Huntsville Map Placeholder</p>
+                <p className='text-lg font-semibold mt-4'>Florence Map Placeholder</p>
               </div>
             </div>
           </div>
@@ -175,28 +175,28 @@ export default function DenverPage() {
       <section className='py-16 bg-white'>
         <div className='container mx-auto px-4'>
           <h2 className='text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12'>
-            Why Huntsville Homeowners Choose Florence Home Buyers
+            Why Florence Homeowners Choose Florence Home Buyers
           </h2>
 
           <div className='grid md:grid-cols-2 gap-8'>
             <div className='bg-gradient-to-b from-blue-50 to-transparent p-8 rounded-lg border border-blue-100'>
               <h3 className='text-xl font-bold text-gray-900 mb-4'>Local Expertise</h3>
               <p className='text-gray-700 leading-relaxed'>
-                We know the Huntsville real estate market inside and out. We understand the neighborhoods, the property values, and the unique challenges that homeowners in Huntsville face. This means we can make fair offers quickly.
+                We know the Florence real estate market inside and out. We understand the neighborhoods, the property values, and the unique challenges that homeowners in Florence face. This means we can make fair offers quickly.
               </p>
             </div>
 
             <div className='bg-gradient-to-b from-emerald-50 to-transparent p-8 rounded-lg border border-emerald-100'>
               <h3 className='text-xl font-bold text-gray-900 mb-4'>Fast Closing</h3>
               <p className='text-gray-700 leading-relaxed'>
-                In Huntsville's competitive market, speed matters. We can close in as little as 7 days with our cash offer program. No waiting for financing, no contingencies — just a clean, quick transaction.
+                In Florence's competitive market, speed matters. We can close in as little as 7 days with our cash offer program. No waiting for financing, no contingencies — just a clean, quick transaction.
               </p>
             </div>
 
             <div className='bg-gradient-to-b from-purple-50 to-transparent p-8 rounded-lg border border-purple-100'>
               <h3 className='text-xl font-bold text-gray-900 mb-4'>Fair Market Pricing</h3>
               <p className='text-gray-700 leading-relaxed'>
-                We're not here to lowball or trick anyone. Our offers are based on current Huntsville market conditions and the actual condition of your property. You get fair pricing, not a discount we've arbitrarily decided on.
+                We're not here to lowball or trick anyone. Our offers are based on current Florence market conditions and the actual condition of your property. You get fair pricing, not a discount we've arbitrarily decided on.
               </p>
             </div>
 
