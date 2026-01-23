@@ -151,10 +151,10 @@ export default function Contact() {
       </section>
 
       {/* Social Media */}
-      <section className='py-16 bg-gray-50'>
+      <section className='py-16 bg-gray-900'>
         <div className='container mx-auto px-4 text-center'>
-          <h2 className='text-3xl font-bold text-gray-900 mb-8'>Follow Us On Social Media</h2>
-          <p className='text-gray-700 mb-8 max-w-2xl mx-auto'>
+          <h2 className='text-3xl font-bold text-white mb-8'>Follow Us On Social Media</h2>
+          <p className='text-gray-300 mb-8 max-w-2xl mx-auto'>
             Connect with us on social media for updates, testimonials, and tips about selling your house.
           </p>
 
@@ -163,7 +163,7 @@ export default function Contact() {
               href='https://facebook.com'
               target='_blank'
               rel='noopener noreferrer'
-              className='w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors'
+              className='w-12 h-12 bg-red-600 text-white rounded-full flex items-center justify-center hover:bg-red-700 transition-colors'
               title='Facebook'
             >
               <Facebook className='w-6 h-6' />
@@ -172,19 +172,19 @@ export default function Contact() {
               href='https://linkedin.com'
               target='_blank'
               rel='noopener noreferrer'
-              className='w-12 h-12 bg-blue-700 text-white rounded-full flex items-center justify-center hover:bg-blue-800 transition-colors'
+              className='w-12 h-12 bg-red-600 text-white rounded-full flex items-center justify-center hover:bg-red-700 transition-colors'
               title='LinkedIn'
             >
               <Linkedin className='w-6 h-6' />
             </a>
           </div>
 
-          <div className='bg-white border border-gray-200 rounded-lg p-8 max-w-2xl mx-auto'>
-            <h3 className='text-xl font-bold text-gray-900 mb-4'>Or Connect With Us</h3>
-            <p className='text-gray-700 mb-6'>
+          <div className='bg-gray-800 border border-gray-700 rounded-lg p-8 max-w-2xl mx-auto'>
+            <h3 className='text-xl font-bold text-white mb-4'>Or Connect With Us</h3>
+            <p className='text-gray-300 mb-6'>
               The fastest way to get in touch is to call us directly or fill out our form. We respond quickly and are always happy to answer questions.
             </p>
-            <button className='px-6 py-2 bg-emerald-600 text-white font-bold rounded-lg hover:bg-emerald-700 transition-colors'>
+            <button className='px-6 py-2 bg-red-600 text-white font-bold rounded-lg hover:bg-red-700 transition-colors'>
               Fill Out Our Form
             </button>
           </div>
