@@ -31,98 +31,98 @@ export default function HowItWorks() {
       </section>
 
       {/* Detailed 3-Step Process */}
-      <section className='py-16 bg-background'>
+      <section className='py-16 bg-gray-900'>
         <div className='container mx-auto px-4'>
-          <h2 className='text-3xl md:text-4xl font-bold text-center text-foreground mb-12'>
+          <h2 className='text-3xl md:text-4xl font-bold text-center text-white mb-12'>
             Sell Your Home Fast, Easy, and Hassle-Free!
           </h2>
 
           <div className='grid md:grid-cols-3 gap-8'>
             {/* Step 1 */}
-            <div className='bg-gradient-to-b from-red-50 to-transparent p-8 rounded-lg border border-red-200'>
+            <div className='bg-gray-800 p-8 rounded-lg border border-gray-700'>
               <div className='flex items-center justify-center mb-6'>
                 <div className='w-16 h-16 bg-red-600 text-white rounded-full flex items-center justify-center text-3xl font-bold'>
                   1
                 </div>
               </div>
-              <Clock className='w-12 h-12 text-red-600 mx-auto mb-4' />
-              <h3 className='text-xl font-bold text-gray-900 text-center mb-4'>
+              <Clock className='w-12 h-12 text-red-500 mx-auto mb-4' />
+              <h3 className='text-xl font-bold text-white text-center mb-4'>
                 Get a Fair Offer Within 24 Hours
               </h3>
-              <p className='text-gray-700 text-center mb-4'>
+              <p className='text-gray-300 text-center mb-4'>
                 Avoid the hassles of listing your house with our Florence Cash Offer Program. In many cases, we can present you with a fair, all-cash offer in as little as 24 hours – no obligations, no fees.
               </p>
-              <ul className='space-y-2 text-sm text-gray-600'>
+              <ul className='space-y-2 text-sm text-gray-400'>
                 <li className='flex items-start gap-2'>
-                  <CheckCircle className='w-5 h-5 text-red-600 mt-0.5 flex-shrink-0' />
+                  <CheckCircle className='w-5 h-5 text-red-500 mt-0.5 flex-shrink-0' />
                   <span>Quick property assessment</span>
                 </li>
                 <li className='flex items-start gap-2'>
-                  <CheckCircle className='w-5 h-5 text-red-600 mt-0.5 flex-shrink-0' />
+                  <CheckCircle className='w-5 h-5 text-red-500 mt-0.5 flex-shrink-0' />
                   <span>No commission or fees</span>
                 </li>
                 <li className='flex items-start gap-2'>
-                  <CheckCircle className='w-5 h-5 text-red-600 mt-0.5 flex-shrink-0' />
+                  <CheckCircle className='w-5 h-5 text-red-500 mt-0.5 flex-shrink-0' />
                   <span>Zero obligations to accept</span>
                 </li>
               </ul>
             </div>
 
             {/* Step 2 */}
-            <div className='bg-gradient-to-b from-red-50 to-transparent p-8 rounded-lg border border-red-200'>
+            <div className='bg-gray-800 p-8 rounded-lg border border-gray-700'>
               <div className='flex items-center justify-center mb-6'>
                 <div className='w-16 h-16 bg-red-600 text-white rounded-full flex items-center justify-center text-3xl font-bold'>
                   2
                 </div>
               </div>
-              <Calendar className='w-12 h-12 text-red-600 mx-auto mb-4' />
-              <h3 className='text-xl font-bold text-gray-900 text-center mb-4'>
+              <Calendar className='w-12 h-12 text-red-500 mx-auto mb-4' />
+              <h3 className='text-xl font-bold text-white text-center mb-4'>
                 Pick the Date You Want to Close
               </h3>
-              <p className='text-gray-700 text-center mb-4'>
+              <p className='text-gray-300 text-center mb-4'>
                 Selling your house can be stressful. Have peace of mind by knowing all of your options to sell your house (we can even do the repairs for you!). You control the timeline.
               </p>
-              <ul className='space-y-2 text-sm text-gray-600'>
+              <ul className='space-y-2 text-sm text-gray-400'>
                 <li className='flex items-start gap-2'>
-                  <CheckCircle className='w-5 h-5 text-red-600 mt-0.5 flex-shrink-0' />
+                  <CheckCircle className='w-5 h-5 text-red-500 mt-0.5 flex-shrink-0' />
                   <span>Flexible closing dates</span>
                 </li>
                 <li className='flex items-start gap-2'>
-                  <CheckCircle className='w-5 h-5 text-red-600 mt-0.5 flex-shrink-0' />
+                  <CheckCircle className='w-5 h-5 text-red-500 mt-0.5 flex-shrink-0' />
                   <span>We handle all repairs</span>
                 </li>
                 <li className='flex items-start gap-2'>
-                  <CheckCircle className='w-5 h-5 text-red-600 mt-0.5 flex-shrink-0' />
+                  <CheckCircle className='w-5 h-5 text-red-500 mt-0.5 flex-shrink-0' />
                   <span>No stress or pressure</span>
                 </li>
               </ul>
             </div>
 
             {/* Step 3 */}
-            <div className='bg-gradient-to-b from-red-50 to-transparent p-8 rounded-lg border border-red-200'>
+            <div className='bg-gray-800 p-8 rounded-lg border border-gray-700'>
               <div className='flex items-center justify-center mb-6'>
                 <div className='w-16 h-16 bg-red-600 text-white rounded-full flex items-center justify-center text-3xl font-bold'>
                   3
                 </div>
               </div>
-              <Handshake className='w-12 h-12 text-red-600 mx-auto mb-4' />
-              <h3 className='text-xl font-bold text-gray-900 text-center mb-4'>
+              <Handshake className='w-12 h-12 text-red-500 mx-auto mb-4' />
+              <h3 className='text-xl font-bold text-white text-center mb-4'>
                 Sell on Your Terms. Close Quickly
               </h3>
-              <p className='text-gray-700 text-center mb-4'>
+              <p className='text-gray-300 text-center mb-4'>
                 Have the flexibility to sell on the date you choose. We can often close in as quick as 7 days with our Cash Offer Program.
               </p>
-              <ul className='space-y-2 text-sm text-gray-600'>
+              <ul className='space-y-2 text-sm text-gray-400'>
                 <li className='flex items-start gap-2'>
-                  <CheckCircle className='w-5 h-5 text-red-600 mt-0.5 flex-shrink-0' />
+                  <CheckCircle className='w-5 h-5 text-red-500 mt-0.5 flex-shrink-0' />
                   <span>Close in as little as 7 days</span>
                 </li>
                 <li className='flex items-start gap-2'>
-                  <CheckCircle className='w-5 h-5 text-red-600 mt-0.5 flex-shrink-0' />
+                  <CheckCircle className='w-5 h-5 text-red-500 mt-0.5 flex-shrink-0' />
                   <span>No showings or open houses</span>
                 </li>
                 <li className='flex items-start gap-2'>
-                  <CheckCircle className='w-5 h-5 text-red-600 mt-0.5 flex-shrink-0' />
+                  <CheckCircle className='w-5 h-5 text-red-500 mt-0.5 flex-shrink-0' />
                   <span>All-cash purchase</span>
                 </li>
               </ul>
