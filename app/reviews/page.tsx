@@ -256,15 +256,15 @@ export default function Reviews() {
       </section>
 
       {/* Video Testimonials CTA */}
-      <section className='py-16 bg-white'>
+      <section className='py-16 bg-gray-900'>
         <div className='container mx-auto px-4 text-center'>
-          <h2 className='text-3xl md:text-4xl font-bold text-gray-900 mb-6'>
+          <h2 className='text-3xl md:text-4xl font-bold text-white mb-6'>
             Watch Customer Stories
           </h2>
-          <p className='text-xl text-gray-700 mb-8 max-w-2xl mx-auto'>
+          <p className='text-xl text-gray-300 mb-8 max-w-2xl mx-auto'>
             Hear directly from homeowners about their experience selling to Florence Home Buyers. Video testimonials coming soon!
           </p>
-          <button className='px-8 py-3 bg-emerald-600 text-white font-bold rounded-lg hover:bg-emerald-700 transition-colors text-lg'>
+          <button className='px-8 py-3 bg-red-600 text-white font-bold rounded-lg hover:bg-red-700 transition-colors text-lg'>
             Subscribe for Video Updates
           </button>
         </div>

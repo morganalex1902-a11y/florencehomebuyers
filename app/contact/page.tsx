@@ -27,20 +27,20 @@ export default function Contact() {
       </section>
 
       {/* Contact Information Cards */}
-      <section className='py-16 bg-white'>
+      <section className='py-16 bg-gray-900'>
         <div className='container mx-auto px-4'>
           <div className='grid md:grid-cols-2 gap-8 mb-12'>
             {/* Phone Card */}
-            <div className='bg-gradient-to-br from-blue-50 to-blue-100 border border-blue-200 rounded-lg p-8 text-center'>
-              <Phone className='w-12 h-12 text-blue-600 mx-auto mb-4' />
-              <h3 className='text-2xl font-bold text-gray-900 mb-2'>Call Us</h3>
-              <a href='tel:2567621898' className='text-blue-600 hover:text-blue-700 font-bold text-2xl block mb-4'>
+            <div className='bg-gray-800 border border-gray-700 rounded-lg p-8 text-center'>
+              <Phone className='w-12 h-12 text-red-500 mx-auto mb-4' />
+              <h3 className='text-2xl font-bold text-white mb-2'>Call Us</h3>
+              <a href='tel:2567621898' className='text-red-500 hover:text-red-400 font-bold text-2xl block mb-4'>
               (256) 762-1898
             </a>
-              <p className='text-gray-700'>
+              <p className='text-gray-300'>
                 Call us directly to speak with a specialist about your property.
               </p>
-              <p className='text-sm text-gray-600 mt-4'>
+              <p className='text-sm text-gray-400 mt-4'>
                 Available Monday - Friday, 9 AM - 6 PM
                 <br />
                 Saturday, 10 AM - 4 PM
@@ -48,35 +48,35 @@ export default function Contact() {
             </div>
 
             {/* Email Card */}
-            <div className='bg-gradient-to-br from-emerald-50 to-emerald-100 border border-emerald-200 rounded-lg p-8 text-center'>
-              <Mail className='w-12 h-12 text-emerald-600 mx-auto mb-4' />
-              <h3 className='text-2xl font-bold text-gray-900 mb-2'>Email Us</h3>
-              <a href='mailto:info@florencehomebuyers.com' className='text-emerald-600 hover:text-emerald-700 font-bold text-lg block mb-4'>
+            <div className='bg-gray-800 border border-gray-700 rounded-lg p-8 text-center'>
+              <Mail className='w-12 h-12 text-red-500 mx-auto mb-4' />
+              <h3 className='text-2xl font-bold text-white mb-2'>Email Us</h3>
+              <a href='mailto:info@florencehomebuyers.com' className='text-red-500 hover:text-red-400 font-bold text-lg block mb-4'>
                 info@florencehomebuyers.com
               </a>
-              <p className='text-gray-700'>
+              <p className='text-gray-300'>
                 Send us an email with details about your property and we'll respond quickly.
               </p>
-              <p className='text-sm text-gray-600 mt-4'>
+              <p className='text-sm text-gray-400 mt-4'>
                 We typically respond within 24 hours
               </p>
             </div>
           </div>
 
           {/* Address Card */}
-          <div className='bg-gradient-to-br from-purple-50 to-purple-100 border border-purple-200 rounded-lg p-8 max-w-2xl mx-auto'>
+          <div className='bg-gray-800 border border-gray-700 rounded-lg p-8 max-w-2xl mx-auto'>
             <div className='flex items-start gap-4'>
-              <MapPin className='w-12 h-12 text-purple-600 flex-shrink-0 mt-1' />
+              <MapPin className='w-12 h-12 text-red-500 flex-shrink-0 mt-1' />
               <div>
-                <h3 className='text-2xl font-bold text-gray-900 mb-2'>Visit Us</h3>
-                <p className='text-gray-900 font-semibold'>Florence Home Buyers</p>
-                <p className='text-gray-700'>by Jeffreys Investment Properties</p>
-                <p className='text-gray-700 mt-2'>
+                <h3 className='text-2xl font-bold text-white mb-2'>Visit Us</h3>
+                <p className='text-white font-semibold'>Florence Home Buyers</p>
+                <p className='text-gray-300'>by Jeffreys Investment Properties</p>
+                <p className='text-gray-300 mt-2'>
                   1234 Business Drive
                   <br />
                   Florence, Alabama 35801
                 </p>
-                <p className='text-sm text-gray-600 mt-4'>
+                <p className='text-sm text-gray-400 mt-4'>
                   We're located in the heart of Florence for your convenience. By appointment preferred.
                 </p>
               </div>
@@ -86,19 +86,19 @@ export default function Contact() {
       </section>
 
       {/* Hours & Response Time */}
-      <section className='py-16 bg-gray-50'>
+      <section className='py-16 bg-gray-900'>
         <div className='container mx-auto px-4'>
-          <h2 className='text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12'>
+          <h2 className='text-3xl md:text-4xl font-bold text-center text-white mb-12'>
             Hours & Response Times
           </h2>
 
           <div className='grid md:grid-cols-2 gap-8 max-w-3xl mx-auto'>
-            <div className='bg-white border border-gray-200 rounded-lg p-8'>
+            <div className='bg-gray-800 border border-gray-700 rounded-lg p-8'>
               <div className='flex items-center gap-3 mb-6'>
-                <Clock className='w-6 h-6 text-emerald-600' />
-                <h3 className='text-xl font-bold text-gray-900'>Business Hours</h3>
+                <Clock className='w-6 h-6 text-red-500' />
+                <h3 className='text-xl font-bold text-white'>Business Hours</h3>
               </div>
-              <ul className='space-y-3 text-gray-700'>
+              <ul className='space-y-3 text-gray-300'>
                 <li className='flex justify-between'>
                   <span>Monday - Friday:</span>
                   <span className='font-semibold'>9:00 AM - 6:00 PM</span>
@@ -114,12 +114,12 @@ export default function Contact() {
               </ul>
             </div>
 
-            <div className='bg-white border border-gray-200 rounded-lg p-8'>
+            <div className='bg-gray-800 border border-gray-700 rounded-lg p-8'>
               <div className='flex items-center gap-3 mb-6'>
-                <Mail className='w-6 h-6 text-emerald-600' />
-                <h3 className='text-xl font-bold text-gray-900'>Response Times</h3>
+                <Mail className='w-6 h-6 text-red-500' />
+                <h3 className='text-xl font-bold text-white'>Response Times</h3>
               </div>
-              <ul className='space-y-3 text-gray-700'>
+              <ul className='space-y-3 text-gray-300'>
                 <li className='flex justify-between'>
                   <span>Phone Call:</span>
                   <span className='font-semibold'>Same day</span>
@@ -139,22 +139,22 @@ export default function Contact() {
       </section>
 
       {/* Contact Form Section */}
-      <section className='py-16 bg-white'>
+      <section className='py-16 bg-gray-900'>
         <div className='container mx-auto px-4'>
-          <h2 className='text-3xl md:text-4xl font-bold text-center text-gray-900 mb-4'>
+          <h2 className='text-3xl md:text-4xl font-bold text-center text-white mb-4'>
             Get Your Fair Cash Offer Today
           </h2>
-          <p className='text-center text-gray-700 text-lg mb-12 max-w-2xl mx-auto'>
+          <p className='text-center text-gray-300 text-lg mb-12 max-w-2xl mx-auto'>
             Fill out the form below with information about your property and we'll contact you within 24 hours with a fair cash offer. No obligation, no pressure, completely free.
           </p>
         </div>
       </section>
 
       {/* Social Media */}
-      <section className='py-16 bg-gray-50'>
+      <section className='py-16 bg-gray-900'>
         <div className='container mx-auto px-4 text-center'>
-          <h2 className='text-3xl font-bold text-gray-900 mb-8'>Follow Us On Social Media</h2>
-          <p className='text-gray-700 mb-8 max-w-2xl mx-auto'>
+          <h2 className='text-3xl font-bold text-white mb-8'>Follow Us On Social Media</h2>
+          <p className='text-gray-300 mb-8 max-w-2xl mx-auto'>
             Connect with us on social media for updates, testimonials, and tips about selling your house.
           </p>
 
@@ -163,7 +163,7 @@ export default function Contact() {
               href='https://facebook.com'
               target='_blank'
               rel='noopener noreferrer'
-              className='w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors'
+              className='w-12 h-12 bg-red-600 text-white rounded-full flex items-center justify-center hover:bg-red-700 transition-colors'
               title='Facebook'
             >
               <Facebook className='w-6 h-6' />
@@ -172,19 +172,19 @@ export default function Contact() {
               href='https://linkedin.com'
               target='_blank'
               rel='noopener noreferrer'
-              className='w-12 h-12 bg-blue-700 text-white rounded-full flex items-center justify-center hover:bg-blue-800 transition-colors'
+              className='w-12 h-12 bg-red-600 text-white rounded-full flex items-center justify-center hover:bg-red-700 transition-colors'
               title='LinkedIn'
             >
               <Linkedin className='w-6 h-6' />
             </a>
           </div>
 
-          <div className='bg-white border border-gray-200 rounded-lg p-8 max-w-2xl mx-auto'>
-            <h3 className='text-xl font-bold text-gray-900 mb-4'>Or Connect With Us</h3>
-            <p className='text-gray-700 mb-6'>
+          <div className='bg-gray-800 border border-gray-700 rounded-lg p-8 max-w-2xl mx-auto'>
+            <h3 className='text-xl font-bold text-white mb-4'>Or Connect With Us</h3>
+            <p className='text-gray-300 mb-6'>
               The fastest way to get in touch is to call us directly or fill out our form. We respond quickly and are always happy to answer questions.
             </p>
-            <button className='px-6 py-2 bg-emerald-600 text-white font-bold rounded-lg hover:bg-emerald-700 transition-colors'>
+            <button className='px-6 py-2 bg-red-600 text-white font-bold rounded-lg hover:bg-red-700 transition-colors'>
               Fill Out Our Form
             </button>
           </div>
@@ -195,13 +195,13 @@ export default function Contact() {
       <FormSection />
 
       {/* FAQ Link */}
-      <section className='py-16 bg-blue-50 border-t border-blue-100'>
+      <section className='py-16 bg-gray-800 border-t border-gray-700'>
         <div className='container mx-auto px-4 text-center'>
-          <h2 className='text-2xl font-bold text-gray-900 mb-4'>Have Questions First?</h2>
-          <p className='text-gray-700 mb-6'>
+          <h2 className='text-2xl font-bold text-white mb-4'>Have Questions First?</h2>
+          <p className='text-gray-300 mb-6'>
             Check out our comprehensive FAQ to learn more about our process and what to expect.
           </p>
-          <a href='/faq' className='inline-block px-6 py-3 bg-emerald-600 text-white font-bold rounded-lg hover:bg-emerald-700 transition-colors'>
+          <a href='/faq' className='inline-block px-6 py-3 bg-red-600 text-white font-bold rounded-lg hover:bg-red-700 transition-colors'>
             Read Our FAQ
           </a>
         </div>

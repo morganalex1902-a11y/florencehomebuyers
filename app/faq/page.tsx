@@ -115,15 +115,15 @@ export default function FAQ() {
             {faqItems.map((item, index) => (
               <details
                 key={item.id}
-                className='group border border-border rounded-lg overflow-hidden hover:border-primary transition-colors'
+                className='group border border-gray-700 rounded-lg overflow-hidden hover:border-red-600 transition-colors'
                 open={index === 0}
               >
-                <summary className='flex items-center justify-between px-6 py-4 cursor-pointer bg-card hover:bg-card transition-colors'>
-                  <h3 className='text-lg font-bold text-foreground pr-4'>{item.question}</h3>
-                  <ChevronDown className='w-5 h-5 text-muted-foreground flex-shrink-0 group-open:rotate-180 transition-transform' />
+                <summary className='flex items-center justify-between px-6 py-4 cursor-pointer bg-gray-900 hover:bg-gray-800 transition-colors'>
+                  <h3 className='text-lg font-bold text-white pr-4'>{item.question}</h3>
+                  <ChevronDown className='w-5 h-5 text-gray-400 flex-shrink-0 group-open:rotate-180 transition-transform' />
                 </summary>
-                <div className='px-6 py-4 bg-card border-t border-border'>
-                  <p className='text-foreground leading-relaxed'>{item.answer}</p>
+                <div className='px-6 py-4 bg-gray-800 border-t border-gray-700'>
+                  <p className='text-gray-300 leading-relaxed'>{item.answer}</p>
                 </div>
               </details>
             ))}
@@ -132,38 +132,38 @@ export default function FAQ() {
       </section>
 
       {/* Still Have Questions */}
-      <section className='py-16 bg-background'>
+      <section className='py-16 bg-gray-900'>
         <div className='container mx-auto px-4 text-center'>
-          <h2 className='text-3xl md:text-4xl font-bold text-foreground mb-6'>
+          <h2 className='text-3xl md:text-4xl font-bold text-white mb-6'>
             Still Have Questions?
           </h2>
-          <p className='text-xl text-gray-700 mb-8 max-w-2xl mx-auto'>
+          <p className='text-xl text-gray-400 mb-8 max-w-2xl mx-auto'>
             We're here to help! Reach out to us directly and we'll be happy to answer any additional questions you have about selling your home to Florence Home Buyers.
           </p>
 
           <div className='grid md:grid-cols-3 gap-8 mt-12'>
-            <div className='bg-white p-8 rounded-lg border border-gray-200 text-center'>
-              <div className='text-4xl font-bold text-emerald-600 mb-4'>📞</div>
-              <h3 className='text-xl font-bold text-gray-900 mb-2'>Call Us</h3>
-              <a href='tel:+923211234567' className='text-blue-600 hover:text-blue-700 font-semibold text-lg'>
+            <div className='bg-gray-800 p-8 rounded-lg border border-gray-700 text-center'>
+              <div className='text-4xl font-bold text-red-600 mb-4'>📞</div>
+              <h3 className='text-xl font-bold text-white mb-2'>Call Us</h3>
+              <a href='tel:+923211234567' className='text-red-500 hover:text-red-400 font-semibold text-lg'>
                 +92 321 1234567
               </a>
-              <p className='text-gray-600 text-sm mt-2'>Available during business hours</p>
+              <p className='text-gray-400 text-sm mt-2'>Available during business hours</p>
             </div>
 
-            <div className='bg-white p-8 rounded-lg border border-gray-200 text-center'>
-              <div className='text-4xl font-bold text-emerald-600 mb-4'>📧</div>
-              <h3 className='text-xl font-bold text-gray-900 mb-2'>Email Us</h3>
-              <a href='mailto:info@florencehomebuyers.com' className='text-blue-600 hover:text-blue-700 font-semibold'>
+            <div className='bg-gray-800 p-8 rounded-lg border border-gray-700 text-center'>
+              <div className='text-4xl font-bold text-red-600 mb-4'>📧</div>
+              <h3 className='text-xl font-bold text-white mb-2'>Email Us</h3>
+              <a href='mailto:info@florencehomebuyers.com' className='text-red-500 hover:text-red-400 font-semibold'>
                 info@florencehomebuyers.com
               </a>
-              <p className='text-gray-600 text-sm mt-2'>We'll respond within 24 hours</p>
+              <p className='text-gray-400 text-sm mt-2'>We'll respond within 24 hours</p>
             </div>
 
-            <div className='bg-white p-8 rounded-lg border border-gray-200 text-center'>
-              <div className='text-4xl font-bold text-emerald-600 mb-4'>💬</div>
-              <h3 className='text-xl font-bold text-gray-900 mb-2'>Fill Out Form</h3>
-              <p className='text-gray-600 text-sm'>Submit the form below to get started today</p>
+            <div className='bg-gray-800 p-8 rounded-lg border border-gray-700 text-center'>
+              <div className='text-4xl font-bold text-red-600 mb-4'>💬</div>
+              <h3 className='text-xl font-bold text-white mb-2'>Fill Out Form</h3>
+              <p className='text-gray-400 text-sm'>Submit the form below to get started today</p>
             </div>
           </div>
         </div>
