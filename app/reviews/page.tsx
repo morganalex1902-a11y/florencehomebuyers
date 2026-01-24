@@ -169,8 +169,8 @@ export default function Reviews() {
                 </p>
                 <div className='border-t border-gray-300 pt-4'>
                   <p className='font-bold text-gray-900'>{testimonial.name}</p>
-                  <p className='text-sm text-gray-600'>{testimonial.location}</p>
-                  <p className='text-xs text-gray-500 mt-2'>
+                  <p className='text-sm text-gray-700'>{testimonial.location}</p>
+                  <p className='text-xs text-gray-600 mt-2'>
                     {new Date(testimonial.date).toLocaleDateString('en-US', {
                       year: 'numeric',
                       month: 'long',
