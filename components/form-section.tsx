@@ -115,7 +115,7 @@ export function FormSection() {
 
           <div className='grid md:grid-cols-3 gap-12 items-stretch'>
             {/* Form */}
-            <div className='md:col-span-2 bg-card p-10 rounded-xl border-2 border-red-200 shadow-lg'>
+            <div className='md:col-span-2 bg-card p-10 rounded-xl border-2 border-red-600 shadow-lg'>
               {submitted ? (
                 <div className='text-center py-8'>
                   <div className='inline-block p-4 bg-red-900 rounded-full mb-4'>
