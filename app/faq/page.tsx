@@ -97,12 +97,12 @@ export default function FAQ() {
       <Header />
 
       {/* Hero Section */}
-      <section className='min-h-[300px] bg-gradient-to-br from-blue-50 to-emerald-50 flex items-center justify-center py-12'>
+      <section className='min-h-[300px] bg-background flex items-center justify-center py-12'>
         <div className='container mx-auto px-4 text-center'>
-          <h1 className='text-4xl md:text-5xl font-bold text-gray-900 mb-6'>
+          <h1 className='text-4xl md:text-5xl font-bold text-white mb-6'>
             Frequently Asked Questions
           </h1>
-          <p className='text-xl text-gray-700 max-w-2xl mx-auto'>
+          <p className='text-xl text-gray-300 max-w-2xl mx-auto'>
             We've answered the most common questions about selling your home to Florence Home Buyers. Can't find what you're looking for? Contact us directly.
           </p>
         </div>
