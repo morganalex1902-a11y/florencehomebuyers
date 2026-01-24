@@ -97,12 +97,12 @@ export default function FAQ() {
       <Header />
 
       {/* Hero Section */}
-      <section className='min-h-[300px] bg-gradient-to-br from-blue-50 to-emerald-50 flex items-center justify-center py-12'>
+      <section className='min-h-[300px] bg-background flex items-center justify-center py-12'>
         <div className='container mx-auto px-4 text-center'>
-          <h1 className='text-4xl md:text-5xl font-bold text-gray-900 mb-6'>
+          <h1 className='text-4xl md:text-5xl font-bold text-white mb-6'>
             Frequently Asked Questions
           </h1>
-          <p className='text-xl text-gray-700 max-w-2xl mx-auto'>
+          <p className='text-xl text-gray-300 max-w-2xl mx-auto'>
             We've answered the most common questions about selling your home to Florence Home Buyers. Can't find what you're looking for? Contact us directly.
           </p>
         </div>
@@ -142,7 +142,7 @@ export default function FAQ() {
           </p>
 
           <div className='grid md:grid-cols-3 gap-8 mt-12'>
-            <div className='bg-gray-800 p-8 rounded-lg border border-gray-700 text-center'>
+            <div className='p-8 rounded-lg text-center' style={{ backgroundColor: '#1a1a1a', borderColor: '#333333', borderWidth: '1px' }}>
               <div className='text-4xl font-bold text-red-600 mb-4'>📞</div>
               <h3 className='text-xl font-bold text-white mb-2'>Call Us</h3>
               <a href='tel:+923211234567' className='text-red-500 hover:text-red-400 font-semibold text-lg'>
@@ -151,7 +151,7 @@ export default function FAQ() {
               <p className='text-gray-400 text-sm mt-2'>Available during business hours</p>
             </div>
 
-            <div className='bg-gray-800 p-8 rounded-lg border border-gray-700 text-center'>
+            <div className='p-8 rounded-lg text-center' style={{ backgroundColor: '#1a1a1a', borderColor: '#333333', borderWidth: '1px' }}>
               <div className='text-4xl font-bold text-red-600 mb-4'>📧</div>
               <h3 className='text-xl font-bold text-white mb-2'>Email Us</h3>
               <a href='mailto:info@florencehomebuyers.com' className='text-red-500 hover:text-red-400 font-semibold'>
@@ -160,7 +160,7 @@ export default function FAQ() {
               <p className='text-gray-400 text-sm mt-2'>We'll respond within 24 hours</p>
             </div>
 
-            <div className='bg-gray-800 p-8 rounded-lg border border-gray-700 text-center'>
+            <div className='p-8 rounded-lg text-center' style={{ backgroundColor: '#1a1a1a', borderColor: '#333333', borderWidth: '1px' }}>
               <div className='text-4xl font-bold text-red-600 mb-4'>💬</div>
               <h3 className='text-xl font-bold text-white mb-2'>Fill Out Form</h3>
               <p className='text-gray-400 text-sm'>Submit the form below to get started today</p>
@@ -170,7 +170,7 @@ export default function FAQ() {
       </section>
 
       {/* CTA Section */}
-      <section className='py-16 bg-emerald-600 text-white text-center'>
+      <section className='py-16 bg-secondary text-white text-center'>
         <div className='container mx-auto px-4'>
           <h2 className='text-3xl md:text-4xl font-bold mb-4'>
             Ready to Get Your Fair Cash Offer?
@@ -178,7 +178,7 @@ export default function FAQ() {
           <p className='text-xl mb-8 opacity-90 max-w-2xl mx-auto'>
             It's simple, fast, and obligation-free. Get your offer within 24 hours.
           </p>
-          <button className='px-8 py-3 bg-white text-emerald-600 font-bold rounded-lg hover:bg-gray-100 transition-colors text-lg'>
+          <button className='px-8 py-3 bg-red-600 text-white font-bold rounded-lg hover:bg-red-700 transition-colors text-lg'>
             Get Started Now
           </button>
         </div>

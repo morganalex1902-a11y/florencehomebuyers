@@ -15,12 +15,12 @@ export default function Contact() {
       <Header />
 
       {/* Hero Section */}
-      <section className='min-h-[350px] bg-gradient-to-br from-emerald-50 to-blue-50 flex items-center justify-center py-12'>
+      <section className='min-h-[350px] bg-background flex items-center justify-center py-12'>
         <div className='container mx-auto px-4 text-center'>
-          <h1 className='text-4xl md:text-5xl font-bold text-gray-900 mb-6'>
+          <h1 className='text-4xl md:text-5xl font-bold text-white mb-6'>
             Get in Touch With Us
           </h1>
-          <p className='text-xl text-gray-700 max-w-2xl mx-auto'>
+          <p className='text-xl text-gray-300 max-w-2xl mx-auto'>
             Ready to sell your house? We're here to help. Reach out to us today and get your fair cash offer within 24 hours.
           </p>
         </div>
@@ -31,7 +31,7 @@ export default function Contact() {
         <div className='container mx-auto px-4'>
           <div className='grid md:grid-cols-2 gap-8 mb-12'>
             {/* Phone Card */}
-            <div className='bg-gray-800 border border-gray-700 rounded-lg p-8 text-center'>
+            <div className='rounded-lg p-8 text-center' style={{ backgroundColor: '#1a1a1a', borderColor: '#333333', borderWidth: '1px' }}>
               <Phone className='w-12 h-12 text-red-500 mx-auto mb-4' />
               <h3 className='text-2xl font-bold text-white mb-2'>Call Us</h3>
               <a href='tel:2567621898' className='text-red-500 hover:text-red-400 font-bold text-2xl block mb-4'>
@@ -48,7 +48,7 @@ export default function Contact() {
             </div>
 
             {/* Email Card */}
-            <div className='bg-gray-800 border border-gray-700 rounded-lg p-8 text-center'>
+            <div className='rounded-lg p-8 text-center' style={{ backgroundColor: '#1a1a1a', borderColor: '#333333', borderWidth: '1px' }}>
               <Mail className='w-12 h-12 text-red-500 mx-auto mb-4' />
               <h3 className='text-2xl font-bold text-white mb-2'>Email Us</h3>
               <a href='mailto:info@florencehomebuyers.com' className='text-red-500 hover:text-red-400 font-bold text-lg block mb-4'>
@@ -64,7 +64,7 @@ export default function Contact() {
           </div>
 
           {/* Address Card */}
-          <div className='bg-gray-800 border border-gray-700 rounded-lg p-8 max-w-2xl mx-auto'>
+          <div className='rounded-lg p-8 max-w-2xl mx-auto' style={{ backgroundColor: '#1a1a1a', borderColor: '#333333', borderWidth: '1px' }}>
             <div className='flex items-start gap-4'>
               <MapPin className='w-12 h-12 text-red-500 flex-shrink-0 mt-1' />
               <div>
@@ -93,7 +93,7 @@ export default function Contact() {
           </h2>
 
           <div className='grid md:grid-cols-2 gap-8 max-w-3xl mx-auto'>
-            <div className='bg-gray-800 border border-gray-700 rounded-lg p-8'>
+            <div className='rounded-lg p-8' style={{ backgroundColor: '#1a1a1a', borderColor: '#333333', borderWidth: '1px' }}>
               <div className='flex items-center gap-3 mb-6'>
                 <Clock className='w-6 h-6 text-red-500' />
                 <h3 className='text-xl font-bold text-white'>Business Hours</h3>
@@ -114,7 +114,7 @@ export default function Contact() {
               </ul>
             </div>
 
-            <div className='bg-gray-800 border border-gray-700 rounded-lg p-8'>
+            <div className='rounded-lg p-8' style={{ backgroundColor: '#1a1a1a', borderColor: '#333333', borderWidth: '1px' }}>
               <div className='flex items-center gap-3 mb-6'>
                 <Mail className='w-6 h-6 text-red-500' />
                 <h3 className='text-xl font-bold text-white'>Response Times</h3>
@@ -179,7 +179,7 @@ export default function Contact() {
             </a>
           </div>
 
-          <div className='bg-gray-800 border border-gray-700 rounded-lg p-8 max-w-2xl mx-auto'>
+          <div className='rounded-lg p-8 max-w-2xl mx-auto' style={{ backgroundColor: '#1a1a1a', borderColor: '#333333', borderWidth: '1px' }}>
             <h3 className='text-xl font-bold text-white mb-4'>Or Connect With Us</h3>
             <p className='text-gray-300 mb-6'>
               The fastest way to get in touch is to call us directly or fill out our form. We respond quickly and are always happy to answer questions.

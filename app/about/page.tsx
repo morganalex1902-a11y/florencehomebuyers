@@ -18,12 +18,12 @@ export default function About() {
       <Header />
 
       {/* Hero Section */}
-      <section className='min-h-[400px] bg-gradient-to-br from-emerald-50 to-blue-50 flex items-center justify-center py-12'>
+      <section className='min-h-[400px] bg-background flex items-center justify-center py-12'>
         <div className='container mx-auto px-4 text-center'>
-          <h1 className='text-4xl md:text-5xl font-bold text-gray-900 mb-6'>
+          <h1 className='text-4xl md:text-5xl font-bold text-white mb-6'>
             About Florence Home Buyers
           </h1>
-          <p className='text-xl text-gray-700 max-w-2xl mx-auto'>
+          <p className='text-xl text-gray-300 max-w-2xl mx-auto'>
             We are Florence's premier house-buying company, dedicated to helping homeowners in all situations sell their properties quickly, fairly, and with complete peace of mind.
           </p>
         </div>

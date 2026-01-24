@@ -19,12 +19,12 @@ export default function HowItWorks() {
       <Header />
 
       {/* Hero Section */}
-      <section className='min-h-[400px] bg-gradient-to-br from-red-50 to-red-100 flex items-center justify-center py-12'>
+      <section className='min-h-[400px] bg-background flex items-center justify-center py-12'>
         <div className='container mx-auto px-4 text-center'>
-          <h1 className='text-4xl md:text-5xl font-bold text-gray-900 mb-6'>
+          <h1 className='text-4xl md:text-5xl font-bold text-white mb-6'>
             How Do I Sell My House Fast In Florence, Alabama?
           </h1>
-          <p className='text-xl text-gray-700 max-w-2xl mx-auto'>
+          <p className='text-xl text-gray-300 max-w-2xl mx-auto'>
             Share your home details online or call us to get started. Fill out our quick, confidential form and receive a fair cash offer within 24 hours — no obligations, no hassle!
           </p>
         </div>
