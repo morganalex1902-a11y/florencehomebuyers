@@ -15,12 +15,12 @@ export default function Contact() {
       <Header />
 
       {/* Hero Section */}
-      <section className='min-h-[350px] bg-gradient-to-br from-emerald-50 to-blue-50 flex items-center justify-center py-12'>
+      <section className='min-h-[350px] bg-background flex items-center justify-center py-12'>
         <div className='container mx-auto px-4 text-center'>
-          <h1 className='text-4xl md:text-5xl font-bold text-gray-900 mb-6'>
+          <h1 className='text-4xl md:text-5xl font-bold text-white mb-6'>
             Get in Touch With Us
           </h1>
-          <p className='text-xl text-gray-700 max-w-2xl mx-auto'>
+          <p className='text-xl text-gray-300 max-w-2xl mx-auto'>
             Ready to sell your house? We're here to help. Reach out to us today and get your fair cash offer within 24 hours.
           </p>
         </div>
