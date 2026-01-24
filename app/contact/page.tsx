@@ -31,7 +31,7 @@ export default function Contact() {
         <div className='container mx-auto px-4'>
           <div className='grid md:grid-cols-2 gap-8 mb-12'>
             {/* Phone Card */}
-            <div className='bg-gray-800 border border-gray-700 rounded-lg p-8 text-center'>
+            <div className='rounded-lg p-8 text-center' style={{ backgroundColor: '#1a1a1a', borderColor: '#333333', borderWidth: '1px' }}>
               <Phone className='w-12 h-12 text-red-500 mx-auto mb-4' />
               <h3 className='text-2xl font-bold text-white mb-2'>Call Us</h3>
               <a href='tel:2567621898' className='text-red-500 hover:text-red-400 font-bold text-2xl block mb-4'>
@@ -48,7 +48,7 @@ export default function Contact() {
             </div>
 
             {/* Email Card */}
-            <div className='bg-gray-800 border border-gray-700 rounded-lg p-8 text-center'>
+            <div className='rounded-lg p-8 text-center' style={{ backgroundColor: '#1a1a1a', borderColor: '#333333', borderWidth: '1px' }}>
               <Mail className='w-12 h-12 text-red-500 mx-auto mb-4' />
               <h3 className='text-2xl font-bold text-white mb-2'>Email Us</h3>
               <a href='mailto:info@florencehomebuyers.com' className='text-red-500 hover:text-red-400 font-bold text-lg block mb-4'>
@@ -64,7 +64,7 @@ export default function Contact() {
           </div>
 
           {/* Address Card */}
-          <div className='bg-gray-800 border border-gray-700 rounded-lg p-8 max-w-2xl mx-auto'>
+          <div className='rounded-lg p-8 max-w-2xl mx-auto' style={{ backgroundColor: '#1a1a1a', borderColor: '#333333', borderWidth: '1px' }}>
             <div className='flex items-start gap-4'>
               <MapPin className='w-12 h-12 text-red-500 flex-shrink-0 mt-1' />
               <div>
