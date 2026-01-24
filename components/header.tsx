@@ -31,7 +31,7 @@ export function Header() {
     <header
       className={`sticky top-0 z-50 transition-all duration-300 ${
         isScrolled
-          ? 'bg-gray-900 shadow-lg py-3 text-white'
+          ? 'bg-black shadow-lg py-3 text-white'
           : 'bg-gradient-to-b from-gray-900 to-transparent py-6 text-white'
       }`}
     >
