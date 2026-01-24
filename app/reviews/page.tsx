@@ -161,16 +161,16 @@ export default function Reviews() {
             {testimonials.map((testimonial) => (
               <div
                 key={testimonial.id}
-                className='bg-card border border-border rounded-lg p-8 hover:shadow-lg transition-shadow'
+                className='shiny-card border border-gray-300 rounded-lg p-8 hover:shadow-lg transition-shadow'
               >
                 <StarRating rating={testimonial.rating} />
-                <p className='text-gray-700 mt-4 mb-6 leading-relaxed italic'>
+                <p className='text-gray-900 mt-4 mb-6 leading-relaxed italic'>
                   "{testimonial.text}"
                 </p>
-                <div className='border-t border-gray-200 pt-4'>
+                <div className='border-t border-gray-300 pt-4'>
                   <p className='font-bold text-gray-900'>{testimonial.name}</p>
-                  <p className='text-sm text-gray-600'>{testimonial.location}</p>
-                  <p className='text-xs text-gray-500 mt-2'>
+                  <p className='text-sm text-gray-700'>{testimonial.location}</p>
+                  <p className='text-xs text-gray-600 mt-2'>
                     {new Date(testimonial.date).toLocaleDateString('en-US', {
                       year: 'numeric',
                       month: 'long',
