@@ -56,7 +56,8 @@ export function QuickForm({
             value={formData.firstName}
             onChange={handleChange}
             required
-            className='px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+            className='px-4 py-3 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+            style={{ backgroundColor: '#1a1a1a', borderColor: '#333333', borderWidth: '1px' }}
           />
           <input
             type='tel'
@@ -65,7 +66,8 @@ export function QuickForm({
             value={formData.phone}
             onChange={handleChange}
             required
-            className='px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+            className='px-4 py-3 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+            style={{ backgroundColor: '#1a1a1a', borderColor: '#333333', borderWidth: '1px' }}
           />
         </div>
 
@@ -76,7 +78,8 @@ export function QuickForm({
           value={formData.email}
           onChange={handleChange}
           required
-          className='w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+          className='w-full px-4 py-3 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+          style={{ backgroundColor: '#1a1a1a', borderColor: '#333333', borderWidth: '1px' }}
         />
 
         <input
@@ -86,7 +89,8 @@ export function QuickForm({
           value={formData.streetAddress}
           onChange={handleChange}
           required
-          className='w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+          className='w-full px-4 py-3 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+          style={{ backgroundColor: '#1a1a1a', borderColor: '#333333', borderWidth: '1px' }}
         />
 
         <button
@@ -117,7 +121,8 @@ export function QuickForm({
             onChange={handleChange}
             required
             placeholder='First and Last Name'
-            className='w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+            className='w-full px-4 py-3 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+            style={{ backgroundColor: '#1a1a1a', borderColor: '#333333', borderWidth: '1px' }}
           />
         </div>
 
@@ -132,7 +137,8 @@ export function QuickForm({
             onChange={handleChange}
             required
             placeholder='your@email.com'
-            className='w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+            className='w-full px-4 py-3 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+            style={{ backgroundColor: '#1a1a1a', borderColor: '#333333', borderWidth: '1px' }}
           />
         </div>
 
@@ -147,7 +153,8 @@ export function QuickForm({
             onChange={handleChange}
             required
             placeholder='(256) XXX-XXXX'
-            className='w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+            className='w-full px-4 py-3 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+            style={{ backgroundColor: '#1a1a1a', borderColor: '#333333', borderWidth: '1px' }}
           />
         </div>
 
@@ -162,7 +169,8 @@ export function QuickForm({
             onChange={handleChange}
             required
             placeholder='Street Address'
-            className='w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+            className='w-full px-4 py-3 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+            style={{ backgroundColor: '#1a1a1a', borderColor: '#333333', borderWidth: '1px' }}
           />
         </div>
 
