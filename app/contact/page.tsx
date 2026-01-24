@@ -93,7 +93,7 @@ export default function Contact() {
           </h2>
 
           <div className='grid md:grid-cols-2 gap-8 max-w-3xl mx-auto'>
-            <div className='bg-gray-800 border border-gray-700 rounded-lg p-8'>
+            <div className='rounded-lg p-8' style={{ backgroundColor: '#1a1a1a', borderColor: '#333333', borderWidth: '1px' }}>
               <div className='flex items-center gap-3 mb-6'>
                 <Clock className='w-6 h-6 text-red-500' />
                 <h3 className='text-xl font-bold text-white'>Business Hours</h3>
@@ -114,7 +114,7 @@ export default function Contact() {
               </ul>
             </div>
 
-            <div className='bg-gray-800 border border-gray-700 rounded-lg p-8'>
+            <div className='rounded-lg p-8' style={{ backgroundColor: '#1a1a1a', borderColor: '#333333', borderWidth: '1px' }}>
               <div className='flex items-center gap-3 mb-6'>
                 <Mail className='w-6 h-6 text-red-500' />
                 <h3 className='text-xl font-bold text-white'>Response Times</h3>
