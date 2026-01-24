@@ -77,17 +77,17 @@
   --border: #333333;
   --input: #2a2a2a;
   --ring: #dc2626;
-  /* Grey text colors - dark mode (much lighter for contrast) */
-  --gray-50: #1a1a1a;
-  --gray-100: #2a2a2a;
-  --gray-200: #333333;
-  --gray-300: #4a4a4a;
-  --gray-400: #666666;
-  --gray-500: #999999;
-  --gray-600: #b3b3b3;
-  --gray-700: #d4d4d4;
-  --gray-800: #e5e5e5;
-  --gray-900: #ffffff;
+  /* Grey text colors - dark mode (inverted scale) */
+  --gray-50: #f3f4f6;
+  --gray-100: #e5e7eb;
+  --gray-200: #d1d5db;
+  --gray-300: #9ca3af;
+  --gray-400: #6b7280;
+  --gray-500: #4b5563;
+  --gray-600: #374151;
+  --gray-700: #1f2937;
+  --gray-800: #111827;
+  --gray-900: #0a0a0a;
   --chart-1: #dc2626;
   --chart-2: #10b981;
   --chart-3: #3b82f6;
