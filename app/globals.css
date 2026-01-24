@@ -7,8 +7,8 @@
   /* Dark backgrounds - black background with dark grey text */
   --background: #000000;
   --foreground: #333333;
-  --card: #111111;
-  --card-foreground: #CCCCCC;
+  --card: #e8e8eb;
+  --card-foreground: #1a1a1a;
 
   /* Accents - blue buttons */
   --primary: #0066CC;
@@ -60,8 +60,8 @@
 .dark {
   --background: #0a0a0a;
   --foreground: #e5e5e5;
-  --card: #1a1a1a;
-  --card-foreground: #ffffff;
+  --card: #e8e8eb;
+  --card-foreground: #1a1a1a;
   --popover: #1a1a1a;
   --popover-foreground: #ffffff;
   --primary: #dc2626;
