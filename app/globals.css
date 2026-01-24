@@ -191,4 +191,8 @@
   .animate-pulse-soft {
     animation: pulse-soft 5s ease-in-out infinite;
   }
+
+  .shiny-card {
+    background: linear-gradient(to bottom, #f2f2f5, #e0e0e3);
+  }
 }
