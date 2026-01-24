@@ -193,6 +193,7 @@
   }
 
   .shiny-card {
-    background: linear-gradient(to bottom, #f2f2f5, #e0e0e3);
+    background: linear-gradient(to bottom, #f2f2f5, #e0e0e3) !important;
+    color: #1a1a1a !important;
   }
 }
