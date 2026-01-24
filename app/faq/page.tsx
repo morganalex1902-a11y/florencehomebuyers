@@ -170,7 +170,7 @@ export default function FAQ() {
       </section>
 
       {/* CTA Section */}
-      <section className='py-16 bg-emerald-600 text-white text-center'>
+      <section className='py-16 bg-secondary text-white text-center'>
         <div className='container mx-auto px-4'>
           <h2 className='text-3xl md:text-4xl font-bold mb-4'>
             Ready to Get Your Fair Cash Offer?
@@ -178,7 +178,7 @@ export default function FAQ() {
           <p className='text-xl mb-8 opacity-90 max-w-2xl mx-auto'>
             It's simple, fast, and obligation-free. Get your offer within 24 hours.
           </p>
-          <button className='px-8 py-3 bg-white text-emerald-600 font-bold rounded-lg hover:bg-gray-100 transition-colors text-lg'>
+          <button className='px-8 py-3 bg-red-600 text-white font-bold rounded-lg hover:bg-red-700 transition-colors text-lg'>
             Get Started Now
           </button>
         </div>
