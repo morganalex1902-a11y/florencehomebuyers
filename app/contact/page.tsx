@@ -179,7 +179,7 @@ export default function Contact() {
             </a>
           </div>
 
-          <div className='bg-gray-800 border border-gray-700 rounded-lg p-8 max-w-2xl mx-auto'>
+          <div className='rounded-lg p-8 max-w-2xl mx-auto' style={{ backgroundColor: '#1a1a1a', borderColor: '#333333', borderWidth: '1px' }}>
             <h3 className='text-xl font-bold text-white mb-4'>Or Connect With Us</h3>
             <p className='text-gray-300 mb-6'>
               The fastest way to get in touch is to call us directly or fill out our form. We respond quickly and are always happy to answer questions.
