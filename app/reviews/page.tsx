@@ -138,13 +138,13 @@ export default function Reviews() {
       <Header />
 
       {/* Hero Section */}
-      <section className='min-h-[400px] bg-gradient-to-br from-blue-50 to-emerald-50 flex items-center justify-center py-12'>
+      <section className='min-h-[400px] bg-background flex items-center justify-center py-12'>
         <div className='container mx-auto px-4 text-center'>
-          <h1 className='text-4xl md:text-5xl font-bold text-gray-900 mb-4'>
+          <h1 className='text-4xl md:text-5xl font-bold text-white mb-4'>
             500+ Happy Homeowners
           </h1>
-          <p className='text-2xl text-emerald-600 font-bold mb-4'>Average Rating: 5.0 ⭐</p>
-          <p className='text-xl text-gray-700 max-w-2xl mx-auto'>
+          <p className='text-2xl text-emerald-400 font-bold mb-4'>Average Rating: 5.0 ⭐</p>
+          <p className='text-xl text-gray-300 max-w-2xl mx-auto'>
             We care deeply about the satisfaction of the homeowners with whom we work. Read what our customers have to say about working with Florence Home Buyers.
           </p>
         </div>
