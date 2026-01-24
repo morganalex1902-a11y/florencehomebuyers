@@ -56,7 +56,7 @@ export function QuickForm({
             value={formData.firstName}
             onChange={handleChange}
             required
-            className='px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+            className='px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
           />
           <input
             type='tel'
@@ -65,10 +65,10 @@ export function QuickForm({
             value={formData.phone}
             onChange={handleChange}
             required
-            className='px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+            className='px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
           />
         </div>
-        
+
         <input
           type='email'
           name='email'
@@ -76,9 +76,9 @@ export function QuickForm({
           value={formData.email}
           onChange={handleChange}
           required
-          className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+          className='w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
         />
-        
+
         <input
           type='text'
           name='streetAddress'
@@ -86,7 +86,7 @@ export function QuickForm({
           value={formData.streetAddress}
           onChange={handleChange}
           required
-          className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+          className='w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
         />
 
         <button
@@ -101,13 +101,13 @@ export function QuickForm({
   }
 
   return (
-    <div className='bg-card p-10 rounded-xl border-2 border-red-200 shadow-lg'>
-      {title && <h2 className='text-3xl font-bold text-foreground mb-2'>{title}</h2>}
-      {subtitle && <p className='text-foreground/80 mb-6'>{subtitle}</p>}
-      
+    <div className='bg-gray-900 p-10 rounded-xl border-2 border-red-600 shadow-lg'>
+      {title && <h2 className='text-3xl font-bold text-white mb-2'>{title}</h2>}
+      {subtitle && <p className='text-gray-300 mb-6'>{subtitle}</p>}
+
       <form onSubmit={handleSubmit} className='space-y-4'>
         <div>
-          <label className='block text-sm font-bold text-gray-900 mb-2'>
+          <label className='block text-sm font-bold text-white mb-2'>
             Your Name *
           </label>
           <input
@@ -117,12 +117,12 @@ export function QuickForm({
             onChange={handleChange}
             required
             placeholder='First and Last Name'
-            className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+            className='w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
           />
         </div>
 
         <div>
-          <label className='block text-sm font-bold text-gray-900 mb-2'>
+          <label className='block text-sm font-bold text-white mb-2'>
             Email Address *
           </label>
           <input
@@ -132,12 +132,12 @@ export function QuickForm({
             onChange={handleChange}
             required
             placeholder='your@email.com'
-            className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+            className='w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
           />
         </div>
 
         <div>
-          <label className='block text-sm font-bold text-gray-900 mb-2'>
+          <label className='block text-sm font-bold text-white mb-2'>
             Phone Number *
           </label>
           <input
@@ -147,12 +147,12 @@ export function QuickForm({
             onChange={handleChange}
             required
             placeholder='(256) XXX-XXXX'
-            className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+            className='w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
           />
         </div>
 
         <div>
-          <label className='block text-sm font-bold text-gray-900 mb-2'>
+          <label className='block text-sm font-bold text-white mb-2'>
             Property Address *
           </label>
           <input
@@ -162,7 +162,7 @@ export function QuickForm({
             onChange={handleChange}
             required
             placeholder='Street Address'
-            className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+            className='w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
           />
         </div>
 
