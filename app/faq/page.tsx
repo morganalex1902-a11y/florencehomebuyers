@@ -142,7 +142,7 @@ export default function FAQ() {
           </p>
 
           <div className='grid md:grid-cols-3 gap-8 mt-12'>
-            <div className='bg-gray-800 p-8 rounded-lg border border-gray-700 text-center'>
+            <div className='p-8 rounded-lg text-center' style={{ backgroundColor: '#1a1a1a', borderColor: '#333333', borderWidth: '1px' }}>
               <div className='text-4xl font-bold text-red-600 mb-4'>📞</div>
               <h3 className='text-xl font-bold text-white mb-2'>Call Us</h3>
               <a href='tel:+923211234567' className='text-red-500 hover:text-red-400 font-semibold text-lg'>
@@ -151,7 +151,7 @@ export default function FAQ() {
               <p className='text-gray-400 text-sm mt-2'>Available during business hours</p>
             </div>
 
-            <div className='bg-gray-800 p-8 rounded-lg border border-gray-700 text-center'>
+            <div className='p-8 rounded-lg text-center' style={{ backgroundColor: '#1a1a1a', borderColor: '#333333', borderWidth: '1px' }}>
               <div className='text-4xl font-bold text-red-600 mb-4'>📧</div>
               <h3 className='text-xl font-bold text-white mb-2'>Email Us</h3>
               <a href='mailto:info@florencehomebuyers.com' className='text-red-500 hover:text-red-400 font-semibold'>
@@ -160,7 +160,7 @@ export default function FAQ() {
               <p className='text-gray-400 text-sm mt-2'>We'll respond within 24 hours</p>
             </div>
 
-            <div className='bg-gray-800 p-8 rounded-lg border border-gray-700 text-center'>
+            <div className='p-8 rounded-lg text-center' style={{ backgroundColor: '#1a1a1a', borderColor: '#333333', borderWidth: '1px' }}>
               <div className='text-4xl font-bold text-red-600 mb-4'>💬</div>
               <h3 className='text-xl font-bold text-white mb-2'>Fill Out Form</h3>
               <p className='text-gray-400 text-sm'>Submit the form below to get started today</p>
