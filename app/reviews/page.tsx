@@ -164,10 +164,10 @@ export default function Reviews() {
                 className='shiny-card border border-gray-300 rounded-lg p-8 hover:shadow-lg transition-shadow'
               >
                 <StarRating rating={testimonial.rating} />
-                <p className='text-gray-700 mt-4 mb-6 leading-relaxed italic'>
+                <p className='text-gray-900 mt-4 mb-6 leading-relaxed italic'>
                   "{testimonial.text}"
                 </p>
-                <div className='border-t border-gray-200 pt-4'>
+                <div className='border-t border-gray-300 pt-4'>
                   <p className='font-bold text-gray-900'>{testimonial.name}</p>
                   <p className='text-sm text-gray-600'>{testimonial.location}</p>
                   <p className='text-xs text-gray-500 mt-2'>
