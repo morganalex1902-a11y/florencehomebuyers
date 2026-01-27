@@ -50,7 +50,7 @@ export function TrustedSection() {
 
               <button
                 onClick={() => document.getElementById('form-section')?.scrollIntoView({ behavior: 'smooth' })}
-                className='px-8 py-4 bg-red-600 text-white font-bold rounded-lg hover:bg-red-700 active:scale-95 transition-all shadow-lg hover:shadow-xl text-lg'
+                className='px-8 py-4 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 active:scale-95 transition-all shadow-lg hover:shadow-xl text-lg'
               >
                 Contact Us Today
               </button>
