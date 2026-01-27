@@ -32,9 +32,9 @@ export default function Contact() {
           <div className='grid md:grid-cols-2 gap-8 mb-12'>
             {/* Phone Card */}
             <div className='rounded-lg p-8 text-center' style={{ backgroundColor: '#1a1a1a', borderColor: '#333333', borderWidth: '1px' }}>
-              <Phone className='w-12 h-12 text-red-500 mx-auto mb-4' />
+              <Phone className='w-12 h-12 text-blue-500 mx-auto mb-4' />
               <h3 className='text-2xl font-bold text-white mb-2'>Call Us</h3>
-              <a href='tel:2567621898' className='text-red-500 hover:text-red-400 font-bold text-2xl block mb-4'>
+              <a href='tel:2567621898' className='text-blue-500 hover:text-blue-400 font-bold text-2xl block mb-4'>
               (256) 762-1898
             </a>
               <p className='text-gray-300'>
@@ -49,9 +49,9 @@ export default function Contact() {
 
             {/* Email Card */}
             <div className='rounded-lg p-8 text-center' style={{ backgroundColor: '#1a1a1a', borderColor: '#333333', borderWidth: '1px' }}>
-              <Mail className='w-12 h-12 text-red-500 mx-auto mb-4' />
+              <Mail className='w-12 h-12 text-blue-500 mx-auto mb-4' />
               <h3 className='text-2xl font-bold text-white mb-2'>Email Us</h3>
-              <a href='mailto:info@florencehomebuyers.com' className='text-red-500 hover:text-red-400 font-bold text-lg block mb-4'>
+              <a href='mailto:info@florencehomebuyers.com' className='text-blue-500 hover:text-blue-400 font-bold text-lg block mb-4'>
                 info@florencehomebuyers.com
               </a>
               <p className='text-gray-300'>
@@ -66,7 +66,7 @@ export default function Contact() {
           {/* Address Card */}
           <div className='rounded-lg p-8 max-w-2xl mx-auto' style={{ backgroundColor: '#1a1a1a', borderColor: '#333333', borderWidth: '1px' }}>
             <div className='flex items-start gap-4'>
-              <MapPin className='w-12 h-12 text-red-500 flex-shrink-0 mt-1' />
+              <MapPin className='w-12 h-12 text-blue-500 flex-shrink-0 mt-1' />
               <div>
                 <h3 className='text-2xl font-bold text-white mb-2'>Visit Us</h3>
                 <p className='text-white font-semibold'>Florence Home Buyers</p>
@@ -95,7 +95,7 @@ export default function Contact() {
           <div className='grid md:grid-cols-2 gap-8 max-w-3xl mx-auto'>
             <div className='rounded-lg p-8' style={{ backgroundColor: '#1a1a1a', borderColor: '#333333', borderWidth: '1px' }}>
               <div className='flex items-center gap-3 mb-6'>
-                <Clock className='w-6 h-6 text-red-500' />
+                <Clock className='w-6 h-6 text-blue-500' />
                 <h3 className='text-xl font-bold text-white'>Business Hours</h3>
               </div>
               <ul className='space-y-3 text-gray-300'>
@@ -116,7 +116,7 @@ export default function Contact() {
 
             <div className='rounded-lg p-8' style={{ backgroundColor: '#1a1a1a', borderColor: '#333333', borderWidth: '1px' }}>
               <div className='flex items-center gap-3 mb-6'>
-                <Mail className='w-6 h-6 text-red-500' />
+                <Mail className='w-6 h-6 text-blue-500' />
                 <h3 className='text-xl font-bold text-white'>Response Times</h3>
               </div>
               <ul className='space-y-3 text-gray-300'>
@@ -163,7 +163,7 @@ export default function Contact() {
               href='https://facebook.com'
               target='_blank'
               rel='noopener noreferrer'
-              className='w-12 h-12 bg-red-600 text-white rounded-full flex items-center justify-center hover:bg-red-700 transition-colors'
+              className='w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors'
               title='Facebook'
             >
               <Facebook className='w-6 h-6' />
@@ -172,7 +172,7 @@ export default function Contact() {
               href='https://linkedin.com'
               target='_blank'
               rel='noopener noreferrer'
-              className='w-12 h-12 bg-red-600 text-white rounded-full flex items-center justify-center hover:bg-red-700 transition-colors'
+              className='w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors'
               title='LinkedIn'
             >
               <Linkedin className='w-6 h-6' />
@@ -184,7 +184,7 @@ export default function Contact() {
             <p className='text-gray-300 mb-6'>
               The fastest way to get in touch is to call us directly or fill out our form. We respond quickly and are always happy to answer questions.
             </p>
-            <button className='px-6 py-2 bg-red-600 text-white font-bold rounded-lg hover:bg-red-700 transition-colors'>
+            <button className='px-6 py-2 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 transition-colors'>
               Fill Out Our Form
             </button>
           </div>
@@ -201,7 +201,7 @@ export default function Contact() {
           <p className='text-gray-300 mb-6'>
             Check out our comprehensive FAQ to learn more about our process and what to expect.
           </p>
-          <a href='/faq' className='inline-block px-6 py-3 bg-red-600 text-white font-bold rounded-lg hover:bg-red-700 transition-colors'>
+          <a href='/faq' className='inline-block px-6 py-3 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 transition-colors'>
             Read Our FAQ
           </a>
         </div>

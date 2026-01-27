@@ -32,7 +32,7 @@ export function TrustedSection() {
             {/* Left - Icon and Title */}
             <div className='text-center md:text-left'>
               <div className='flex items-center justify-center md:justify-start gap-4 mb-6'>
-                <div className='w-16 h-16 rounded-lg bg-gradient-to-br from-red-500 to-red-600 flex items-center justify-center shadow-lg'>
+                <div className='w-16 h-16 rounded-lg bg-gradient-to-br from-blue-500 to-blue-600 flex items-center justify-center shadow-lg'>
                   <Home className='w-8 h-8 text-white' />
                 </div>
                 <h2 className='text-4xl sm:text-5xl font-bold text-white'>
@@ -50,7 +50,7 @@ export function TrustedSection() {
 
               <button
                 onClick={() => document.getElementById('form-section')?.scrollIntoView({ behavior: 'smooth' })}
-                className='px-8 py-4 bg-red-600 text-white font-bold rounded-lg hover:bg-red-700 active:scale-95 transition-all shadow-lg hover:shadow-xl text-lg'
+                className='px-8 py-4 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 active:scale-95 transition-all shadow-lg hover:shadow-xl text-lg'
               >
                 Contact Us Today
               </button>
@@ -59,7 +59,7 @@ export function TrustedSection() {
             {/* Right - Image */}
             <div className='relative h-80 md:h-[500px] rounded-xl overflow-hidden shadow-lg'>
               <Image
-                src='https://images.pexels.com/photos/17174768/pexels-photo-17174768.jpeg'
+                src='https://cdn.builder.io/api/v1/image/assets%2Fdf7e75028bff4b959bd5bdef48ded5a3%2Fc64ca9f52942409688787f6739f2d026?format=webp&width=800&height=1200'
                 alt='Florence Home'
                 fill
                 className='object-cover'

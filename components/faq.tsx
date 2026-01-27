@@ -79,7 +79,7 @@ export function FAQSection() {
             {faqs.map((faq, index) => (
               <div
                 key={index}
-                className='border border-gray-700 rounded-lg overflow-hidden hover:border-red-600 transition-colors'
+                className='border border-gray-700 rounded-lg overflow-hidden hover:border-blue-600 transition-colors'
               >
                 <button
                   onClick={() => setOpenIndex(openIndex === index ? null : index)}
@@ -89,7 +89,7 @@ export function FAQSection() {
                     {faq.question}
                   </span>
                   <ChevronDown
-                    className={`w-6 h-6 text-red-600 flex-shrink-0 transition-transform duration-300 ${
+                    className={`w-6 h-6 text-blue-600 flex-shrink-0 transition-transform duration-300 ${
                       openIndex === index ? 'rotate-180' : ''
                     }`}
                   />

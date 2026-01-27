@@ -97,8 +97,8 @@ export function FormSection() {
         <div className='max-w-4xl mx-auto'>
           <div className='text-center mb-16'>
             {step === 2 && (
-              <div className='inline-block bg-red-900 px-4 py-2 rounded-full mb-4'>
-                <p className='text-sm font-semibold text-red-300'>Step {step} of 2</p>
+              <div className='inline-block bg-blue-900 px-4 py-2 rounded-full mb-4'>
+                <p className='text-sm font-semibold text-blue-300'>Step {step} of 2</p>
               </div>
             )}
             <h2 className='text-4xl sm:text-5xl font-bold text-foreground mb-4'>
@@ -115,11 +115,11 @@ export function FormSection() {
 
           <div className='grid md:grid-cols-3 gap-12 items-stretch'>
             {/* Form */}
-            <div className='md:col-span-2 bg-card p-10 rounded-xl border-2 border-red-600 shadow-lg'>
+            <div className='md:col-span-2 bg-card p-10 rounded-xl border-2 border-blue-600 shadow-lg'>
               {submitted ? (
                 <div className='text-center py-8'>
-                  <div className='inline-block p-4 bg-red-900 rounded-full mb-4'>
-                    <div className='text-4xl text-red-300'>✓</div>
+                  <div className='inline-block p-4 bg-blue-900 rounded-full mb-4'>
+                    <div className='text-4xl text-blue-300'>✓</div>
                   </div>
                   <h3 className='text-2xl font-bold text-white mb-2'>
                     Thank You!
@@ -141,7 +141,7 @@ export function FormSection() {
                         value={formData.firstName}
                         onChange={handleChange}
                         required
-                        className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent placeholder-gray-400'
+                        className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent placeholder-gray-400'
                         placeholder='First name'
                       />
                     </div>
@@ -155,7 +155,7 @@ export function FormSection() {
                         value={formData.lastName}
                         onChange={handleChange}
                         required
-                        className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent placeholder-gray-400'
+                        className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent placeholder-gray-400'
                         placeholder='Last name'
                       />
                     </div>
@@ -208,7 +208,7 @@ export function FormSection() {
 
                   <button
                     type='submit'
-                    className='w-full py-4 bg-red-600 text-white font-bold rounded-lg hover:bg-red-700 active:scale-95 transition-all shadow-lg text-lg'
+                    className='w-full py-4 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 active:scale-95 transition-all shadow-lg text-lg'
                   >
                     Continue to Get Offer
                   </button>
@@ -216,8 +216,8 @@ export function FormSection() {
               ) : (
                 <form onSubmit={handleStep2Submit} className='space-y-6'>
                   <div className='pb-6 border-b border-gray-700'>
-                    <div className='inline-block bg-red-900 px-3 py-1 rounded-full mb-2'>
-                      <p className='text-xs font-semibold text-red-300'>Step 2 of 2</p>
+                    <div className='inline-block bg-blue-900 px-3 py-1 rounded-full mb-2'>
+                      <p className='text-xs font-semibold text-blue-300'>Step 2 of 2</p>
                     </div>
                   </div>
 
@@ -234,7 +234,7 @@ export function FormSection() {
                           name='streetAddress'
                           value={formData.streetAddress}
                           onChange={handleChange}
-                          className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent placeholder-gray-400'
+                          className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent placeholder-gray-400'
                         />
                       </div>
 
@@ -248,7 +248,7 @@ export function FormSection() {
                             name='city'
                             value={formData.city}
                             onChange={handleChange}
-                            className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent placeholder-gray-400'
+                            className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent placeholder-gray-400'
                             placeholder='City'
                           />
                         </div>
@@ -261,7 +261,7 @@ export function FormSection() {
                             name='state'
                             value={formData.state}
                             onChange={handleChange}
-                            className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent placeholder-gray-400'
+                            className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent placeholder-gray-400'
                             placeholder='State'
                           />
                         </div>
@@ -276,7 +276,7 @@ export function FormSection() {
                           name='zipCode'
                           value={formData.zipCode}
                           onChange={handleChange}
-                          className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent placeholder-gray-400'
+                          className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent placeholder-gray-400'
                           placeholder='Zip Code'
                         />
                       </div>
@@ -297,7 +297,7 @@ export function FormSection() {
                             name='firstName'
                             value={formData.firstName}
                             onChange={handleChange}
-                            className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent placeholder-gray-400'
+                            className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent placeholder-gray-400'
                         />
                         </div>
                         <div>
@@ -309,7 +309,7 @@ export function FormSection() {
                             name='lastName'
                             value={formData.lastName}
                             onChange={handleChange}
-                            className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent placeholder-gray-400'
+                            className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent placeholder-gray-400'
                         />
                         </div>
                       </div>
@@ -323,7 +323,7 @@ export function FormSection() {
                           name='email'
                           value={formData.email}
                           onChange={handleChange}
-                          className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent placeholder-gray-400'
+                          className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent placeholder-gray-400'
                         />
                       </div>
 
@@ -336,7 +336,7 @@ export function FormSection() {
                           name='phone'
                           value={formData.phone}
                           onChange={handleChange}
-                          className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent placeholder-gray-400'
+                          className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent placeholder-gray-400'
                         />
                       </div>
                     </div>
@@ -357,7 +357,7 @@ export function FormSection() {
                           name='ownershipDuration'
                           value={formData.ownershipDuration}
                           onChange={handleChange}
-                          className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent placeholder-gray-400'
+                          className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent placeholder-gray-400'
                         >
                           <option value=''>Select duration</option>
                           <option value='less-than-1'>Less than 1 year</option>
@@ -376,7 +376,7 @@ export function FormSection() {
                           name='repairNeeds'
                           value={formData.repairNeeds}
                           onChange={handleChange}
-                          className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent placeholder-gray-400'
+                          className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent placeholder-gray-400'
                         >
                           <option value=''>Select repairs needed</option>
                           <option value='excellent'>Excellent</option>
@@ -400,7 +400,7 @@ export function FormSection() {
                           name='ownerOccupied'
                           value={formData.ownerOccupied}
                           onChange={handleChange}
-                          className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent placeholder-gray-400'
+                          className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent placeholder-gray-400'
                         >
                           <option value=''>Select option</option>
                           <option value='yes'>Yes - Owner Occupied</option>
@@ -416,7 +416,7 @@ export function FormSection() {
                           name='timeline'
                           value={formData.timeline}
                           onChange={handleChange}
-                          className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent placeholder-gray-400'
+                          className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent placeholder-gray-400'
                         >
                           <option value=''>Select timeline</option>
                           <option value='asap'>ASAP</option>
@@ -463,13 +463,13 @@ export function FormSection() {
                     <button
                       type='button'
                       onClick={() => setStep(1)}
-                      className='flex-1 py-3 border-2 border-red-600 text-white font-bold rounded-lg hover:bg-red-900 transition-colors'
+                      className='flex-1 py-3 border-2 border-blue-600 text-white font-bold rounded-lg hover:bg-blue-900 transition-colors'
                     >
                       Back
                     </button>
                     <button
                       type='submit'
-                      className='flex-1 py-3 bg-red-600 text-white font-bold rounded-lg hover:bg-red-700 active:scale-95 transition-all shadow-lg'
+                      className='flex-1 py-3 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 active:scale-95 transition-all shadow-lg'
                     >
                       Submit
                     </button>
@@ -480,7 +480,7 @@ export function FormSection() {
 
             {/* Contact Info */}
             <div className='flex flex-col justify-center space-y-6'>
-              <div className='bg-red-700 text-white p-8 rounded-xl shadow-xl'>
+              <div className='bg-blue-700 text-white p-8 rounded-xl shadow-xl'>
                 <h3 className='text-2xl font-bold mb-6'>
                   Need Help?
                 </h3>
@@ -491,14 +491,14 @@ export function FormSection() {
                 >
                   <Phone className='w-8 h-8 flex-shrink-0' />
                   <div>
-                    <p className='text-sm text-red-100 font-medium'>Call Now</p>
+                    <p className='text-sm text-blue-100 font-medium'>Call Now</p>
                     <p className='text-2xl font-bold'>
                       {PHONE_NUMBER}
                     </p>
                   </div>
                 </a>
 
-                <div className='space-y-3 text-red-50'>
+                <div className='space-y-3 text-blue-50'>
                   <p className='font-medium'>
                     ✓ Available 7 days a week
                   </p>
@@ -515,7 +515,7 @@ export function FormSection() {
               </div>
 
               {/* Trust Badge */}
-              <div className='bg-gradient-to-br from-red-900 to-red-800 p-6 rounded-xl border-2 border-red-700'>
+              <div className='bg-gradient-to-br from-blue-900 to-blue-800 p-6 rounded-xl border-2 border-blue-700'>
                 <p className='text-center text-white font-bold text-lg mb-2'>
                   🏆 Trusted Choice
                 </p>

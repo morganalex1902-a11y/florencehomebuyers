@@ -56,7 +56,7 @@ export function QuickForm({
             value={formData.firstName}
             onChange={handleChange}
             required
-            className='px-4 py-3 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+            className='px-4 py-3 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent'
             style={{ backgroundColor: '#1a1a1a', borderColor: '#333333', borderWidth: '1px' }}
           />
           <input
@@ -66,7 +66,7 @@ export function QuickForm({
             value={formData.phone}
             onChange={handleChange}
             required
-            className='px-4 py-3 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+            className='px-4 py-3 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent'
             style={{ backgroundColor: '#1a1a1a', borderColor: '#333333', borderWidth: '1px' }}
           />
         </div>
@@ -96,7 +96,7 @@ export function QuickForm({
         <button
           type='submit'
           disabled={loading}
-          className='w-full py-3 bg-red-600 text-white font-bold rounded-lg hover:bg-red-700 active:scale-95 transition-all shadow-lg disabled:opacity-50'
+          className='w-full py-3 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 active:scale-95 transition-all shadow-lg disabled:opacity-50'
         >
           {loading ? 'Loading...' : buttonText}
         </button>
@@ -105,7 +105,7 @@ export function QuickForm({
   }
 
   return (
-    <div className='bg-gray-900 p-10 rounded-xl border-2 border-red-600 shadow-lg'>
+    <div className='bg-gray-900 p-10 rounded-xl border-2 border-blue-600 shadow-lg'>
       {title && <h2 className='text-3xl font-bold text-white mb-2'>{title}</h2>}
       {subtitle && <p className='text-gray-300 mb-6'>{subtitle}</p>}
 
@@ -177,7 +177,7 @@ export function QuickForm({
         <button
           type='submit'
           disabled={loading}
-          className='w-full py-4 bg-red-600 text-white font-bold rounded-lg hover:bg-red-700 active:scale-95 transition-all shadow-lg hover:shadow-xl text-lg disabled:opacity-50'
+          className='w-full py-4 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 active:scale-95 transition-all shadow-lg hover:shadow-xl text-lg disabled:opacity-50'
         >
           {loading ? 'Loading...' : buttonText}
         </button>

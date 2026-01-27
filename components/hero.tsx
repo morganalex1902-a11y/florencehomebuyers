@@ -30,7 +30,7 @@ export function HeroSection() {
     >
       {/* Background Image with Overlay */}
       <Image
-        src='https://images.pexels.com/photos/7937748/pexels-photo-7937748.jpeg'
+        src='https://cdn.builder.io/api/v1/image/assets%2Fdf7e75028bff4b959bd5bdef48ded5a3%2F8a42ed7fa33b428f83bba4d31e30bae3?format=webp&width=800&height=1200'
         alt='Beautiful Florence home'
         fill
         className='object-cover'

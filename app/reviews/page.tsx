@@ -264,7 +264,7 @@ export default function Reviews() {
           <p className='text-xl text-gray-300 mb-8 max-w-2xl mx-auto'>
             Hear directly from homeowners about their experience selling to Florence Home Buyers. Video testimonials coming soon!
           </p>
-          <button className='px-8 py-3 bg-red-600 text-white font-bold rounded-lg hover:bg-red-700 transition-colors text-lg'>
+          <button className='px-8 py-3 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 transition-colors text-lg'>
             Subscribe for Video Updates
           </button>
         </div>

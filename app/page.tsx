@@ -4,6 +4,7 @@ import { TrustedSection } from '@/components/trusted-section'
 import { ProcessSection } from '@/components/process'
 import { QuickFormSection } from '@/components/quick-form-section'
 import { TestimonialsSection } from '@/components/testimonials'
+import { GallerySection } from '@/components/gallery-section'
 import { FAQSection } from '@/components/faq'
 import { Footer } from '@/components/footer'
 import { FloatingCTA } from '@/components/floating-cta'
@@ -34,6 +35,7 @@ export default function Home() {
       />
 
       <TestimonialsSection />
+      <GallerySection />
       <FAQSection />
       <Footer />
       <FloatingCTA />

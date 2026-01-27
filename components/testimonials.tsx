@@ -84,13 +84,13 @@ export function TestimonialsSection() {
             </div>
 
             {/* Center Card */}
-            <div className='bg-red-700 text-white rounded-lg p-8 flex flex-col justify-center shadow-lg h-64 md:h-80'>
+            <div className='bg-blue-700 text-white rounded-lg p-8 flex flex-col justify-center shadow-lg h-64 md:h-80'>
               <p className='text-lg leading-relaxed mb-6 italic'>
                 "{testimonials[currentIndex].text}"
               </p>
               <div>
                 <p className='font-bold text-lg'>{testimonials[currentIndex].name}</p>
-                <p className='text-red-100'>{testimonials[currentIndex].title}</p>
+                <p className='text-blue-100'>{testimonials[currentIndex].title}</p>
               </div>
             </div>
 
@@ -112,9 +112,9 @@ export function TestimonialsSection() {
           <div className='flex items-center justify-center gap-6'>
             <button
               onClick={prevSlide}
-              className='p-2 border-2 border-gray-600 rounded-full hover:border-red-600 hover:bg-red-900 transition-all'
+              className='p-2 border-2 border-gray-600 rounded-full hover:border-blue-600 hover:bg-blue-900 transition-all'
             >
-              <ChevronLeft className='w-6 h-6 text-gray-300 hover:text-red-400' />
+              <ChevronLeft className='w-6 h-6 text-gray-300 hover:text-blue-400' />
             </button>
 
             <div className='flex gap-2'>
@@ -123,7 +123,7 @@ export function TestimonialsSection() {
                   key={index}
                   onClick={() => setCurrentIndex(index)}
                   className={`w-2 h-2 rounded-full transition-all ${
-                    index === currentIndex ? 'bg-red-600 w-6' : 'bg-gray-600'
+                    index === currentIndex ? 'bg-blue-600 w-6' : 'bg-gray-600'
                   }`}
                 />
               ))}
@@ -131,9 +131,9 @@ export function TestimonialsSection() {
 
             <button
               onClick={nextSlide}
-              className='p-2 border-2 border-gray-600 rounded-full hover:border-red-600 hover:bg-red-900 transition-all'
+              className='p-2 border-2 border-gray-600 rounded-full hover:border-blue-600 hover:bg-blue-900 transition-all'
             >
-              <ChevronRight className='w-6 h-6 text-gray-300 hover:text-red-400' />
+              <ChevronRight className='w-6 h-6 text-gray-300 hover:text-blue-400' />
             </button>
           </div>
         </div>
@@ -143,7 +143,7 @@ export function TestimonialsSection() {
           <Link
             href='/reviews'
             prefetch={false}
-            className='inline-block px-8 py-3 bg-red-600 text-white font-bold rounded-lg hover:bg-red-700 active:scale-95 transition-all shadow-lg hover:shadow-xl'
+            className='inline-block px-8 py-3 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 active:scale-95 transition-all shadow-lg hover:shadow-xl'
           >
             See More Reviews
           </Link>

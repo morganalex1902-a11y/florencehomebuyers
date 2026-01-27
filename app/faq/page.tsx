@@ -115,7 +115,7 @@ export default function FAQ() {
             {faqItems.map((item, index) => (
               <details
                 key={item.id}
-                className='group border border-gray-600 rounded-lg overflow-hidden hover:border-red-600 transition-colors'
+                className='group border border-gray-600 rounded-lg overflow-hidden hover:border-blue-600 transition-colors'
                 open={index === 0}
               >
                 <summary className='flex items-center justify-between px-6 py-4 cursor-pointer bg-black hover:bg-gray-900 transition-colors'>
@@ -143,25 +143,25 @@ export default function FAQ() {
 
           <div className='grid md:grid-cols-3 gap-8 mt-12'>
             <div className='p-8 rounded-lg text-center' style={{ backgroundColor: '#1a1a1a', borderColor: '#333333', borderWidth: '1px' }}>
-              <div className='text-4xl font-bold text-red-600 mb-4'>📞</div>
+              <div className='text-4xl font-bold text-blue-600 mb-4'>📞</div>
               <h3 className='text-xl font-bold text-white mb-2'>Call Us</h3>
-              <a href='tel:+923211234567' className='text-red-500 hover:text-red-400 font-semibold text-lg'>
+              <a href='tel:+923211234567' className='text-blue-500 hover:text-blue-400 font-semibold text-lg'>
                 +92 321 1234567
               </a>
               <p className='text-gray-400 text-sm mt-2'>Available during business hours</p>
             </div>
 
             <div className='p-8 rounded-lg text-center' style={{ backgroundColor: '#1a1a1a', borderColor: '#333333', borderWidth: '1px' }}>
-              <div className='text-4xl font-bold text-red-600 mb-4'>📧</div>
+              <div className='text-4xl font-bold text-blue-600 mb-4'>📧</div>
               <h3 className='text-xl font-bold text-white mb-2'>Email Us</h3>
-              <a href='mailto:info@florencehomebuyers.com' className='text-red-500 hover:text-red-400 font-semibold'>
+              <a href='mailto:info@florencehomebuyers.com' className='text-blue-500 hover:text-blue-400 font-semibold'>
                 info@florencehomebuyers.com
               </a>
               <p className='text-gray-400 text-sm mt-2'>We'll respond within 24 hours</p>
             </div>
 
             <div className='p-8 rounded-lg text-center' style={{ backgroundColor: '#1a1a1a', borderColor: '#333333', borderWidth: '1px' }}>
-              <div className='text-4xl font-bold text-red-600 mb-4'>💬</div>
+              <div className='text-4xl font-bold text-blue-600 mb-4'>💬</div>
               <h3 className='text-xl font-bold text-white mb-2'>Fill Out Form</h3>
               <p className='text-gray-400 text-sm'>Submit the form below to get started today</p>
             </div>
@@ -178,7 +178,7 @@ export default function FAQ() {
           <p className='text-xl mb-8 opacity-90 max-w-2xl mx-auto'>
             It's simple, fast, and obligation-free. Get your offer within 24 hours.
           </p>
-          <button className='px-8 py-3 bg-red-600 text-white font-bold rounded-lg hover:bg-red-700 transition-colors text-lg'>
+          <button className='px-8 py-3 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 transition-colors text-lg'>
             Get Started Now
           </button>
         </div>
