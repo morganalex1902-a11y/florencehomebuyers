@@ -39,7 +39,7 @@ export function Header() {
         <div className='flex items-center justify-between'>
           {/* Logo */}
           <Link href='/' prefetch={false} className='flex items-center gap-2 hover:opacity-80 transition-opacity'>
-            <Home className='w-6 h-6 text-red-600' />
+            <Home className='w-6 h-6 text-blue-600' />
             <div className='flex flex-col'>
               <span className='font-bold text-sm text-white drop-shadow-lg'>Florence Home Buyers</span>
               <span className='text-xs text-gray-200 drop-shadow-md font-semibold'>by Jeffreys Investment Properties</span>
@@ -53,7 +53,7 @@ export function Header() {
                 key={link.href}
                 href={link.href}
                 prefetch={false}
-                className='text-gray-200 hover:text-red-600 font-semibold text-sm transition-colors'
+                className='text-gray-200 hover:text-blue-600 font-semibold text-sm transition-colors'
               >
                 {link.label}
               </Link>
@@ -64,16 +64,16 @@ export function Header() {
           <div className='flex items-center gap-2 md:gap-4'>
             <a
               href={`tel:${PHONE_NUMBER.replace(/\s/g, '')}`}
-              className='hidden sm:flex items-center gap-2 px-3 py-2 rounded-lg bg-red-50 hover:bg-red-100 transition-colors text-sm'
+              className='hidden sm:flex items-center gap-2 px-3 py-2 rounded-lg bg-blue-50 hover:bg-blue-100 transition-colors text-sm'
             >
-              <Phone className='w-4 h-4 text-red-600 animate-pulse' />
-              <span className='font-bold text-red-600'>{PHONE_NUMBER}</span>
+              <Phone className='w-4 h-4 text-blue-600 animate-pulse' />
+              <span className='font-bold text-blue-600'>{PHONE_NUMBER}</span>
             </a>
 
             {/* CTA Button */}
             <button
               onClick={() => document.getElementById('form-section')?.scrollIntoView({ behavior: 'smooth' })}
-              className='hidden sm:block px-4 py-2 bg-red-600 text-white font-bold rounded-lg hover:bg-red-700 active:scale-95 transition-all text-sm whitespace-nowrap shadow-md hover:shadow-lg'
+              className='hidden sm:block px-4 py-2 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 active:scale-95 transition-all text-sm whitespace-nowrap shadow-md hover:shadow-lg'
             >
               Get Free Offer
             </button>
@@ -101,7 +101,7 @@ export function Header() {
                 key={link.href}
                 href={link.href}
                 prefetch={false}
-                className='block text-gray-200 hover:text-red-600 font-semibold py-2 transition-colors'
+                className='block text-gray-200 hover:text-blue-600 font-semibold py-2 transition-colors'
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 {link.label}
@@ -110,17 +110,17 @@ export function Header() {
             <div className='pt-4 border-t border-gray-700 space-y-3'>
               <a
                 href={`tel:${PHONE_NUMBER.replace(/\s/g, '')}`}
-                className='flex items-center gap-2 px-4 py-2 rounded-lg bg-red-50 hover:bg-red-100 transition-colors'
+                className='flex items-center gap-2 px-4 py-2 rounded-lg bg-blue-50 hover:bg-blue-100 transition-colors'
               >
-                <Phone className='w-5 h-5 text-red-600' />
-                <span className='font-bold text-red-600'>{PHONE_NUMBER}</span>
+                <Phone className='w-5 h-5 text-blue-600' />
+                <span className='font-bold text-blue-600'>{PHONE_NUMBER}</span>
               </a>
               <button
                 onClick={() => {
                   document.getElementById('form-section')?.scrollIntoView({ behavior: 'smooth' })
                   setIsMobileMenuOpen(false)
                 }}
-                className='w-full px-4 py-2 bg-red-600 text-white font-bold rounded-lg hover:bg-red-700 active:scale-95 transition-all shadow-md hover:shadow-lg'
+                className='w-full px-4 py-2 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 active:scale-95 transition-all shadow-md hover:shadow-lg'
               >
                 Get Free Offer
               </button>
