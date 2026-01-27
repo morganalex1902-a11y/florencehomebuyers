@@ -71,7 +71,7 @@ export default function About() {
             {/* Honesty */}
             <div className='bg-gray-800 p-8 rounded-lg border border-gray-700 hover:shadow-lg transition-shadow'>
               <div className='flex items-start gap-4 mb-4'>
-                <Award className='w-8 h-8 text-red-500 flex-shrink-0 mt-1' />
+                <Award className='w-8 h-8 text-blue-500 flex-shrink-0 mt-1' />
                 <div>
                   <h3 className='text-2xl font-bold text-white mb-3'>Honesty & Integrity</h3>
                   <p className='text-gray-300 leading-relaxed'>
@@ -84,7 +84,7 @@ export default function About() {
             {/* Speed & Efficiency */}
             <div className='bg-gray-800 p-8 rounded-lg border border-gray-700 hover:shadow-lg transition-shadow'>
               <div className='flex items-start gap-4 mb-4'>
-                <Award className='w-8 h-8 text-red-500 flex-shrink-0 mt-1' />
+                <Award className='w-8 h-8 text-blue-500 flex-shrink-0 mt-1' />
                 <div>
                   <h3 className='text-2xl font-bold text-white mb-3'>Speed & Efficiency</h3>
                   <p className='text-gray-300 leading-relaxed'>
@@ -97,7 +97,7 @@ export default function About() {
             {/* Fair Pricing */}
             <div className='bg-gray-800 p-8 rounded-lg border border-gray-700 hover:shadow-lg transition-shadow'>
               <div className='flex items-start gap-4 mb-4'>
-                <Handshake className='w-8 h-8 text-red-500 flex-shrink-0 mt-1' />
+                <Handshake className='w-8 h-8 text-blue-500 flex-shrink-0 mt-1' />
                 <div>
                   <h3 className='text-2xl font-bold text-white mb-3'>Fair Pricing</h3>
                   <p className='text-gray-300 leading-relaxed'>
@@ -110,7 +110,7 @@ export default function About() {
             {/* Customer Care */}
             <div className='bg-gray-800 p-8 rounded-lg border border-gray-700 hover:shadow-lg transition-shadow'>
               <div className='flex items-start gap-4 mb-4'>
-                <Heart className='w-8 h-8 text-red-500 flex-shrink-0 mt-1' />
+                <Heart className='w-8 h-8 text-blue-500 flex-shrink-0 mt-1' />
                 <div>
                   <h3 className='text-2xl font-bold text-white mb-3'>Customer Care</h3>
                   <p className='text-gray-300 leading-relaxed'>
@@ -132,25 +132,25 @@ export default function About() {
 
           <div className='grid md:grid-cols-4 gap-8 text-center'>
             <div className='p-8 bg-gray-800 rounded-lg border border-gray-700'>
-              <div className='text-4xl md:text-5xl font-bold text-red-500 mb-2'>500+</div>
+              <div className='text-4xl md:text-5xl font-bold text-blue-500 mb-2'>500+</div>
               <p className='text-white font-semibold'>Happy Homeowners</p>
               <p className='text-gray-400 text-sm mt-2'>Families we've helped sell their homes</p>
             </div>
 
             <div className='p-8 bg-gray-800 rounded-lg border border-gray-700'>
-              <div className='text-4xl md:text-5xl font-bold text-red-500 mb-2'>10+</div>
+              <div className='text-4xl md:text-5xl font-bold text-blue-500 mb-2'>10+</div>
               <p className='text-white font-semibold'>Years Experience</p>
               <p className='text-gray-400 text-sm mt-2'>Successfully buying and selling homes</p>
             </div>
 
             <div className='p-8 bg-gray-800 rounded-lg border border-gray-700'>
-              <div className='text-4xl md:text-5xl font-bold text-red-500 mb-2'>24</div>
+              <div className='text-4xl md:text-5xl font-bold text-blue-500 mb-2'>24</div>
               <p className='text-white font-semibold'>Hour Offers</p>
               <p className='text-gray-400 text-sm mt-2'>Fast fair cash offers on your home</p>
             </div>
 
             <div className='p-8 bg-gray-800 rounded-lg border border-gray-700'>
-              <div className='text-4xl md:text-5xl font-bold text-red-500 mb-2'>5★</div>
+              <div className='text-4xl md:text-5xl font-bold text-blue-500 mb-2'>5★</div>
               <p className='text-white font-semibold'>Average Rating</p>
               <p className='text-gray-400 text-sm mt-2'>Highly rated by our customers</p>
             </div>
