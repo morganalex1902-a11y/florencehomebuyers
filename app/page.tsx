@@ -35,6 +35,7 @@ export default function Home() {
       />
 
       <TestimonialsSection />
+      <GallerySection />
       <FAQSection />
       <Footer />
       <FloatingCTA />
