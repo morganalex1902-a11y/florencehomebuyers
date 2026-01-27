@@ -59,7 +59,7 @@ export function TrustedSection() {
             {/* Right - Image */}
             <div className='relative h-80 md:h-[500px] rounded-xl overflow-hidden shadow-lg'>
               <Image
-                src='https://images.pexels.com/photos/17174768/pexels-photo-17174768.jpeg'
+                src='https://cdn.builder.io/api/v1/image/assets%2Fdf7e75028bff4b959bd5bdef48ded5a3%2Fc64ca9f52942409688787f6739f2d026?format=webp&width=800&height=1200'
                 alt='Florence Home'
                 fill
                 className='object-cover'
