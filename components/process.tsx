@@ -64,13 +64,13 @@ export function ProcessSection() {
             <div
               key={index}
               data-animate
-              className='opacity-0 bg-red-700 hover:bg-red-800 rounded-lg p-6 text-white transition-all duration-300 hover:-translate-y-1 shadow-lg'
+              className='opacity-0 bg-blue-700 hover:bg-blue-800 rounded-lg p-6 text-white transition-all duration-300 hover:-translate-y-1 shadow-lg'
             >
-              <div className='text-5xl font-bold text-red-200 mb-4'>
+              <div className='text-5xl font-bold text-blue-200 mb-4'>
                 {step.number}
               </div>
               <h3 className='text-lg font-bold text-white mb-3'>{step.title}</h3>
-              <p className='text-red-50 leading-relaxed text-sm'>{step.description}</p>
+              <p className='text-blue-50 leading-relaxed text-sm'>{step.description}</p>
             </div>
           ))}
         </div>
