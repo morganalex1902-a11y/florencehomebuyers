@@ -96,7 +96,7 @@ export default function GetOfferPage() {
       <Header />
 
       {/* Hero Section */}
-      <section className='bg-gradient-to-br from-red-50 to-red-100 py-12'>
+      <section className='bg-gradient-to-br from-blue-50 to-blue-100 py-12'>
         <div className='container mx-auto px-4 text-center'>
           <h1 className='text-4xl md:text-5xl font-bold text-gray-900 mb-4'>
             Get Your Free Cash Offer Today!
@@ -113,8 +113,8 @@ export default function GetOfferPage() {
           <div className='max-w-4xl mx-auto'>
             <div className='text-center mb-16'>
               {step === 2 && (
-                <div className='inline-block bg-red-50 px-4 py-2 rounded-full mb-4'>
-                  <p className='text-sm font-semibold text-red-600'>Step {step} of 2</p>
+                <div className='inline-block bg-blue-50 px-4 py-2 rounded-full mb-4'>
+                  <p className='text-sm font-semibold text-blue-600'>Step {step} of 2</p>
                 </div>
               )}
               <h2 className='text-4xl sm:text-5xl font-bold text-gray-900 mb-4'>
@@ -131,11 +131,11 @@ export default function GetOfferPage() {
 
             <div className='grid md:grid-cols-3 gap-12 items-stretch'>
               {/* Form */}
-              <div className='md:col-span-2 bg-white p-10 rounded-xl border-2 border-red-200 shadow-lg'>
+              <div className='md:col-span-2 bg-white p-10 rounded-xl border-2 border-blue-200 shadow-lg'>
                 {submitted ? (
                   <div className='text-center py-8'>
-                    <div className='inline-block p-4 bg-red-100 rounded-full mb-4'>
-                      <div className='text-4xl text-red-600'>✓</div>
+                    <div className='inline-block p-4 bg-blue-100 rounded-full mb-4'>
+                      <div className='text-4xl text-blue-600'>✓</div>
                     </div>
                     <h3 className='text-2xl font-bold text-gray-900 mb-2'>
                       Thank You!
@@ -157,7 +157,7 @@ export default function GetOfferPage() {
                           value={formData.firstName}
                           onChange={handleChange}
                           required
-                          className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+                          className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent'
                           placeholder='First name'
                         />
                       </div>
@@ -170,7 +170,7 @@ export default function GetOfferPage() {
                           name='lastName'
                           value={formData.lastName}
                           onChange={handleChange}
-                          className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+                          className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent'
                           placeholder='Last name'
                         />
                       </div>
@@ -223,7 +223,7 @@ export default function GetOfferPage() {
 
                     <button
                       type='submit'
-                      className='w-full py-4 bg-red-600 text-white font-bold rounded-lg hover:bg-red-700 active:scale-95 transition-all shadow-lg text-lg'
+                      className='w-full py-4 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 active:scale-95 transition-all shadow-lg text-lg'
                     >
                       Continue to Property Details
                     </button>
@@ -231,8 +231,8 @@ export default function GetOfferPage() {
                 ) : (
                   <form onSubmit={handleStep2Submit} className='space-y-6'>
                     <div className='pb-6 border-b border-gray-200'>
-                      <div className='inline-block bg-red-50 px-3 py-1 rounded-full mb-2'>
-                        <p className='text-xs font-semibold text-red-700'>Step 2 of 2</p>
+                      <div className='inline-block bg-blue-50 px-3 py-1 rounded-full mb-2'>
+                        <p className='text-xs font-semibold text-blue-700'>Step 2 of 2</p>
                       </div>
                     </div>
 
@@ -249,7 +249,7 @@ export default function GetOfferPage() {
                             name='streetAddress'
                             value={formData.streetAddress}
                             onChange={handleChange}
-                            className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+                            className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent'
                           />
                         </div>
 
@@ -263,7 +263,7 @@ export default function GetOfferPage() {
                               name='city'
                               value={formData.city}
                               onChange={handleChange}
-                              className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+                              className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent'
                               placeholder='City'
                             />
                           </div>
@@ -276,7 +276,7 @@ export default function GetOfferPage() {
                               name='state'
                               value={formData.state}
                               onChange={handleChange}
-                              className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+                              className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent'
                               placeholder='State'
                             />
                           </div>
@@ -291,7 +291,7 @@ export default function GetOfferPage() {
                             name='zipCode'
                             value={formData.zipCode}
                             onChange={handleChange}
-                            className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+                            className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent'
                             placeholder='Zip Code'
                           />
                         </div>
@@ -310,7 +310,7 @@ export default function GetOfferPage() {
                             name='ownershipDuration'
                             value={formData.ownershipDuration}
                             onChange={handleChange}
-                            className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+                            className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent'
                           >
                             <option value=''>Select duration</option>
                             <option value='less-than-1'>Less than 1 year</option>
@@ -329,7 +329,7 @@ export default function GetOfferPage() {
                             name='repairNeeds'
                             value={formData.repairNeeds}
                             onChange={handleChange}
-                            className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+                            className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent'
                           >
                             <option value=''>Select repairs needed</option>
                             <option value='excellent'>Excellent</option>
@@ -353,7 +353,7 @@ export default function GetOfferPage() {
                             name='ownerOccupied'
                             value={formData.ownerOccupied}
                             onChange={handleChange}
-                            className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+                            className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent'
                           >
                             <option value=''>Select option</option>
                             <option value='yes'>Yes - Owner Occupied</option>
@@ -369,7 +369,7 @@ export default function GetOfferPage() {
                             name='timeline'
                             value={formData.timeline}
                             onChange={handleChange}
-                            className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+                            className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent'
                           >
                             <option value=''>Select timeline</option>
                             <option value='asap'>ASAP</option>
@@ -416,13 +416,13 @@ export default function GetOfferPage() {
                       <button
                         type='button'
                         onClick={() => setStep(1)}
-                        className='flex-1 py-3 border-2 border-red-300 text-gray-900 font-bold rounded-lg hover:bg-red-50 transition-colors'
+                        className='flex-1 py-3 border-2 border-blue-300 text-gray-900 font-bold rounded-lg hover:bg-blue-50 transition-colors'
                       >
                         Back
                       </button>
                       <button
                         type='submit'
-                        className='flex-1 py-3 bg-red-600 text-white font-bold rounded-lg hover:bg-red-700 active:scale-95 transition-all shadow-lg'
+                        className='flex-1 py-3 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 active:scale-95 transition-all shadow-lg'
                       >
                         Submit
                       </button>
@@ -433,7 +433,7 @@ export default function GetOfferPage() {
 
               {/* Contact Info */}
               <div className='flex flex-col justify-center space-y-6'>
-                <div className='bg-red-700 text-white p-8 rounded-xl shadow-xl'>
+                <div className='bg-blue-700 text-white p-8 rounded-xl shadow-xl'>
                   <h3 className='text-2xl font-bold mb-6'>
                     Need Help?
                   </h3>
@@ -444,14 +444,14 @@ export default function GetOfferPage() {
                   >
                     <Phone className='w-8 h-8 flex-shrink-0' />
                     <div>
-                      <p className='text-sm text-red-100 font-medium'>Call Now</p>
+                      <p className='text-sm text-blue-100 font-medium'>Call Now</p>
                       <p className='text-2xl font-bold'>
                         {PHONE_NUMBER}
                       </p>
                     </div>
                   </a>
 
-                  <div className='space-y-3 text-red-50'>
+                  <div className='space-y-3 text-blue-50'>
                     <p className='font-medium'>
                       ✓ Available 7 days a week
                     </p>
@@ -468,7 +468,7 @@ export default function GetOfferPage() {
                 </div>
 
                 {/* Trust Badge */}
-                <div className='bg-gradient-to-br from-red-50 to-red-100 p-6 rounded-xl border-2 border-red-200'>
+                <div className='bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-xl border-2 border-blue-200'>
                   <p className='text-center text-gray-800 font-bold text-lg mb-2'>
                     🏆 Trusted Choice
                   </p>
