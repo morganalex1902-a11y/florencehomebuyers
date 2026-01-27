@@ -41,11 +41,11 @@ export default function HowItWorks() {
             {/* Step 1 */}
             <div className='bg-gray-800 p-8 rounded-lg border border-gray-700'>
               <div className='flex items-center justify-center mb-6'>
-                <div className='w-16 h-16 bg-red-600 text-white rounded-full flex items-center justify-center text-3xl font-bold'>
+                <div className='w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center text-3xl font-bold'>
                   1
                 </div>
               </div>
-              <Clock className='w-12 h-12 text-red-500 mx-auto mb-4' />
+              <Clock className='w-12 h-12 text-blue-500 mx-auto mb-4' />
               <h3 className='text-xl font-bold text-white text-center mb-4'>
                 Get a Fair Offer Within 24 Hours
               </h3>
@@ -54,15 +54,15 @@ export default function HowItWorks() {
               </p>
               <ul className='space-y-2 text-sm text-gray-400'>
                 <li className='flex items-start gap-2'>
-                  <CheckCircle className='w-5 h-5 text-red-500 mt-0.5 flex-shrink-0' />
+                  <CheckCircle className='w-5 h-5 text-blue-500 mt-0.5 flex-shrink-0' />
                   <span>Quick property assessment</span>
                 </li>
                 <li className='flex items-start gap-2'>
-                  <CheckCircle className='w-5 h-5 text-red-500 mt-0.5 flex-shrink-0' />
+                  <CheckCircle className='w-5 h-5 text-blue-500 mt-0.5 flex-shrink-0' />
                   <span>No commission or fees</span>
                 </li>
                 <li className='flex items-start gap-2'>
-                  <CheckCircle className='w-5 h-5 text-red-500 mt-0.5 flex-shrink-0' />
+                  <CheckCircle className='w-5 h-5 text-blue-500 mt-0.5 flex-shrink-0' />
                   <span>Zero obligations to accept</span>
                 </li>
               </ul>
@@ -71,11 +71,11 @@ export default function HowItWorks() {
             {/* Step 2 */}
             <div className='bg-gray-800 p-8 rounded-lg border border-gray-700'>
               <div className='flex items-center justify-center mb-6'>
-                <div className='w-16 h-16 bg-red-600 text-white rounded-full flex items-center justify-center text-3xl font-bold'>
+                <div className='w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center text-3xl font-bold'>
                   2
                 </div>
               </div>
-              <Calendar className='w-12 h-12 text-red-500 mx-auto mb-4' />
+              <Calendar className='w-12 h-12 text-blue-500 mx-auto mb-4' />
               <h3 className='text-xl font-bold text-white text-center mb-4'>
                 Pick the Date You Want to Close
               </h3>
@@ -84,15 +84,15 @@ export default function HowItWorks() {
               </p>
               <ul className='space-y-2 text-sm text-gray-400'>
                 <li className='flex items-start gap-2'>
-                  <CheckCircle className='w-5 h-5 text-red-500 mt-0.5 flex-shrink-0' />
+                  <CheckCircle className='w-5 h-5 text-blue-500 mt-0.5 flex-shrink-0' />
                   <span>Flexible closing dates</span>
                 </li>
                 <li className='flex items-start gap-2'>
-                  <CheckCircle className='w-5 h-5 text-red-500 mt-0.5 flex-shrink-0' />
+                  <CheckCircle className='w-5 h-5 text-blue-500 mt-0.5 flex-shrink-0' />
                   <span>We handle all repairs</span>
                 </li>
                 <li className='flex items-start gap-2'>
-                  <CheckCircle className='w-5 h-5 text-red-500 mt-0.5 flex-shrink-0' />
+                  <CheckCircle className='w-5 h-5 text-blue-500 mt-0.5 flex-shrink-0' />
                   <span>No stress or pressure</span>
                 </li>
               </ul>
@@ -101,11 +101,11 @@ export default function HowItWorks() {
             {/* Step 3 */}
             <div className='bg-gray-800 p-8 rounded-lg border border-gray-700'>
               <div className='flex items-center justify-center mb-6'>
-                <div className='w-16 h-16 bg-red-600 text-white rounded-full flex items-center justify-center text-3xl font-bold'>
+                <div className='w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center text-3xl font-bold'>
                   3
                 </div>
               </div>
-              <Handshake className='w-12 h-12 text-red-500 mx-auto mb-4' />
+              <Handshake className='w-12 h-12 text-blue-500 mx-auto mb-4' />
               <h3 className='text-xl font-bold text-white text-center mb-4'>
                 Sell on Your Terms. Close Quickly
               </h3>
@@ -114,15 +114,15 @@ export default function HowItWorks() {
               </p>
               <ul className='space-y-2 text-sm text-gray-400'>
                 <li className='flex items-start gap-2'>
-                  <CheckCircle className='w-5 h-5 text-red-500 mt-0.5 flex-shrink-0' />
+                  <CheckCircle className='w-5 h-5 text-blue-500 mt-0.5 flex-shrink-0' />
                   <span>Close in as little as 7 days</span>
                 </li>
                 <li className='flex items-start gap-2'>
-                  <CheckCircle className='w-5 h-5 text-red-500 mt-0.5 flex-shrink-0' />
+                  <CheckCircle className='w-5 h-5 text-blue-500 mt-0.5 flex-shrink-0' />
                   <span>No showings or open houses</span>
                 </li>
                 <li className='flex items-start gap-2'>
-                  <CheckCircle className='w-5 h-5 text-red-500 mt-0.5 flex-shrink-0' />
+                  <CheckCircle className='w-5 h-5 text-blue-500 mt-0.5 flex-shrink-0' />
                   <span>All-cash purchase</span>
                 </li>
               </ul>
@@ -130,7 +130,7 @@ export default function HowItWorks() {
           </div>
 
           <div className='text-center mt-12'>
-            <button className='px-8 py-3 bg-red-600 text-white font-bold rounded-lg hover:bg-red-700 active:scale-95 transition-all text-lg shadow-lg hover:shadow-xl'>
+            <button className='px-8 py-3 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 active:scale-95 transition-all text-lg shadow-lg hover:shadow-xl'>
               Get My Fair Offer Today!
             </button>
           </div>
@@ -149,28 +149,28 @@ export default function HowItWorks() {
               <h3 className='text-2xl font-bold text-white mb-6'>Save Time & Money</h3>
               <ul className='space-y-4'>
                 <li className='flex gap-4'>
-                  <CheckCircle className='w-6 h-6 text-red-500 flex-shrink-0' />
+                  <CheckCircle className='w-6 h-6 text-blue-500 flex-shrink-0' />
                   <div>
                     <h4 className='font-bold text-white'>No Agent Fees</h4>
                     <p className='text-gray-400 text-sm'>Save up to 6% in real estate commissions</p>
                   </div>
                 </li>
                 <li className='flex gap-4'>
-                  <CheckCircle className='w-6 h-6 text-red-500 flex-shrink-0' />
+                  <CheckCircle className='w-6 h-6 text-blue-500 flex-shrink-0' />
                   <div>
                     <h4 className='font-bold text-white'>Fast Timeline</h4>
                     <p className='text-gray-400 text-sm'>Close in as few as 7 days, not 30-90 days</p>
                   </div>
                 </li>
                 <li className='flex gap-4'>
-                  <CheckCircle className='w-6 h-6 text-red-500 flex-shrink-0' />
+                  <CheckCircle className='w-6 h-6 text-blue-500 flex-shrink-0' />
                   <div>
                     <h4 className='font-bold text-white'>No Repairs Needed</h4>
                     <p className='text-gray-400 text-sm'>Sell your house as-is without costly renovations</p>
                   </div>
                 </li>
                 <li className='flex gap-4'>
-                  <CheckCircle className='w-6 h-6 text-red-500 flex-shrink-0' />
+                  <CheckCircle className='w-6 h-6 text-blue-500 flex-shrink-0' />
                   <div>
                     <h4 className='font-bold text-white'>Certainty of Sale</h4>
                     <p className='text-gray-400 text-sm'>All-cash offer means no financing falling through</p>
@@ -183,28 +183,28 @@ export default function HowItWorks() {
               <h3 className='text-2xl font-bold text-white mb-6'>Flexibility & Peace of Mind</h3>
               <ul className='space-y-4'>
                 <li className='flex gap-4'>
-                  <CheckCircle className='w-6 h-6 text-red-500 flex-shrink-0' />
+                  <CheckCircle className='w-6 h-6 text-blue-500 flex-shrink-0' />
                   <div>
                     <h4 className='font-bold text-white'>You Choose the Close Date</h4>
                     <p className='text-gray-400 text-sm'>We work around your schedule and timeline</p>
                   </div>
                 </li>
                 <li className='flex gap-4'>
-                  <CheckCircle className='w-6 h-6 text-red-500 flex-shrink-0' />
+                  <CheckCircle className='w-6 h-6 text-blue-500 flex-shrink-0' />
                   <div>
                     <h4 className='font-bold text-white'>No Showings</h4>
                     <p className='text-gray-400 text-sm'>No strangers through your home, no disruption</p>
                   </div>
                 </li>
                 <li className='flex gap-4'>
-                  <CheckCircle className='w-6 h-6 text-red-500 flex-shrink-0' />
+                  <CheckCircle className='w-6 h-6 text-blue-500 flex-shrink-0' />
                   <div>
                     <h4 className='font-bold text-white'>Fair Market Offer</h4>
                     <p className='text-gray-400 text-sm'>Get a competitive offer based on current market conditions</p>
                   </div>
                 </li>
                 <li className='flex gap-4'>
-                  <CheckCircle className='w-6 h-6 text-red-500 flex-shrink-0' />
+                  <CheckCircle className='w-6 h-6 text-blue-500 flex-shrink-0' />
                   <div>
                     <h4 className='font-bold text-white'>No Hidden Costs</h4>
                     <p className='text-gray-400 text-sm'>Transparent pricing with no surprise fees at closing</p>
@@ -214,7 +214,7 @@ export default function HowItWorks() {
             </div>
           </div>
 
-          <div className='bg-red-900 border-l-4 border-red-500 p-6 rounded-r-lg'>
+          <div className='bg-blue-900 border-l-4 border-blue-500 p-6 rounded-r-lg'>
             <h4 className='font-bold text-white mb-2'>Not Sure If This Is Right For You?</h4>
             <p className='text-gray-300'>
               We're not always the best option for everyone, and we do our best to point people in the right direction in that case. If selling to a cash buyer isn't the right fit, we'll be honest with you about it.
