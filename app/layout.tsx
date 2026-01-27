@@ -11,22 +11,25 @@ const _manrope = Manrope({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: 'Sell My House Fast Florence, Alabama - Florence Home Buyers',
   description: 'Get a fair cash offer for your house in Florence, Alabama within 24 hours. No fees, no commissions. Sell on your terms with Florence Home Buyers by Jeffreys Investment Properties.',
-  generator: 'v0.app',
+  metadataBase: new URL('https://florencehomebuyers.com'),
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://florencehomebuyers.com',
+    title: 'Sell My House Fast Florence, Alabama - Florence Home Buyers',
+    description: 'Get a fair cash offer for your house in Florence, Alabama within 24 hours. No fees, no commissions.',
+    siteName: 'Florence Home Buyers',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Sell My House Fast Florence, Alabama - Florence Home Buyers',
+    description: 'Get a fair cash offer for your house in Florence, Alabama within 24 hours.',
+  },
+  keywords: ['sell house fast', 'cash home buyer', 'Florence Alabama', 'home buyers', 'fair cash offer'],
+  authors: [{ name: 'Jeffreys Investment Properties' }],
+  creator: 'Jeffreys Investment Properties',
   icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
+    icon: '/favicon.ico',
     apple: '/apple-icon.png',
   },
 }
@@ -36,7 +39,7 @@ export const viewport: Viewport = {
   initialScale: 1,
   maximumScale: 1,
   userScalable: false,
-  themeColor: '#10B981',
+  themeColor: '#2563EB',
 }
 
 export default function RootLayout({
