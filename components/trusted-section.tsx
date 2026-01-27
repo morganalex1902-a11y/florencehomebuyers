@@ -32,7 +32,7 @@ export function TrustedSection() {
             {/* Left - Icon and Title */}
             <div className='text-center md:text-left'>
               <div className='flex items-center justify-center md:justify-start gap-4 mb-6'>
-                <div className='w-16 h-16 rounded-lg bg-gradient-to-br from-red-500 to-red-600 flex items-center justify-center shadow-lg'>
+                <div className='w-16 h-16 rounded-lg bg-gradient-to-br from-blue-500 to-blue-600 flex items-center justify-center shadow-lg'>
                   <Home className='w-8 h-8 text-white' />
                 </div>
                 <h2 className='text-4xl sm:text-5xl font-bold text-white'>
