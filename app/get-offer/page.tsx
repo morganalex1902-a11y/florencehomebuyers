@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react'
 import { Header } from '@/components/header'
 import { Footer } from '@/components/footer'
 import { CheckCircle, Phone } from 'lucide-react'
+import { submitFormToWeb3Forms } from '@/lib/web3forms'
 
 const PHONE_NUMBER = '(256) 762-1898'
 
@@ -63,9 +64,29 @@ export default function GetOfferPage() {
     }
   }
 
-  const handleStep2Submit = (e: React.FormEvent) => {
+  const handleStep2Submit = async (e: React.FormEvent) => {
     e.preventDefault()
     console.log('Form submitted:', formData)
+
+    // Submit to web3forms with complete form data
+    const success = await submitFormToWeb3Forms({
+      first_name: formData.firstName,
+      last_name: formData.lastName,
+      phone: formData.phone,
+      email: formData.email,
+      street_address: formData.streetAddress,
+      city: formData.city,
+      state: formData.state,
+      zip_code: formData.zipCode,
+      ownership_duration: formData.ownershipDuration,
+      repair_needs: formData.repairNeeds,
+      owner_occupied: formData.ownerOccupied,
+      timeline: formData.timeline,
+      ultimate_goal: formData.ultimateGoal,
+      sms_consent: formData.smsConsent,
+      form_type: 'full_inquiry',
+    })
+
     setSubmitted(true)
     // Clear sessionStorage
     sessionStorage.removeItem('propertyInfo')
