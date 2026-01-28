@@ -345,7 +345,7 @@ export function FormSection() {
                   {/* Property Information */}
                   <div>
                     <h3 className='text-lg font-bold text-gray-900 mb-4'>Property Information</h3>
-                    <p className='text-sm text-gray-300 mb-4'>
+                    <p className='text-sm text-gray-600 mb-4'>
                       Excellent, we need a bit more info about your situation as we can provide you with your options and a cash offer.
                     </p>
                     <div className='space-y-4'>
