@@ -178,7 +178,7 @@ export default function GetOfferPage() {
                           value={formData.firstName}
                           onChange={handleChange}
                           required
-                          className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent'
+                          className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-900 placeholder:text-gray-500'
                           placeholder='First name'
                         />
                       </div>
@@ -191,7 +191,7 @@ export default function GetOfferPage() {
                           name='lastName'
                           value={formData.lastName}
                           onChange={handleChange}
-                          className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent'
+                          className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-900 placeholder:text-gray-500'
                           placeholder='Last name'
                         />
                       </div>
@@ -207,7 +207,7 @@ export default function GetOfferPage() {
                         value={formData.email}
                         onChange={handleChange}
                         required
-                        className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+                        className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent text-gray-900 placeholder:text-gray-500'
                         placeholder='your@email.com'
                       />
                     </div>
@@ -222,7 +222,7 @@ export default function GetOfferPage() {
                         value={formData.phone}
                         onChange={handleChange}
                         required
-                        className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+                        className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent text-gray-900 placeholder:text-gray-500'
                         placeholder='(256) XXX-XXXX'
                       />
                     </div>
@@ -237,7 +237,7 @@ export default function GetOfferPage() {
                         value={formData.streetAddress}
                         onChange={handleChange}
                         required
-                        className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent'
+                        className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent text-gray-900 placeholder:text-gray-500'
                         placeholder='Street Address'
                       />
                     </div>
