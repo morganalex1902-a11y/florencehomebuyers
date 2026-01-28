@@ -215,15 +215,15 @@ export function FormSection() {
                 </form>
               ) : (
                 <form onSubmit={handleStep2Submit} className='space-y-6'>
-                  <div className='pb-6 border-b border-gray-700'>
-                    <div className='inline-block bg-blue-900 px-3 py-1 rounded-full mb-2'>
-                      <p className='text-xs font-semibold text-blue-300'>Step 2 of 2</p>
+                  <div className='pb-6 border-b border-gray-300'>
+                    <div className='inline-block bg-blue-100 px-3 py-1 rounded-full mb-2'>
+                      <p className='text-xs font-semibold text-blue-600'>Step 2 of 2</p>
                     </div>
                   </div>
 
                   {/* Address Information */}
                   <div>
-                    <h3 className='text-lg font-bold text-white mb-4'>Address Information</h3>
+                    <h3 className='text-lg font-bold text-gray-900 mb-4'>Address Information</h3>
                     <div className='space-y-4'>
                       <div>
                         <label className='block text-sm font-bold text-white mb-2'>
