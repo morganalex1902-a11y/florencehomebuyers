@@ -7,8 +7,8 @@
   /* Dark backgrounds - black background with dark grey text */
   --background: #000000;
   --foreground: #333333;
-  --card: #e8e8eb;
-  --card-foreground: #1a1a1a;
+  --card: #1a1a1a;
+  --card-foreground: #e5e5e5;
 
   /* Accents - blue buttons */
   --primary: #0066CC;
@@ -76,7 +76,7 @@
   --destructive-foreground: #ffffff;
   --border: #333333;
   --input: #2a2a2a;
-  --ring: #dc2626;
+  --ring: #0066CC;
   /* Grey text colors - dark mode (inverted scale) */
   --gray-50: #f3f4f6;
   --gray-100: #e5e7eb;
