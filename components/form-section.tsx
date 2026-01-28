@@ -459,7 +459,7 @@ export function FormSection() {
                   </div>
 
                   {/* SMS Consent */}
-                  <div className='bg-gray-800 p-4 rounded-lg border border-gray-700'>
+                  <div className='bg-gray-50 p-4 rounded-lg border border-gray-300'>
                     <div className='flex items-start gap-3'>
                       <input
                         type='checkbox'
@@ -469,7 +469,7 @@ export function FormSection() {
                         id='sms-consent'
                         className='mt-1 w-5 h-5'
                       />
-                      <label htmlFor='sms-consent' className='text-sm text-gray-300'>
+                      <label htmlFor='sms-consent' className='text-sm text-gray-600'>
                         Yes, I want to receive SMS updates and exclusive offers from Madison County House Buyers. By submitting this form, you understand the instructions provided in our communication policy.
                       </label>
                     </div>
