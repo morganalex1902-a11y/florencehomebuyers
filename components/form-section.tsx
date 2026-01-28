@@ -226,7 +226,7 @@ export function FormSection() {
                     <h3 className='text-lg font-bold text-gray-900 mb-4'>Address Information</h3>
                     <div className='space-y-4'>
                       <div>
-                        <label className='block text-sm font-bold text-white mb-2'>
+                        <label className='block text-sm font-bold text-gray-900 mb-2'>
                           Street Address *
                         </label>
                         <input
@@ -234,13 +234,13 @@ export function FormSection() {
                           name='streetAddress'
                           value={formData.streetAddress}
                           onChange={handleChange}
-                          className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent placeholder-gray-400'
+                          className='w-full px-4 py-3 border border-gray-300 bg-white text-gray-900 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent placeholder-gray-500'
                         />
                       </div>
 
                       <div className='grid grid-cols-2 gap-4'>
                         <div>
-                          <label className='block text-sm font-bold text-white mb-2'>
+                          <label className='block text-sm font-bold text-gray-900 mb-2'>
                             City
                           </label>
                           <input
@@ -248,12 +248,12 @@ export function FormSection() {
                             name='city'
                             value={formData.city}
                             onChange={handleChange}
-                            className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent placeholder-gray-400'
+                            className='w-full px-4 py-3 border border-gray-300 bg-white text-gray-900 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent placeholder-gray-500'
                             placeholder='City'
                           />
                         </div>
                         <div>
-                          <label className='block text-sm font-bold text-white mb-2'>
+                          <label className='block text-sm font-bold text-gray-900 mb-2'>
                             State / Province / Region
                           </label>
                           <input
@@ -261,14 +261,14 @@ export function FormSection() {
                             name='state'
                             value={formData.state}
                             onChange={handleChange}
-                            className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent placeholder-gray-400'
+                            className='w-full px-4 py-3 border border-gray-300 bg-white text-gray-900 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent placeholder-gray-500'
                             placeholder='State'
                           />
                         </div>
                       </div>
 
                       <div>
-                        <label className='block text-sm font-bold text-white mb-2'>
+                        <label className='block text-sm font-bold text-gray-900 mb-2'>
                           Zip / Postal Code
                         </label>
                         <input
@@ -276,7 +276,7 @@ export function FormSection() {
                           name='zipCode'
                           value={formData.zipCode}
                           onChange={handleChange}
-                          className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent placeholder-gray-400'
+                          className='w-full px-4 py-3 border border-gray-300 bg-white text-gray-900 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent placeholder-gray-500'
                           placeholder='Zip Code'
                         />
                       </div>
@@ -285,11 +285,11 @@ export function FormSection() {
 
                   {/* Personal Information */}
                   <div>
-                    <h3 className='text-lg font-bold text-white mb-4'>Personal Information</h3>
+                    <h3 className='text-lg font-bold text-gray-900 mb-4'>Personal Information</h3>
                     <div className='space-y-4'>
                       <div className='grid grid-cols-2 gap-4'>
                         <div>
-                          <label className='block text-sm font-bold text-white mb-2'>
+                          <label className='block text-sm font-bold text-gray-900 mb-2'>
                             First Name
                           </label>
                           <input
@@ -297,11 +297,11 @@ export function FormSection() {
                             name='firstName'
                             value={formData.firstName}
                             onChange={handleChange}
-                            className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent placeholder-gray-400'
+                            className='w-full px-4 py-3 border border-gray-300 bg-white text-gray-900 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent placeholder-gray-500'
                         />
                         </div>
                         <div>
-                          <label className='block text-sm font-bold text-white mb-2'>
+                          <label className='block text-sm font-bold text-gray-900 mb-2'>
                             Last Name
                           </label>
                           <input
@@ -309,13 +309,13 @@ export function FormSection() {
                             name='lastName'
                             value={formData.lastName}
                             onChange={handleChange}
-                            className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent placeholder-gray-400'
+                            className='w-full px-4 py-3 border border-gray-300 bg-white text-gray-900 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent placeholder-gray-500'
                         />
                         </div>
                       </div>
 
                       <div>
-                        <label className='block text-sm font-bold text-white mb-2'>
+                        <label className='block text-sm font-bold text-gray-900 mb-2'>
                           Email
                         </label>
                         <input
@@ -323,12 +323,12 @@ export function FormSection() {
                           name='email'
                           value={formData.email}
                           onChange={handleChange}
-                          className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent placeholder-gray-400'
+                          className='w-full px-4 py-3 border border-gray-300 bg-white text-gray-900 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent placeholder-gray-500'
                         />
                       </div>
 
                       <div>
-                        <label className='block text-sm font-bold text-white mb-2'>
+                        <label className='block text-sm font-bold text-gray-900 mb-2'>
                           Phone
                         </label>
                         <input
@@ -336,7 +336,7 @@ export function FormSection() {
                           name='phone'
                           value={formData.phone}
                           onChange={handleChange}
-                          className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent placeholder-gray-400'
+                          className='w-full px-4 py-3 border border-gray-300 bg-white text-gray-900 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent placeholder-gray-500'
                         />
                       </div>
                     </div>
@@ -344,20 +344,20 @@ export function FormSection() {
 
                   {/* Property Information */}
                   <div>
-                    <h3 className='text-lg font-bold text-white mb-4'>Property Information</h3>
+                    <h3 className='text-lg font-bold text-gray-900 mb-4'>Property Information</h3>
                     <p className='text-sm text-gray-300 mb-4'>
                       Excellent, we need a bit more info about your situation as we can provide you with your options and a cash offer.
                     </p>
                     <div className='space-y-4'>
                       <div>
-                        <label className='block text-sm font-bold text-white mb-2'>
+                        <label className='block text-sm font-bold text-gray-900 mb-2'>
                           How long have you owned the property?
                         </label>
                         <select
                           name='ownershipDuration'
                           value={formData.ownershipDuration}
                           onChange={handleChange}
-                          className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent placeholder-gray-400'
+                          className='w-full px-4 py-3 border border-gray-300 bg-white text-gray-900 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent placeholder-gray-500'
                         >
                           <option value=''>Select duration</option>
                           <option value='less-than-1'>Less than 1 year</option>
@@ -369,14 +369,14 @@ export function FormSection() {
                       </div>
 
                       <div>
-                        <label className='block text-sm font-bold text-white mb-2'>
+                        <label className='block text-sm font-bold text-gray-900 mb-2'>
                           What kind of repairs and maintenance does the house need?
                         </label>
                         <select
                           name='repairNeeds'
                           value={formData.repairNeeds}
                           onChange={handleChange}
-                          className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent placeholder-gray-400'
+                          className='w-full px-4 py-3 border border-gray-300 bg-white text-gray-900 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent placeholder-gray-500'
                         >
                           <option value=''>Select repairs needed</option>
                           <option value='excellent'>Excellent</option>
@@ -390,17 +390,17 @@ export function FormSection() {
 
                   {/* Your Situation */}
                   <div>
-                    <h3 className='text-lg font-bold text-white mb-4'>Your Situation</h3>
+                    <h3 className='text-lg font-bold text-gray-900 mb-4'>Your Situation</h3>
                     <div className='space-y-4'>
                       <div>
-                        <label className='block text-sm font-bold text-white mb-2'>
+                        <label className='block text-sm font-bold text-gray-900 mb-2'>
                           Is the property owner occupied?
                         </label>
                         <select
                           name='ownerOccupied'
                           value={formData.ownerOccupied}
                           onChange={handleChange}
-                          className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent placeholder-gray-400'
+                          className='w-full px-4 py-3 border border-gray-300 bg-white text-gray-900 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent placeholder-gray-500'
                         >
                           <option value=''>Select option</option>
                           <option value='yes'>Yes - Owner Occupied</option>
@@ -409,14 +409,14 @@ export function FormSection() {
                       </div>
 
                       <div>
-                        <label className='block text-sm font-bold text-white mb-2'>
+                        <label className='block text-sm font-bold text-gray-900 mb-2'>
                           What's your timeline?
                         </label>
                         <select
                           name='timeline'
                           value={formData.timeline}
                           onChange={handleChange}
-                          className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent placeholder-gray-400'
+                          className='w-full px-4 py-3 border border-gray-300 bg-white text-gray-900 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent placeholder-gray-500'
                         >
                           <option value=''>Select timeline</option>
                           <option value='asap'>ASAP</option>
@@ -427,7 +427,7 @@ export function FormSection() {
                       </div>
 
                       <div>
-                        <label className='block text-sm font-bold text-white mb-2'>
+                        <label className='block text-sm font-bold text-gray-900 mb-2'>
                           Would you be interested in financing it for a higher sell price?
                         </label>
                         <div className='flex gap-3'>
