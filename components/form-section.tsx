@@ -118,13 +118,13 @@ export function FormSection() {
             <div className='md:col-span-2 bg-card p-10 rounded-xl border-2 border-blue-600 shadow-lg'>
               {submitted ? (
                 <div className='text-center py-8'>
-                  <div className='inline-block p-4 bg-blue-900 rounded-full mb-4'>
-                    <div className='text-4xl text-blue-300'>✓</div>
+                  <div className='inline-block p-4 bg-blue-100 rounded-full mb-4'>
+                    <div className='text-4xl text-blue-600'>✓</div>
                   </div>
-                  <h3 className='text-2xl font-bold text-white mb-2'>
+                  <h3 className='text-2xl font-bold text-gray-900 mb-2'>
                     Thank You!
                   </h3>
-                  <p className='text-gray-300'>
+                  <p className='text-gray-600'>
                     We'll be in touch within 24 hours with your cash offer.
                   </p>
                 </div>
@@ -132,7 +132,7 @@ export function FormSection() {
                 <form onSubmit={handleStep1Submit} className='space-y-5'>
                   <div className='grid grid-cols-2 gap-4'>
                     <div>
-                      <label className='block text-sm font-bold text-white mb-2'>
+                      <label className='block text-sm font-bold text-gray-900 mb-2'>
                         First Name *
                       </label>
                       <input
@@ -141,12 +141,12 @@ export function FormSection() {
                         value={formData.firstName}
                         onChange={handleChange}
                         required
-                        className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent placeholder-gray-400'
+                        className='w-full px-4 py-3 border border-gray-300 bg-white text-gray-900 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent placeholder-gray-500'
                         placeholder='First name'
                       />
                     </div>
                     <div>
-                      <label className='block text-sm font-bold text-white mb-2'>
+                      <label className='block text-sm font-bold text-gray-900 mb-2'>
                         Last Name *
                       </label>
                       <input
@@ -155,14 +155,14 @@ export function FormSection() {
                         value={formData.lastName}
                         onChange={handleChange}
                         required
-                        className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent placeholder-gray-400'
+                        className='w-full px-4 py-3 border border-gray-300 bg-white text-gray-900 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent placeholder-gray-500'
                         placeholder='Last name'
                       />
                     </div>
                   </div>
 
                   <div>
-                    <label className='block text-sm font-bold text-white mb-2'>
+                    <label className='block text-sm font-bold text-gray-900 mb-2'>
                       Email *
                     </label>
                     <input
@@ -171,13 +171,13 @@ export function FormSection() {
                       value={formData.email}
                       onChange={handleChange}
                       required
-                      className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent placeholder-gray-400'
+                      className='w-full px-4 py-3 border border-gray-300 bg-white text-gray-900 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent placeholder-gray-500'
                       placeholder='your@email.com'
                     />
                   </div>
 
                   <div>
-                    <label className='block text-sm font-bold text-white mb-2'>
+                    <label className='block text-sm font-bold text-gray-900 mb-2'>
                       Phone *
                     </label>
                     <input
@@ -186,13 +186,13 @@ export function FormSection() {
                       value={formData.phone}
                       onChange={handleChange}
                       required
-                      className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent placeholder-gray-400'
+                      className='w-full px-4 py-3 border border-gray-300 bg-white text-gray-900 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent placeholder-gray-500'
                       placeholder='(256) XXX-XXXX'
                     />
                   </div>
 
                   <div>
-                    <label className='block text-sm font-bold text-white mb-2'>
+                    <label className='block text-sm font-bold text-gray-900 mb-2'>
                       Street Address *
                     </label>
                     <input
@@ -201,7 +201,7 @@ export function FormSection() {
                       value={formData.streetAddress}
                       onChange={handleChange}
                       required
-                      className='w-full px-4 py-3 border border-gray-600 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent placeholder-gray-400'
+                      className='w-full px-4 py-3 border border-gray-300 bg-white text-gray-900 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent placeholder-gray-500'
                       placeholder='Street Address'
                     />
                   </div>
