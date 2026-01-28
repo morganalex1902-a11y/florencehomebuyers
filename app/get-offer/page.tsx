@@ -105,7 +105,7 @@ export default function GetOfferPage() {
         repairNeeds: '',
         ownerOccupied: '',
         timeline: '',
-        ultimateGoal: '',
+        financingInterest: '',
         smsConsent: false,
       })
       setSubmitted(false)
