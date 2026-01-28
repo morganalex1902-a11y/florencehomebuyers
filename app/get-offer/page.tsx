@@ -270,7 +270,7 @@ export default function GetOfferPage() {
                             name='streetAddress'
                             value={formData.streetAddress}
                             onChange={handleChange}
-                            className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent'
+                            className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-900 placeholder:text-gray-500'
                           />
                         </div>
 
@@ -284,7 +284,7 @@ export default function GetOfferPage() {
                               name='city'
                               value={formData.city}
                               onChange={handleChange}
-                              className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent'
+                              className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-900 placeholder:text-gray-500'
                               placeholder='City'
                             />
                           </div>
@@ -297,7 +297,7 @@ export default function GetOfferPage() {
                               name='state'
                               value={formData.state}
                               onChange={handleChange}
-                              className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent'
+                              className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-900 placeholder:text-gray-500'
                               placeholder='State'
                             />
                           </div>
@@ -312,7 +312,7 @@ export default function GetOfferPage() {
                             name='zipCode'
                             value={formData.zipCode}
                             onChange={handleChange}
-                            className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent'
+                            className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-900 placeholder:text-gray-500'
                             placeholder='Zip Code'
                           />
                         </div>
@@ -331,7 +331,7 @@ export default function GetOfferPage() {
                             name='ownershipDuration'
                             value={formData.ownershipDuration}
                             onChange={handleChange}
-                            className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent'
+                            className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-900'
                           >
                             <option value=''>Select duration</option>
                             <option value='less-than-1'>Less than 1 year</option>
@@ -350,7 +350,7 @@ export default function GetOfferPage() {
                             name='repairNeeds'
                             value={formData.repairNeeds}
                             onChange={handleChange}
-                            className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent'
+                            className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-900'
                           >
                             <option value=''>Select repairs needed</option>
                             <option value='excellent'>Excellent</option>
@@ -374,7 +374,7 @@ export default function GetOfferPage() {
                             name='ownerOccupied'
                             value={formData.ownerOccupied}
                             onChange={handleChange}
-                            className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent'
+                            className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-900'
                           >
                             <option value=''>Select option</option>
                             <option value='yes'>Yes - Owner Occupied</option>
@@ -390,7 +390,7 @@ export default function GetOfferPage() {
                             name='timeline'
                             value={formData.timeline}
                             onChange={handleChange}
-                            className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent'
+                            className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-900'
                           >
                             <option value=''>Select timeline</option>
                             <option value='asap'>ASAP</option>
@@ -409,7 +409,7 @@ export default function GetOfferPage() {
                             value={formData.ultimateGoal}
                             onChange={handleChange}
                             rows={4}
-                            className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent resize-none'
+                            className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent resize-none text-gray-900 placeholder:text-gray-500'
                             placeholder='Tell us about your goals...'
                           />
                         </div>
