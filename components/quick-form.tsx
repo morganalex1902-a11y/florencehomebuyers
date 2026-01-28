@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import { useRouter } from 'next/navigation'
 import { Phone } from 'lucide-react'
+import { submitFormToWeb3Forms } from '@/lib/web3forms'
 
 interface QuickFormProps {
   variant?: 'default' | 'inline'
