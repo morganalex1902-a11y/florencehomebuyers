@@ -479,7 +479,7 @@ export function FormSection() {
                     <button
                       type='button'
                       onClick={() => setStep(1)}
-                      className='flex-1 py-3 border-2 border-blue-600 text-white font-bold rounded-lg hover:bg-blue-900 transition-colors'
+                      className='flex-1 py-3 border-2 border-blue-600 text-gray-900 font-bold rounded-lg hover:bg-blue-50 transition-colors'
                     >
                       Back
                     </button>
