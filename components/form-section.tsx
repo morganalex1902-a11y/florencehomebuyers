@@ -22,7 +22,7 @@ export function FormSection() {
     repairNeeds: '',
     ownerOccupied: '',
     timeline: '',
-    ultimateGoal: '',
+    financingInterest: '',
     smsConsent: false,
   })
 
@@ -84,8 +84,8 @@ export function FormSection() {
         repairNeeds: '',
         ownerOccupied: '',
         timeline: '',
-        ultimateGoal: '',
-        smsConsent: false,
+    financingInterest: '',
+    smsConsent: false,
       })
       setSubmitted(false)
     }, 3000)
