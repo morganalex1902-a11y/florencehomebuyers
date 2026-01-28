@@ -32,17 +32,28 @@ export function QuickForm({
     setFormData(prev => ({ ...prev, [name]: value }))
   }
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     if (!formData.firstName || !formData.email || !formData.phone || !formData.streetAddress) {
       alert('Please fill in all fields')
       return
     }
-    
+
     setLoading(true)
+
+    // Submit to web3forms
+    const success = await submitFormToWeb3Forms({
+      first_name: formData.firstName,
+      phone: formData.phone,
+      email: formData.email,
+      street_address: formData.streetAddress,
+      form_type: 'quick_inquiry',
+    })
+
     // Store form data in sessionStorage to pass to next page
     sessionStorage.setItem('propertyInfo', JSON.stringify(formData))
-    // Redirect to full form
+
+    // Redirect to full form regardless of web3forms response
     router.push('/get-offer')
   }
 
