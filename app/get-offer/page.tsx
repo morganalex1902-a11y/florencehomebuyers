@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react'
 import { Header } from '@/components/header'
 import { Footer } from '@/components/footer'
 import { CheckCircle, Phone } from 'lucide-react'
+import { submitFormToWeb3Forms } from '@/lib/web3forms'
 
 const PHONE_NUMBER = '(256) 762-1898'
 
