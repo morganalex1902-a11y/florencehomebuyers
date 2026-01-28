@@ -38,7 +38,7 @@ export function FAQSection() {
     {
       question: 'Where do you buy property?',
       answer:
-        'Throughout Huntsville and Madison County, Alabama — including Madison, Meridianville, and surrounding areas. Fill the form even if your location isn\'t listed!',
+        'Throughout Florence, Alabama and surrounding areas. Fill the form even if your location isn\'t listed!',
     },
     {
       question: 'What information must I provide?',

@@ -165,7 +165,7 @@ export default function About() {
             Community Involvement
           </h2>
           <p className='text-center text-gray-300 max-w-2xl mx-auto mb-12'>
-            We believe in giving back to the community we serve. Florence Home Buyers is actively involved in local initiatives and charitable organizations throughout Huntsville and Madison County.
+            We believe in giving back to the community we serve. Florence Home Buyers is actively involved in local initiatives and charitable organizations throughout Florence.
           </p>
 
           <div className='grid md:grid-cols-3 gap-8'>
