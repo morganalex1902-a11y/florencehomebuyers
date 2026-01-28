@@ -6,9 +6,9 @@
 :root {
   /* Dark backgrounds - black background with dark grey text */
   --background: #000000;
-  --foreground: #333333;
+  --foreground: #ffffff;
   --card: #1a1a1a;
-  --card-foreground: #e5e5e5;
+  --card-foreground: #ffffff;
 
   /* Accents - blue buttons */
   --primary: #0066CC;
@@ -18,9 +18,9 @@
 
   /* Neutral tones */
   --secondary: #1A1A1A;
-  --secondary-foreground: #999999;
+  --secondary-foreground: #ffffff;
   --muted: #222222;
-  --muted-foreground: #777777;
+  --muted-foreground: #b3b3b3;
 
   /* UI Elements */
   --border: #333333;
@@ -67,9 +67,9 @@
   --primary: #0066CC;
   --primary-foreground: #ffffff;
   --secondary: #2a2a2a;
-  --secondary-foreground: #e5e5e5;
+  --secondary-foreground: #ffffff;
   --muted: #333333;
-  --muted-foreground: #999999;
+  --muted-foreground: #d0d0d0;
   --accent: #10b981;
   --accent-foreground: #ffffff;
   --destructive: #dc2626;
