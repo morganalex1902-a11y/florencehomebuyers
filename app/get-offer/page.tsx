@@ -428,7 +428,7 @@ export default function GetOfferPage() {
                           className='mt-1 w-5 h-5'
                         />
                         <label htmlFor='sms-consent' className='text-sm text-gray-600'>
-                          Yes, I want to receive SMS updates and exclusive offers from Madison County House Buyers. By submitting this form, you understand the instructions provided in our communication policy.
+                          Yes, I want to receive SMS updates and exclusive offers from Florence Home Buyers. By submitting this form, you understand the instructions provided in our communication policy.
                         </label>
                       </div>
                     </div>
