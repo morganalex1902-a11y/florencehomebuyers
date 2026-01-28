@@ -6,9 +6,9 @@
 :root {
   /* Dark backgrounds - black background with dark grey text */
   --background: #000000;
-  --foreground: #333333;
-  --card: #e8e8eb;
-  --card-foreground: #1a1a1a;
+  --foreground: #ffffff;
+  --card: #1a1a1a;
+  --card-foreground: #ffffff;
 
   /* Accents - blue buttons */
   --primary: #0066CC;
@@ -18,9 +18,9 @@
 
   /* Neutral tones */
   --secondary: #1A1A1A;
-  --secondary-foreground: #999999;
+  --secondary-foreground: #ffffff;
   --muted: #222222;
-  --muted-foreground: #777777;
+  --muted-foreground: #b3b3b3;
 
   /* UI Elements */
   --border: #333333;
@@ -60,23 +60,23 @@
 .dark {
   --background: #0a0a0a;
   --foreground: #e5e5e5;
-  --card: #e8e8eb;
-  --card-foreground: #1a1a1a;
+  --card: #1a1a1a;
+  --card-foreground: #e5e5e5;
   --popover: #1a1a1a;
   --popover-foreground: #ffffff;
-  --primary: #dc2626;
+  --primary: #0066CC;
   --primary-foreground: #ffffff;
   --secondary: #2a2a2a;
-  --secondary-foreground: #e5e5e5;
+  --secondary-foreground: #ffffff;
   --muted: #333333;
-  --muted-foreground: #999999;
+  --muted-foreground: #d0d0d0;
   --accent: #10b981;
   --accent-foreground: #ffffff;
   --destructive: #dc2626;
   --destructive-foreground: #ffffff;
   --border: #333333;
   --input: #2a2a2a;
-  --ring: #dc2626;
+  --ring: #0066CC;
   /* Grey text colors - dark mode (inverted scale) */
   --gray-50: #f3f4f6;
   --gray-100: #e5e7eb;
@@ -88,14 +88,14 @@
   --gray-700: #1f2937;
   --gray-800: #111827;
   --gray-900: #0a0a0a;
-  --chart-1: #dc2626;
+  --chart-1: #0066CC;
   --chart-2: #10b981;
   --chart-3: #3b82f6;
   --chart-4: #f59e0b;
   --chart-5: #8b5cf6;
   --sidebar: #1a1a1a;
   --sidebar-foreground: #ffffff;
-  --sidebar-primary: #dc2626;
+  --sidebar-primary: #0066CC;
   --sidebar-primary-foreground: #ffffff;
   --sidebar-accent: #2a2a2a;
   --sidebar-accent-foreground: #e5e5e5;

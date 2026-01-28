@@ -105,7 +105,7 @@ export default function GetOfferPage() {
         repairNeeds: '',
         ownerOccupied: '',
         timeline: '',
-        ultimateGoal: '',
+        financingInterest: '',
         smsConsent: false,
       })
       setSubmitted(false)
@@ -402,16 +402,32 @@ export default function GetOfferPage() {
 
                         <div>
                           <label className='block text-sm font-bold text-gray-900 mb-2'>
-                            What's your ultimate goal with your house?
+                            Would you be interested in financing it for a higher sell price?
                           </label>
-                          <textarea
-                            name='ultimateGoal'
-                            value={formData.ultimateGoal}
-                            onChange={handleChange}
-                            rows={4}
-                            className='w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-transparent resize-none text-gray-900 placeholder:text-gray-500'
-                            placeholder='Tell us about your goals...'
-                          />
+                          <div className='flex gap-3'>
+                            <button
+                              type='button'
+                              onClick={() => handleChange({ target: { name: 'financingInterest', value: 'yes' } })}
+                              className={`flex-1 py-3 font-bold rounded-lg transition-colors ${
+                                formData.financingInterest === 'yes'
+                                  ? 'bg-blue-600 text-white border-2 border-blue-600'
+                                  : 'bg-gray-100 text-gray-900 border-2 border-gray-300 hover:border-gray-400'
+                              }`}
+                            >
+                              Yes
+                            </button>
+                            <button
+                              type='button'
+                              onClick={() => handleChange({ target: { name: 'financingInterest', value: 'no' } })}
+                              className={`flex-1 py-3 font-bold rounded-lg transition-colors ${
+                                formData.financingInterest === 'no'
+                                  ? 'bg-blue-600 text-white border-2 border-blue-600'
+                                  : 'bg-gray-100 text-gray-900 border-2 border-gray-300 hover:border-gray-400'
+                              }`}
+                            >
+                              No
+                            </button>
+                          </div>
                         </div>
                       </div>
                     </div>
