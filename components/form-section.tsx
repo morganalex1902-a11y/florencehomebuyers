@@ -437,7 +437,7 @@ export function FormSection() {
                             className={`flex-1 py-3 font-bold rounded-lg transition-colors ${
                               formData.financingInterest === 'yes'
                                 ? 'bg-blue-600 text-white border-2 border-blue-600'
-                                : 'bg-gray-700 text-white border-2 border-gray-600 hover:border-gray-500'
+                                : 'bg-gray-100 text-gray-900 border-2 border-gray-300 hover:border-gray-400'
                             }`}
                           >
                             Yes
@@ -448,7 +448,7 @@ export function FormSection() {
                             className={`flex-1 py-3 font-bold rounded-lg transition-colors ${
                               formData.financingInterest === 'no'
                                 ? 'bg-blue-600 text-white border-2 border-blue-600'
-                                : 'bg-gray-700 text-white border-2 border-gray-600 hover:border-gray-500'
+                                : 'bg-gray-100 text-gray-900 border-2 border-gray-300 hover:border-gray-400'
                             }`}
                           >
                             No
