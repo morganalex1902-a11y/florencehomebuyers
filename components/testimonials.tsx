@@ -69,19 +69,9 @@ export function TestimonialsSection() {
 
         {/* Carousel Container */}
         <div className='max-w-6xl mx-auto'>
-          <div className='grid md:grid-cols-3 gap-6 mb-12'>
-            {/* Left Image */}
-            <div className='relative h-64 md:h-80 rounded-lg overflow-hidden shadow-lg group'>
-              <Image
-                src={testimonials[(currentIndex - 1 + testimonials.length) % testimonials.length].image}
-                alt='Testimonial'
-                fill
-                className='object-cover'
-              />
-            </div>
-
+          <div className='flex justify-center mb-12'>
             {/* Center Card */}
-            <div className='bg-blue-700 text-white rounded-lg p-8 flex flex-col justify-center shadow-lg h-64 md:h-80'>
+            <div className='bg-blue-700 text-white rounded-lg p-8 flex flex-col justify-center shadow-lg h-64 md:h-80 max-w-2xl'>
               <p className='text-lg leading-relaxed mb-6 italic'>
                 "{testimonials[currentIndex].text}"
               </p>
@@ -89,16 +79,6 @@ export function TestimonialsSection() {
                 <p className='font-bold text-lg'>{testimonials[currentIndex].name}</p>
                 <p className='text-blue-100'>{testimonials[currentIndex].title}</p>
               </div>
-            </div>
-
-            {/* Right Image */}
-            <div className='relative h-64 md:h-80 rounded-lg overflow-hidden shadow-lg group'>
-              <Image
-                src={testimonials[(currentIndex + 1) % testimonials.length].image}
-                alt='Testimonial'
-                fill
-                className='object-cover'
-              />
             </div>
           </div>
 
