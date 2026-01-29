@@ -1,9 +1,8 @@
 'use client'
 
-import { Play, ChevronLeft, ChevronRight } from 'lucide-react'
+import { ChevronLeft, ChevronRight } from 'lucide-react'
 import Link from 'next/link'
 import { useEffect, useRef, useState } from 'react'
-import Image from 'next/image'
 
 export function TestimonialsSection() {
   const sectionRef = useRef<HTMLElement>(null)
@@ -30,20 +29,17 @@ export function TestimonialsSection() {
     {
       name: 'Jennifer Martinez',
       title: 'Florence, AL',
-      text: 'Florence Home Buyers made the process so easy! Got a fair offer within 24 hours and closed within a week.',
-      image: 'https://images.pexels.com/photos/11701102/pexels-photo-11701102.jpeg'
+      text: 'Florence Home Buyers made the process so easy! Got a fair offer within 24 hours and closed within a week.'
     },
     {
       name: 'Robert Thompson',
       title: 'Florence, AL',
-      text: 'I was stressed about selling my inherited property. They handled everything professionally and paid all costs.',
-      image: 'https://images.pexels.com/photos/9271180/pexels-photo-9271180.jpeg'
+      text: 'I was stressed about selling my inherited property. They handled everything professionally and paid all costs.'
     },
     {
       name: 'Sarah Williams',
       title: 'Florence, AL',
-      text: 'Needed to sell quickly for a job transfer. These guys delivered! Fast, transparent, and trustworthy.',
-      image: 'https://images.pexels.com/photos/8867475/pexels-photo-8867475.jpeg'
+      text: 'Needed to sell quickly for a job transfer. These guys delivered! Fast, transparent, and trustworthy.'
     },
   ]
 
@@ -69,41 +65,15 @@ export function TestimonialsSection() {
 
         {/* Carousel Container */}
         <div className='max-w-6xl mx-auto'>
-          <div className='grid md:grid-cols-3 gap-6 mb-12'>
-            {/* Left Image */}
-            <div className='relative h-64 md:h-80 rounded-lg overflow-hidden shadow-lg group'>
-              <Image
-                src={testimonials[(currentIndex - 1 + testimonials.length) % testimonials.length].image}
-                alt='Testimonial'
-                fill
-                className='object-cover'
-              />
-              <div className='absolute inset-0 bg-black/30 group-hover:bg-black/50 transition-all flex items-center justify-center'>
-                <Play className='w-12 h-12 text-white fill-white' />
-              </div>
-            </div>
-
+          <div className='flex justify-center mb-12'>
             {/* Center Card */}
-            <div className='bg-blue-700 text-white rounded-lg p-8 flex flex-col justify-center shadow-lg h-64 md:h-80'>
+            <div className='bg-blue-700 text-white rounded-lg p-8 flex flex-col justify-center shadow-lg h-64 md:h-80 max-w-2xl'>
               <p className='text-lg leading-relaxed mb-6 italic'>
                 "{testimonials[currentIndex].text}"
               </p>
               <div>
                 <p className='font-bold text-lg'>{testimonials[currentIndex].name}</p>
                 <p className='text-blue-100'>{testimonials[currentIndex].title}</p>
-              </div>
-            </div>
-
-            {/* Right Image */}
-            <div className='relative h-64 md:h-80 rounded-lg overflow-hidden shadow-lg group'>
-              <Image
-                src={testimonials[(currentIndex + 1) % testimonials.length].image}
-                alt='Testimonial'
-                fill
-                className='object-cover'
-              />
-              <div className='absolute inset-0 bg-black/30 group-hover:bg-black/50 transition-all flex items-center justify-center'>
-                <Play className='w-12 h-12 text-white fill-white' />
               </div>
             </div>
           </div>
