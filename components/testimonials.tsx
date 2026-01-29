@@ -4,10 +4,12 @@ import { Play, ChevronLeft, ChevronRight } from 'lucide-react'
 import Link from 'next/link'
 import { useEffect, useRef, useState } from 'react'
 import Image from 'next/image'
+import { VideoModal } from './video-modal'
 
 export function TestimonialsSection() {
   const sectionRef = useRef<HTMLElement>(null)
   const [currentIndex, setCurrentIndex] = useState(0)
+  const [selectedVideoUrl, setSelectedVideoUrl] = useState<string | null>(null)
 
   useEffect(() => {
     const observer = new IntersectionObserver(
