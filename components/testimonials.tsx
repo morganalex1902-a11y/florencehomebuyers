@@ -29,20 +29,17 @@ export function TestimonialsSection() {
     {
       name: 'Jennifer Martinez',
       title: 'Florence, AL',
-      text: 'Florence Home Buyers made the process so easy! Got a fair offer within 24 hours and closed within a week.',
-      image: 'https://images.pexels.com/photos/11701102/pexels-photo-11701102.jpeg'
+      text: 'Florence Home Buyers made the process so easy! Got a fair offer within 24 hours and closed within a week.'
     },
     {
       name: 'Robert Thompson',
       title: 'Florence, AL',
-      text: 'I was stressed about selling my inherited property. They handled everything professionally and paid all costs.',
-      image: 'https://images.pexels.com/photos/9271180/pexels-photo-9271180.jpeg'
+      text: 'I was stressed about selling my inherited property. They handled everything professionally and paid all costs.'
     },
     {
       name: 'Sarah Williams',
       title: 'Florence, AL',
-      text: 'Needed to sell quickly for a job transfer. These guys delivered! Fast, transparent, and trustworthy.',
-      image: 'https://images.pexels.com/photos/8867475/pexels-photo-8867475.jpeg'
+      text: 'Needed to sell quickly for a job transfer. These guys delivered! Fast, transparent, and trustworthy.'
     },
   ]
 
