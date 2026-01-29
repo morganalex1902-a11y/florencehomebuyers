@@ -154,6 +154,12 @@ export function TestimonialsSection() {
           </Link>
         </div>
       </div>
+
+      <VideoModal
+        isOpen={selectedVideoUrl !== null}
+        videoUrl={selectedVideoUrl || ''}
+        onClose={() => setSelectedVideoUrl(null)}
+      />
     </section>
   )
 }
