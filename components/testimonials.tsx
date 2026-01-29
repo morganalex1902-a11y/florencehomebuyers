@@ -100,7 +100,7 @@ export function TestimonialsSection() {
             </div>
 
             {/* Right Image */}
-            <div className='relative h-64 md:h-80 rounded-lg overflow-hidden shadow-lg group'>
+            <div className='relative h-64 md:h-80 rounded-lg overflow-hidden shadow-lg group cursor-pointer' onClick={() => setSelectedVideoUrl(testimonials[(currentIndex + 1) % testimonials.length].videoUrl)}>
               <Image
                 src={testimonials[(currentIndex + 1) % testimonials.length].image}
                 alt='Testimonial'
