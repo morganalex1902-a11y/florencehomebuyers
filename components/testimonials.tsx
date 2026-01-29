@@ -97,16 +97,13 @@ export function TestimonialsSection() {
             </div>
 
             {/* Right Image */}
-            <div className='relative h-64 md:h-80 rounded-lg overflow-hidden shadow-lg group cursor-pointer' onClick={() => setSelectedVideoUrl(testimonials[(currentIndex + 1) % testimonials.length].videoUrl)}>
+            <div className='relative h-64 md:h-80 rounded-lg overflow-hidden shadow-lg group'>
               <Image
                 src={testimonials[(currentIndex + 1) % testimonials.length].image}
                 alt='Testimonial'
                 fill
                 className='object-cover'
               />
-              <div className='absolute inset-0 bg-black/30 group-hover:bg-black/50 transition-all flex items-center justify-center'>
-                <Play className='w-12 h-12 text-white fill-white' />
-              </div>
             </div>
           </div>
 
